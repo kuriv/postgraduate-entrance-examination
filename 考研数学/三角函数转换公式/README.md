@@ -174,7 +174,7 @@ cot\frac{x}{2} = \pm\sqrt{\frac{1 + cosx}{1 - cosx}}
 注：正负由\frac{x}{2}所在的象限决定
 $$
 
-### 万能公式X
+### 万能公式
 
 $$
 sinx = \frac{2tan\frac{x}{2}}{1 + (tan\frac{x}{2}) ^ 2}
