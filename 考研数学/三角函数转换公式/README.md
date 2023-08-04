@@ -12,7 +12,7 @@
 * [基本公式](#基本公式)
   * [二角和差公式](#二角和差公式)
   * [积化和差公式](#积化和差公式)
-  * [和差化积](#和差化积)
+  * [和差化积公式](#和差化积公式)
   * [倍角公式](#倍角公式)
   * [半角公式](#半角公式)
   * [万能公式](#万能公式)
@@ -127,16 +127,16 @@ $$
 ### 积化和差公式
 
 $$
-sinx \ast siny = -\frac{cos(x + y) - cos(x - y)}{2}
-\\
 sinx \ast cosy = \frac{sin(x + y) + sin(x - y)}{2}
 \\
 cosx \ast siny = \frac{sin(x + y) - sin(x - y)}{2}
 \\
+sinx \ast siny = -\frac{cos(x + y) - cos(x - y)}{2}
+\\
 cosx \ast cosy = \frac{cos(x + y) + cos(x - y)}{2}
 $$
 
-### 和差化积X
+### 和差化积公式
 
 $$
 sinx + siny = 2sin\frac{x + y}{2}cos\frac{x - y}{2}
@@ -145,10 +145,10 @@ sinx - siny = 2cos\frac{x + y}{2}sin\frac{x - y}{2}
 \\
 cosx + cosy = 2cos\frac{x + y}{2}cos\frac{x - y}{2}
 \\
-cosx - cosy = 2sin\frac{x + y}{2}sin\frac{x - y}{2}
+cosx - cosy = -2sin\frac{x + y}{2}sin\frac{x - y}{2}
 $$
 
-### 倍角公式X
+### 倍角公式
 
 $$
 sin2x = 2sinxcosx
@@ -160,7 +160,7 @@ tan2x = \frac{2tanx}{1 - (tanx) ^ 2}
 cot2x = \frac{1 - (tanx) ^ 2}{2tanx}
 $$
 
-### 半角公式X
+### 半角公式
 
 $$
 sin\frac{x}{2} = \pm\sqrt{\frac{1 - cosx}{2}}
@@ -184,7 +184,7 @@ cosx = \frac{1 - (tan\frac{x}{2}) ^ 2}{1 + (tan\frac{x}{2}) ^ 2}
 tanx = \frac{2tan\frac{x}{2}}{1 - (tan\frac{x}{2}) ^ 2}
 $$
 
-### 其他公式X
+### 其他公式
 
 $$
 1 - sinx = (sin\frac{x}{2} - cos\frac{x}{2}) ^ 2
