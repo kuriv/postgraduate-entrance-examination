@@ -23,9 +23,9 @@ $$
 \\
 \therefore y_0 = x_0 ^ \frac{3}{2} ，
 \\
-\because 切线方程 y - y_0 = \frac{3}{2}\sqrt{x_0}(x - x_0) 通过点 (0 ， -4) ，
+\because 切线方程 y - x_0 ^ \frac{3}{2} = \frac{3}{2}\sqrt{x_0}(x - x_0) 通过点 (0 ， -4) ，
 \\
-\therefore -4 - y_0 = \frac{3}{2}\sqrt{x_0}(0 - x_0) ，
+\therefore -4 - x_0 ^ \frac{3}{2} = \frac{3}{2}\sqrt{x_0}(0 - x_0) ，
 \\
 \therefore x_0 = 4 ， y_0 = 8 ，
 \\

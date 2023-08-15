@@ -2,7 +2,7 @@
 
 * [有理运算法则](#有理运算法则)
 * [复合函数求导](#复合函数求导)
-* [反函数求导]
+* [反函数求导](#反函数求导)
 
 ## 有理运算法则
 
@@ -27,7 +27,13 @@ $$
 ## 反函数求导
 
 $$
-
+简单的说，反函数的导数等于直接函数导数的导数，即 \frac{dy}{dx} = \frac{1}{\frac{dx}{dy}}
+\\
+如： (arcsinx)\prime = \frac{1}{(sinx)\prime} ， (arccosx)\prime = \frac{1}{(cosx)\prime} ，
+\\
+(arctanx)\prime = \frac{1}{(tanx)\prime} ， (arccotx)\prime = \frac{1}{(cotx)\prime} ， 
+\\
+(log_a^{x})\prime = \frac{1}{(a ^ y)\prime} .
 $$
 
 
