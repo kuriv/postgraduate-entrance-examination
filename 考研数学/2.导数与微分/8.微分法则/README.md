@@ -22,7 +22,7 @@ $$
 \\
 如： y = \ln^{(1 + e ^ {x ^ 2})} ， 求dy .
 \\
-dy = d(\ln^{(1 + e ^ {x ^ 2})}) = \frac{1}{1 + e ^ {x ^ 2}} \ast d(1 + e ^ {x ^ 2}) = \frac{1}{1 + e ^ {x ^ 2}} \ast e ^ {x ^ 2} \ast d(x ^ 2) = {\frac{1}{1 + e ^ {x ^ 2}} \ast e ^ {x ^ 2} \ast 2x}dx = {\frac{2xe ^ {x ^ 2}}{1 + e ^ {x ^ 2}}}dx .
+dy = d(\ln^{(1 + e ^ {x ^ 2})}) = \frac{1}{1 + e ^ {x ^ 2}} \cdot d(1 + e ^ {x ^ 2}) = \frac{1}{1 + e ^ {x ^ 2}} \cdot e ^ {x ^ 2} \cdot d(x ^ 2) = {\frac{1}{1 + e ^ {x ^ 2}} \cdot e ^ {x ^ 2} \cdot 2x}dx = {\frac{2xe ^ {x ^ 2}}{1 + e ^ {x ^ 2}}}dx .
 $$
 
 
