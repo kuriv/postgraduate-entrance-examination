@@ -1,7 +1,7 @@
 # 隐函数的导数
 
 $$
-如：求由方程 e ^ y + xy - e = 0 所确定的隐函数的导数 \frac{dy}{dx}
+如：求由方程 e ^ y + xy - e = 0 所确定的隐函数的导数 \frac{dy}{dx} .
 \\
 先对方程左边对 x 求导数，即 \frac{d}{dx}(e ^ y + xy - e) = e ^ y \ast \frac{dy}{dx} + y + x \ast \frac{dy}{dx} ，
 \\
@@ -13,7 +13,7 @@ $$
 $$
 
 $$
-如：求由方程 x - y + \frac{1}{2}siny = 0 所确定的隐函数的二阶导数 \frac{{d ^ 2}y}{dx ^ 2}
+如：求由方程 x - y + \frac{1}{2}siny = 0 所确定的隐函数的二阶导数 \frac{{d ^ 2}y}{dx ^ 2} .
 \\
 先对方程左边对 x 求导数，即 \frac{d}{dx}(x - y + \frac{1}{2}siny) = {1 - \frac{dy}{dx} + \frac{1}{2}cosy \ast \frac{dy}{dx}} ，
 \\
@@ -29,9 +29,9 @@ $$
 $$
 
 $$
-注：在某些场合，利用对数求导法求导数比用通常的方法简便。
+注：在某些场合，利用对数求导法求导数比用通常的方法简便.
 \\
-如：求 y = x ^ {sinx} (x > 0) 的导数
+如：求 y = x ^ {sinx} (x > 0) 的导数.
 \\
 先对方程两边取对数，即 \ln ^ y = \ln ^ {x ^ {sinx}} = sinx \ast \ln ^ x ，
 \\
@@ -43,6 +43,7 @@ $$
 \\
 \therefore \frac{dy}{dx} = y \ast (cosx \ast \ln^x + sinx \ast \frac{1}{x}) = x ^ {sinx} \ast (cosx \ast \ln^x + sinx \ast \frac{1}{x}) .
 $$
+
 
 
 

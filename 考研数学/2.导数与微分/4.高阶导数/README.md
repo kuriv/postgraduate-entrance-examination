@@ -1,11 +1,15 @@
 # 高阶导数
 
 $$
-(sinx) ^ {(n)} = sin(x + n \ast \frac{\pi}{2})
+定义：导数的导数叫做二阶导数，类似地，二阶导数的导数叫做三阶导数，三阶导数的导数叫做四阶导数 \ldots ，二阶及二阶以上的导数统称为高阶导数.
 \\
-(cosx) ^ {(n)} = cos(x + n \ast \frac{\pi}{2})
+(sinx) ^ {(n)} = sin(x + n \cdot \frac{\pi}{2})
 \\
-[\ln^{(x + 1)}] ^ {(n)} = (-1) ^ {n - 1} \ast \frac{(n - 1)!}{(x + 1) ^ n}
+(cosx) ^ {(n)} = cos(x + n \cdot \frac{\pi}{2})
+\\
+(e ^ x) ^ (n) = e ^ x
+\\
+[\ln^{(x + 1)}] ^ {(n)} = (-1) ^ {n - 1} \cdot \frac{(n - 1)!}{(x + 1) ^ n}
 \\
 (u \pm v) ^ {(n)} = u ^ {(n)} \pm v ^ {(n)}
 \\
