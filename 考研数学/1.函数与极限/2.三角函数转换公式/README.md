@@ -35,11 +35,11 @@ $$
 ### 倒数关系
 
 $$
-tanx \ast cotx = 1
+tanx \cdot cotx = 1
 \\
-sinx \ast cscx = 1
+sinx \cdot cscx = 1
 \\
-cosx \ast secx = 1
+cosx \cdot secx = 1
 $$
 
 ### 平方关系
@@ -107,33 +107,33 @@ $$
 ### 二角和差公式
 
 $$
-sin(x + y) = sinx \ast cosy + cosx \ast siny
+sin(x + y) = sinx \cdot cosy + cosx \cdot siny
 \\
-sin(x - y) = sinx \ast cosy - cosx \ast siny
+sin(x - y) = sinx \cdot cosy - cosx \cdot siny
 \\
-cos(x + y) = cosx \ast cosy - sinx \ast siny
+cos(x + y) = cosx \cdot cosy - sinx \cdot siny
 \\
-cos(x - y) = cosx \ast cosy + sinx \ast siny
+cos(x - y) = cosx \cdot cosy + sinx \cdot siny
 \\
-tan(x + y) = \frac{tanx + tany}{1 - tanx \ast tany}
+tan(x + y) = \frac{tanx + tany}{1 - tanx \cdot tany}
 \\
-tan(x - y) = \frac{tanx - tany}{1 + tanx \ast tany}
+tan(x - y) = \frac{tanx - tany}{1 + tanx \cdot tany}
 \\
-cot(x + y) = \frac{cotx \ast coty - 1}{coty + cotx}
+cot(x + y) = \frac{cotx \cdot coty - 1}{coty + cotx}
 \\
-cot(x - y) = \frac{cotx \ast coty + 1}{coty - cotx}
+cot(x - y) = \frac{cotx \cdot coty + 1}{coty - cotx}
 $$
 
 ### 积化和差公式
 
 $$
-sinx \ast cosy = \frac{sin(x + y) + sin(x - y)}{2}
+sinx \cdot cosy = \frac{sin(x + y) + sin(x - y)}{2}
 \\
-cosx \ast siny = \frac{sin(x + y) - sin(x - y)}{2}
+cosx \cdot siny = \frac{sin(x + y) - sin(x - y)}{2}
 \\
-sinx \ast siny = -\frac{cos(x + y) - cos(x - y)}{2}
+sinx \cdot siny = -\frac{cos(x + y) - cos(x - y)}{2}
 \\
-cosx \ast cosy = \frac{cos(x + y) + cos(x - y)}{2}
+cosx \cdot cosy = \frac{cos(x + y) + cos(x - y)}{2}
 $$
 
 ### 和差化积公式
@@ -213,4 +213,6 @@ tan(arctanx) = arctan(tanx) = x
 \\
 cot(arccotx) = arccot(cotx) = x
 $$
+
+
 
