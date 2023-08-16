@@ -27,7 +27,7 @@ $$
 ## 反函数求导
 
 $$
-简单的说，反函数的导数等于直接函数导数的导数，即 \frac{dy}{dx} = \frac{1}{\frac{dx}{dy}}
+简单来说，反函数的导数等于直接函数导数的导数，即 \frac{dy}{dx} = \frac{1}{\frac{dx}{dy}}
 \\
 如： (arcsinx)\prime = \frac{1}{(sinx)\prime} ， (arccosx)\prime = \frac{1}{(cosx)\prime} ，
 \\
