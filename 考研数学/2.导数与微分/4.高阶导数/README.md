@@ -19,7 +19,7 @@ $$
 \\
 (cosx) ^ {(n)} = cos(x + n \cdot \frac{\pi}{2})
 \\
-(e ^ x) ^ (n) = e ^ x
+(e ^ x) ^ {(n)} = e ^ x
 \\
 [\ln^{(x + 1)}] ^ {(n)} = (-1) ^ {n - 1} \cdot \frac{(n - 1)!}{(x + 1) ^ n}
 \\

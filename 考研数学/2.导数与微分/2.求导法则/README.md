@@ -29,13 +29,13 @@ $$
 $$
 简单来说，反函数的导数等于直接函数导数的倒数，即 \frac{dy}{dx} = \frac{1}{\frac{dx}{dy}} .
 \\
-(arcsinx)\prime = \frac{1}{(sinx)\prime}
+(arcsinx)\prime = \frac{1}{(siny)\prime}
 \\
-(arccosx)\prime = \frac{1}{(cosx)\prime}
+(arccosx)\prime = \frac{1}{(cosy)\prime}
 \\
-(arctanx)\prime = \frac{1}{(tanx)\prime}
+(arctanx)\prime = \frac{1}{(tany)\prime}
 \\
-(arccotx)\prime = \frac{1}{(cotx)\prime}
+(arccotx)\prime = \frac{1}{(coty)\prime}
 \\
 (log_a^{x})\prime = \frac{1}{(a ^ y)\prime}
 $$
