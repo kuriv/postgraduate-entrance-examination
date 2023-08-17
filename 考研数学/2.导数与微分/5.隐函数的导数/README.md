@@ -23,7 +23,7 @@ $$
 \\
 \therefore \frac{dy}{dx} = \frac{1}{1 - \frac{1}{2}cosy} = \frac{2}{2 - cosy} .
 \\
-再对 \frac{dy}{dx} 求导，即 \frac{2}{2 - cosy} = \frac{-2siny \cdot \frac{dy}{dx}}{(2 - cosy) ^ 2} ，
+再对 \frac{dy}{dx} 求导，即 \frac{d}{dx}(\frac{2}{2 - cosy}) = \frac{-2siny \cdot \frac{dy}{dx}}{(2 - cosy) ^ 2} ，
 \\
 将 \frac{dy}{dx} 代入，即 \frac{{d ^ 2}y}{dx ^ 2} = \frac{-2siny \cdot \frac{2}{2 - cosy}}{(2 - cosy) ^ 2} = \frac{-4siny}{(1 - cosy) ^ 3} .
 $$
