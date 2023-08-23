@@ -24,9 +24,9 @@ $$
 \\
 (cotx)\prime = -(cscx) ^ 2
 \\
-(secx)\prime = secxtanx
+(secx)\prime = secx \cdot tanx
 \\
-(cscx)\prime = -cscxcotx
+(cscx)\prime = -cscx \cdot cotx
 $$
 
 ## 幂函数

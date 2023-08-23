@@ -24,9 +24,9 @@ d(tanx) = {(secx) ^ 2}dx
 \\
 d(cotx) = {(cscx) ^ 2}dx
 \\
-d(secx) = {secxtanx}dx
+d(secx) = {secx \cdot tanx}dx
 \\
-d(cscx) = {-cscxcotx}dx
+d(cscx) = {-cscx \cdot cotx}dx
 $$
 
 ## 幂函数

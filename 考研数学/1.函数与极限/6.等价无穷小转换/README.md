@@ -26,9 +26,9 @@ $$
 $$
 x ～ sinx ～ tanx ～ arcsinx ～ arctanx ～ e ^ x - 1 ～ \ln^{x + 1} ，
 \\
-arcsinx - x ～ \frac{1}{6}x ^ 3 ， x - arctanx ～ \frac{1}{3}x ^ 3，
-\\
 x - sinx ～ \frac{1}{6}x ^ 3 ， 1 - cosx ～ \frac{1}{2}x ^ 2 ， secx - 1 ～ \frac{1}{2}x ^ 2 ， tanx - x ～ \frac{1}{3}x ^ 3 ，
+\\
+arcsinx - x ～ \frac{1}{6}x ^ 3 ， x - arctanx ～ \frac{1}{3}x ^ 3 ，
 \\
 (x + 1) ^ a - 1 ～ ax(a \neq 0) ， a ^ x - 1 ～ x\ln^a ,  x - \ln^{x + 1} ～ \frac{1}{2}x ^ 2 .
 $$
