@@ -16,6 +16,8 @@ $$
 ## 常用高阶导数公式
 
 $$
+(u \pm v) ^ {(n)} = u ^ {(n)} \pm v ^ {(n)}
+\\
 (sinx) ^ {(n)} = sin(x + \frac{n}{2}\pi)
 \\
 (cosx) ^ {(n)} = cos(x + \frac{n}{2}\pi)
@@ -24,9 +26,7 @@ $$
 \\
 (e ^ x) ^ {(n)} = e ^ x
 \\
-[\ln^{(x + 1)}] ^ {(n)} = (-1) ^ {n - 1} \cdot \frac{(n - 1)!}{(x + 1) ^ n}
-\\
-(u \pm v) ^ {(n)} = u ^ {(n)} \pm v ^ {(n)}
+(\ln ^ x) ^ {(n)} = (-1) ^ {(n - 1)} \cdot \frac{(n - 1)!}{x ^ {(n)}}
 \\
 (uv) ^ {(n)} = {\Sigma_{k = 0} ^ n}{C_n ^ k}{u ^ {(k)}}{v ^ {(n - k)}}
 $$
@@ -42,6 +42,8 @@ $$
 \\
 + \cdots + {C_n ^ n}{(x ^ 2 + 5x + 10) ^ {(n)}}{(sin2x) ^ {(0)}} ，
 \\
-\therefore y ^ {(n)} = {(x ^ 2 + 5x + 10)}{2 ^ n}{sin(2x + \frac{n}{2}\pi)} + n{(2x + 5)}{2 ^ {n - 1}}{sin(2x + \frac{n - 1}{2}\pi)} + \frac{n(n - 1)}{2} \times 2 \times {2 ^ {n - 2}}{sin(2x + \frac{n - 2}{2}\pi)} .
+\therefore y ^ {(n)} = {(x ^ 2 + 5x + 10)} \cdot {2 ^ n} \cdot {sin(2x + \frac{n}{2}\pi)} + n \cdot {(2x + 5)} \cdot {2 ^ {n - 1}} \cdot {sin(2x + \frac{n - 1}{2}\pi)} + \frac{n(n - 1)}{2} \cdot 2 \cdot {2 ^ {n - 2}} \cdot {sin(2x + \frac{n - 2}{2}\pi)} .
 $$
+
+
 
