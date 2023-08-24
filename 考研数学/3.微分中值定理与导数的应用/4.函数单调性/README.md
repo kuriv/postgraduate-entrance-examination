@@ -39,7 +39,7 @@ $$
 \\
 \because 当 f(x)\prime = 0 时，求得 x_1 = 1 ， x_2 = 2 ，
 \\
-\therefore 将定义域 (-\infty , +\infty) 分成 (-\infty , 1) 与 (1 , 2) 与 (2 , +\infty) ，
+\therefore 将定义域 (-\infty , +\infty) 分成 (-\infty , 1] 与 [1 , 2] 与 [2 , +\infty) ，
 \\
 当 x \in (-\infty , 1) 时， f(x)\prime \ge 0 ，
 \\
@@ -57,9 +57,16 @@ $$
 \\
 \because 定义域为 (1 , +\infty) ，且 f(x)\prime = \frac{1}{\sqrt{x}} - \frac{1}{x ^ 2} = \frac{\sqrt{x} \cdot x - 1}{x ^ 2} ，
 \\
+\because 当 f(x)\prime = 0 时，求得 x = 1 ，
+\\
 当 x \in (1 , +\infty) 时， f(x)\prime \ge 0 ，
 \\
-\therefore 函数 f(x) = 2\sqrt{x} - 3 + \frac{1}{x} 在 (1 , +\infty) 上单调增加，
-\\
+\therefore 函数 f(x) = 2\sqrt{x} - 3 + \frac{1}{x} 在 [1 , +\infty) 上单调增加，
+\\
+\because f(1) = 0 ，
+\\
+\therefore 当 x \gt 1 时， 2\sqrt{x} \gt 3 - \frac{1}{x} .
 $$
+
+
 
