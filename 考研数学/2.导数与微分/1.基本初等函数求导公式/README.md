@@ -16,17 +16,17 @@ $$
 ## 三角函数
 
 $$
-(sinx)\prime = cosx
+(\sin{x})\prime = \cos{x}
 \\
-(cosx)\prime = -sinx
+(\cos{x})\prime = -\sin{x}
 \\
-(tanx)\prime = (secx) ^ 2
+(\tan{x})\prime = (\sec{x}) ^ 2
 \\
-(cotx)\prime = -(cscx) ^ 2
+(\cot{x})\prime = -(\csc{x}) ^ 2
 \\
-(secx)\prime = secx \cdot tanx
+(\sec{x})\prime = \sec{x} \cdot \tan{x}
 \\
-(cscx)\prime = -cscx \cdot cotx
+(\csc{x})\prime = -\csc{x} \cdot \cot{x}
 $$
 
 ## 幂函数
@@ -55,11 +55,11 @@ $$
 ## 反三角函数
 
 $$
-(arcsinx)\prime = \frac{1}{\sqrt{1 - x ^ 2}}
+(\arcsin{x})\prime = \frac{1}{\sqrt{1 - x ^ 2}}
 \\
-(arccosx)\prime = -\frac{1}{\sqrt{1 - x ^ 2}}
+(\arccos{x})\prime = -\frac{1}{\sqrt{1 - x ^ 2}}
 \\
-(arctanx)\prime = \frac{1}{1 + x ^ 2}
+(\arctan{x})\prime = \frac{1}{1 + x ^ 2}
 \\
 (arccotx)\prime = -\frac{1}{1 + x ^ 2}
 $$

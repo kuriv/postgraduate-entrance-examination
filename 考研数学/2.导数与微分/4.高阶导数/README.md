@@ -1,16 +1,17 @@
 # 高阶导数
 
+* [定理内容](#定理内容)
 * [常用高阶导数公式](#常用高阶导数公式)
 * [莱布尼兹公式](#莱布尼兹公式)
+* [经典例题](#经典例题)
+  * [例题一](#例题一)
+  * [例题二](#例题二)
+
+
+## 定理内容
 
 $$
 定义：导数的导数叫做二阶导数，类似地，二阶导数的导数叫做三阶导数，三阶导数的导数叫做四阶导数 \ldots ，二阶及二阶以上的导数统称为高阶导数.
-\\
-如：求函数 y = \sqrt{2x - x ^ 2} 的二阶导数.
-\\
-y\prime = (\sqrt{2x - x ^ 2})\prime = \frac{2 - 2x}{2\sqrt{2x - x ^2}} = \frac{1 - x}{\sqrt{2x - x ^ 2}} ，
-\\
-y\prime\prime = (\frac{1 - x}{\sqrt{2x - x ^ 2}})\prime = \frac{-\sqrt{2x - x ^ 2} - \frac{(1 - x) ^ 2}{\sqrt{2x - x ^ 2}}}{2x - x ^2} = \frac{-2x + x ^ 2 - (1 - x) ^ 2}{(2x - x ^2)(\sqrt{2x - x ^ 2})} = -\frac{1}{(2x - x ^2)(\sqrt{2x - x ^ 2})} = -\frac{1}{y ^ 3} .
 $$
 
 ## 常用高阶导数公式
@@ -18,9 +19,9 @@ $$
 $$
 (u \pm v) ^ {(n)} = u ^ {(n)} \pm v ^ {(n)}
 \\
-(sinx) ^ {(n)} = sin(x + \frac{n}{2}\pi)
+(\sin{x}) ^ {(n)} = \sin(x + \frac{n}{2}\pi)
 \\
-(cosx) ^ {(n)} = cos(x + \frac{n}{2}\pi)
+(\cos{x}) ^ {(n)} = \cos(x + \frac{n}{2}\pi)
 \\
 (a ^ x) ^ {(n)} = a ^ x (\ln ^ {a}) ^ {(n)}
 \\
@@ -34,15 +35,31 @@ $$
 ## 莱布尼兹公式
 
 $$
-(uv) ^ {(n)} = {C_n ^ 0}{u ^ {(0)}}{v ^ {(n)}} + {C_n ^ 1}{u ^ {(1)}}{v ^ {(n - 1)}} + {C_n ^ 2}{u ^ {(2)}}{v ^ {(n - 2)}} + \cdots + {C_n ^ n}{u ^ {(n)}}{v ^ {(0)}} .
+(uv) ^ {(n)} = {C_n ^ 0}{u ^ {(0)}}{v ^ {(n)}} + {C_n ^ 1}{u ^ {(1)}}{v ^ {(n - 1)}} + {C_n ^ 2}{u ^ {(2)}}{v ^ {(n - 2)}} + \cdots + {C_n ^ n}{u ^ {(n)}}{v ^ {(0)}}
+$$
+
+## 经典例题
+
+### 例题一
+
+$$
+如：求函数 y = \sqrt{2x - x ^ 2} 的二阶导数.
 \\
-如：设 y = (x ^ 2 + 5x + 10)sin2x ， 求 y ^ {(n)} .
+y\prime = (\sqrt{2x - x ^ 2})\prime = \frac{2 - 2x}{2\sqrt{2x - x ^2}} = \frac{1 - x}{\sqrt{2x - x ^ 2}} ，
 \\
-\because y ^ {(n)} = {C_n ^ 0}{(x ^ 2 + 5x + 10) ^ {(0)}}{(sin2x) ^ {(n)}} + {C_n ^ 1}{(x ^ 2 + 5x + 10) ^ {(1)}}{(sin2x) ^ {(n - 1)}} + {C_n ^ 2}{(x ^ 2 + 5x + 10) ^ {(2)}}{(sin2x) ^ {(n - 2)}}
+y\prime\prime = (\frac{1 - x}{\sqrt{2x - x ^ 2}})\prime = \frac{-\sqrt{2x - x ^ 2} - \frac{(1 - x) ^ 2}{\sqrt{2x - x ^ 2}}}{2x - x ^2} = \frac{-2x + x ^ 2 - (1 - x) ^ 2}{(2x - x ^2)(\sqrt{2x - x ^ 2})} = -\frac{1}{(2x - x ^2)(\sqrt{2x - x ^ 2})} = -\frac{1}{y ^ 3} .
+$$
+
+### 例题二
+
+$$
+如：设 y = (x ^ 2 + 5x + 10)\sin{2x} ， 求 y ^ {(n)} .
 \\
-+ \cdots + {C_n ^ n}{(x ^ 2 + 5x + 10) ^ {(n)}}{(sin2x) ^ {(0)}} ，
+\because y ^ {(n)} = {C_n ^ 0}{(x ^ 2 + 5x + 10) ^ {(0)}}{(\sin{2x}) ^ {(n)}} + {C_n ^ 1}{(x ^ 2 + 5x + 10) ^ {(1)}}{(\sin{2x}) ^ {(n - 1)}} + {C_n ^ 2}{(x ^ 2 + 5x + 10) ^ {(2)}}{(\sin{2x}) ^ {(n - 2)}}
 \\
-\therefore y ^ {(n)} = {(x ^ 2 + 5x + 10)} \cdot {2 ^ n} \cdot {sin(2x + \frac{n}{2}\pi)} + n \cdot {(2x + 5)} \cdot {2 ^ {n - 1}} \cdot {sin(2x + \frac{n - 1}{2}\pi)} + \frac{n(n - 1)}{2} \cdot 2 \cdot {2 ^ {n - 2}} \cdot {sin(2x + \frac{n - 2}{2}\pi)} .
++ \cdots + {C_n ^ n}{(x ^ 2 + 5x + 10) ^ {(n)}}{(\sin{2x}) ^ {(0)}} ，
+\\
+\therefore y ^ {(n)} = {(x ^ 2 + 5x + 10)} \cdot {2 ^ n} \cdot {\sin(2x + \frac{n}{2}\pi)} + n \cdot {(2x + 5)} \cdot {2 ^ {n - 1}} \cdot {\sin(2x + \frac{n - 1}{2}\pi)} + \frac{n(n - 1)}{2} \cdot 2 \cdot {2 ^ {n - 2}} \cdot {\sin(2x + \frac{n - 2}{2}\pi)} .
 $$
 
 

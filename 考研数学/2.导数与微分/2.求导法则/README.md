@@ -3,6 +3,9 @@
 * [有理运算法则](#有理运算法则)
 * [复合函数求导](#复合函数求导)
 * [反函数求导](#反函数求导)
+* [经典例题](#经典例题)
+  * [例题一](#例题一)
+
 
 ## 有理运算法则
 
@@ -20,8 +23,6 @@ $$
 
 $$
 设 u = g(x) 在 x 处可导， y = f(u) 在对应点处可导，则复合函数 f[g(x)] 在 x 处可导，且 \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx} = {f(u)}\prime{g(x)}\prime .
-\\
-如： (\ln{cos(x - 1)})\prime = \frac{1}{cos(x - 1)} \cdot -sin(x - 1) \cdot 1 = \frac{-sin(x - 1)}{cos(x - 1)} = -tan(x - 1) .
 $$
 
 ## 反函数求导
@@ -29,15 +30,27 @@ $$
 $$
 简单来说，反函数的导数等于直接函数导数的倒数，即 \frac{dy}{dx} = \frac{1}{\frac{dx}{dy}} .
 \\
-(arcsinx)\prime = \frac{1}{(siny)\prime}
+(\arcsin{x})\prime = \frac{1}{(\sin{y})\prime}
 \\
-(arccosx)\prime = \frac{1}{(cosy)\prime}
+(\arccos{x})\prime = \frac{1}{(\cos{y})\prime}
 \\
-(arctanx)\prime = \frac{1}{(tany)\prime}
+(\arctan{x})\prime = \frac{1}{(\tan{y})\prime}
 \\
-(arccotx)\prime = \frac{1}{(coty)\prime}
+(arccotx)\prime = \frac{1}{(\cot{y})\prime}
 \\
-(log_a^{x})\prime = \frac{1}{(a ^ y)\prime}
+(\log_a^{x})\prime = \frac{1}{(a ^ y)\prime}
+$$
+
+## 经典例题
+
+### 例题一
+
+$$
+如：求 \ln ^ {\cos{(x - 1)}} 的导数.
+\\
+\because (\ln ^ {\cos{(x - 1)}})\prime = \frac{1}{\cos{(x - 1)}} \cdot -\sin{(x - 1)} \cdot 1 = \frac{-\sin{(x - 1)}}{\cos{(x - 1)}} = -\tan{(x - 1)} .
+\\
+\therefore \ln ^ {\cos{(x - 1)}} 的导数为 -\tan{(x - 1)} .
 $$
 
 
