@@ -1,5 +1,8 @@
 # 泰勒公式
 
+![泰勒公式](泰勒公式1.png)
+
+![泰勒公式](泰勒公式2.png)
 $$
 带有佩亚诺余项的麦克劳林公式： f(x) = f(0) + f(0)\prime{x} + \frac{f(0)\prime\prime}{2!}x ^ 2 + \cdots + \frac{f(0) ^ {(n)}}{n!}x ^ n + o(x ^ n) .
 $$
@@ -48,3 +51,21 @@ $$
 
 
 
+
+
+
+
+常用泰勒公式（拉格朗日余项）
+$$
+e ^ x = 1 + x + \frac{x ^ 2}{2!} + \cdots + \frac{x ^ n}{n!} + \frac{e ^ {\theta{x}}}{(n + 1)!}x ^ {n + 1}
+\\
+sinx = x - \frac{x ^ 3}{3!} + \cdots + 
+\\
+cosx = 
+\\
+\ln ^ {(x + 1)} = 
+\\
+(x + 1) ^ a = 
+\\
+(以上 \theta 满足 \theta \in (0 , 1))
+$$
