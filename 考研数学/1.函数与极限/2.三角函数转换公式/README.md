@@ -27,29 +27,29 @@
 ### 商数关系
 
 $$
-tanx = \frac{sinx}{cosx}
+\tan{x} = \frac{\sin{x}}{\cos{x}}
 \\
-cotx = \frac{cosx}{sinx}
+\cot{x} = \frac{\cos{x}}{\sin{x}}
 $$
 
 ### 倒数关系
 
 $$
-tanx \cdot cotx = 1
+\tan{x} \cdot \cot{x} = 1
 \\
-sinx \cdot cscx = 1
+\sin{x} \cdot \csc{x} = 1
 \\
-cosx \cdot secx = 1
+\cos{x} \cdot \sec{x} = 1
 $$
 
 ### 平方关系
 
 $$
-(sinx) ^ 2 + (cosx) ^ 2 = 1
+(\sin{x}) ^ 2 + (\cos{x}) ^ 2 = 1
 \\
-1 + (tanx) ^ 2 = (secx) ^ 2
+1 + (\tan{x}) ^ 2 = (\sec{x}) ^ 2
 \\
-1 + (cotx) ^ 2 = (cscx) ^ 2
+1 + (\cot{x}) ^ 2 = (\csc{x}) ^ 2
 $$
 
 ## 诱导公式
@@ -57,49 +57,49 @@ $$
 ### 奇偶性
 
 $$
-sin(-x) = -sinx
+\sin{(-x)} = -\sin{x}
 \\
-cos(-x) = cosx
+\cos{(-x)} = \cos{x}
 \\
-tan(-x) = -tanx
+\tan{(-x)} = -\tan{x}
 \\
-cot(-x) = -cotx
+\cot{(-x)} = -\cot{x}
 $$
 
 ### 周期性
 
 $$
-sin(2k\pi + x) = sinx（k \in Z）
+\sin{(2k\pi + x)} = \sin{x} （k \in Z）
 \\
-cos(2k\pi + x) = cosx（k \in Z）
+\cos{(2k\pi + x)} = \cos{x} （k \in Z）
 \\
-tan(k\pi + x) = tanx（k \in Z）
+\tan{(k\pi + x)} = \tan{x} （k \in Z）
 \\
-cot(k\pi + x) = cotx（k \in Z）
+\cot{(k\pi + x)} = \cot{x} （k \in Z）
 $$
 
 ### 周期性与奇偶性
 
 $$
-sin(\pi + x) = -sinx
+\sin{(\pi + x)} = -\sin{x}
 \\
-cos(\pi + x) = -cosx
+\cos{(\pi + x)} = -\cos{x}
 \\
-sin(\pi - x) = sinx
+\sin{(\pi - x)} = \sin{x}
 \\
-cos(\pi - x) = -cosx
+\cos{(\pi - x)} = -\cos{x}
 \\
-tan(\pi - x) = -tanx
+\tan{(\pi - x)} = -\tan{x}
 \\
-cot(\pi - x) = -cotx
+\cot{(\pi - x)} = -\cot{x}
 \\
-sin(2\pi - x) = -sinx
+\sin{(2\pi - x)} = -\sin{x}
 \\
-cos(2\pi - x) = cosx
+\cos{(2\pi - x)} = \cos{x}
 \\
-tan(2\pi - x) = -tanx
+\tan{(2\pi - x)} = -\tan{x}
 \\
-cot(2\pi - x) = -cotx
+\cot{(2\pi - x)} = -\cot{x}
 $$
 
 ## 基本公式
@@ -107,89 +107,89 @@ $$
 ### 二角和差公式
 
 $$
-sin(x + y) = sinx \cdot cosy + cosx \cdot siny
+\sin{(x + y)} = \sin{x} \cdot \cos{y} + \cos{x} \cdot \sin{y}
 \\
-sin(x - y) = sinx \cdot cosy - cosx \cdot siny
+\sin{(x - y)} = \sin{x} \cdot \cos{y} - \cos{x} \cdot \sin{y}
 \\
-cos(x + y) = cosx \cdot cosy - sinx \cdot siny
+\cos{(x + y)} = \cos{x} \cdot \cos{y} - \sin{x} \cdot \sin{y}
 \\
-cos(x - y) = cosx \cdot cosy + sinx \cdot siny
+\cos{(x - y)} = \cos{x} \cdot \cos{y} + \sin{x} \cdot \sin{y}
 \\
-tan(x + y) = \frac{tanx + tany}{1 - tanx \cdot tany}
+\tan{(x + y)} = \frac{\tan{x} + \tan{y}}{1 - \tan{x} \cdot \tan{y}}
 \\
-tan(x - y) = \frac{tanx - tany}{1 + tanx \cdot tany}
+\tan{(x - y)} = \frac{\tan{x} - \tan{y}}{1 + \tan{x} \cdot \tan{y}}
 \\
-cot(x + y) = \frac{cotx \cdot coty - 1}{coty + cotx}
+\cot{(x + y)} = \frac{\cot{x} \cdot \cot{y} - 1}{\cot{y} + \cot{x}}
 \\
-cot(x - y) = \frac{cotx \cdot coty + 1}{coty - cotx}
+\cot{(x - y)} = \frac{\cot{x} \cdot \cot{y} + 1}{\cot{y} - \cot{x}}
 $$
 
 ### 积化和差公式
 
 $$
-sinx \cdot cosy = \frac{sin(x + y) + sin(x - y)}{2}
+\sin{x} \cdot \cos{y} = \frac{\sin{(x + y)} + \sin{(x - y)}}{2}
 \\
-cosx \cdot siny = \frac{sin(x + y) - sin(x - y)}{2}
+\cos{x} \cdot \sin{y} = \frac{\sin{(x + y)} - \sin{(x - y)}}{2}
 \\
-sinx \cdot siny = -\frac{cos(x + y) - cos(x - y)}{2}
+\sin{x} \cdot \sin{y} = -\frac{\cos{(x + y)} - \cos{(x - y)}}{2}
 \\
-cosx \cdot cosy = \frac{cos(x + y) + cos(x - y)}{2}
+\cos{x} \cdot \cos{y} = \frac{\cos{(x + y)} + \cos{(x - y)}}{2}
 $$
 
 ### 和差化积公式
 
 $$
-sinx + siny = 2sin\frac{x + y}{2}cos\frac{x - y}{2}
+\sin{x} + \sin{y} = 2\sin\frac{x + y}{2}\cos\frac{x - y}{2}
 \\
-sinx - siny = 2cos\frac{x + y}{2}sin\frac{x - y}{2}
+\sin{x} - \sin{y} = 2\cos\frac{x + y}{2}\sin\frac{x - y}{2}
 \\
-cosx + cosy = 2cos\frac{x + y}{2}cos\frac{x - y}{2}
+\cos{x} + \cos{y} = 2\cos\frac{x + y}{2}\cos\frac{x - y}{2}
 \\
-cosx - cosy = -2sin\frac{x + y}{2}sin\frac{x - y}{2}
+\cos{x} - \cos{y} = -2\sin\frac{x + y}{2}\sin\frac{x - y}{2}
 $$
 
 ### 倍角公式
 
 $$
-sin2x = 2sinxcosx
+\sin{2x} = 2\sin{x}\cos{x}
 \\
-cos2x = 1 - 2(sinx) ^ 2
+\cos{2x} = 1 - 2(\sin{x}) ^ 2
 \\
-tan2x = \frac{2tanx}{1 - (tanx) ^ 2}
+\tan{2x} = \frac{2\tan{x}}{1 - (\tan{x}) ^ 2}
 \\
-cot2x = \frac{1 - (tanx) ^ 2}{2tanx}
+\cot{2x} = \frac{1 - (\tan{x}) ^ 2}{2\tan{x}}
 $$
 
 ### 半角公式
 
 $$
-sin\frac{x}{2} = \pm\sqrt{\frac{1 - cosx}{2}}
+\sin\frac{x}{2} = \pm\sqrt{\frac{1 - \cos{x}}{2}}
 \\
-cos\frac{x}{2} = \pm\sqrt{\frac{1 + cosx}{2}}
+\cos\frac{x}{2} = \pm\sqrt{\frac{1 + \cos{x}}{2}}
 \\
-tan\frac{x}{2} = \pm\sqrt{\frac{1 - cosx}{1 + cosx}}
+\tan\frac{x}{2} = \pm\sqrt{\frac{1 - \cos{x}}{1 + \cos{x}}}
 \\
-cot\frac{x}{2} = \pm\sqrt{\frac{1 + cosx}{1 - cosx}}
+\cot\frac{x}{2} = \pm\sqrt{\frac{1 + \cos{x}}{1 - \cos{x}}}
 \\
-注：正负由\frac{x}{2}所在的象限决定
+注：正负由 \frac{x}{2} 所在的象限决定
 $$
 
 ### 万能公式
 
 $$
-sinx = \frac{2tan\frac{x}{2}}{1 + (tan\frac{x}{2}) ^ 2}
+\sin{x} = \frac{2\tan\frac{x}{2}}{1 + (\tan\frac{x}{2}) ^ 2}
 \\
-cosx = \frac{1 - (tan\frac{x}{2}) ^ 2}{1 + (tan\frac{x}{2}) ^ 2}
+\cos{x} = \frac{1 - (\tan\frac{x}{2}) ^ 2}{1 + (\tan\frac{x}{2}) ^ 2}
 \\
-tanx = \frac{2tan\frac{x}{2}}{1 - (tan\frac{x}{2}) ^ 2}
+\tan{x} = \frac{2\tan\frac{x}{2}}{1 - (\tan\frac{x}{2}) ^ 2}
 $$
 
 ### 其他公式
 
 $$
-1 - sinx = (sin\frac{x}{2} - cos\frac{x}{2}) ^ 2
+1 - \sin{x} = (\sin\frac{x}{2} - \cos\frac{x}{2}) ^ 2
 \\
-1 - cosx = 2(sin\frac{x}{2}) ^ 2
+1 - \cos{x} = 2(\sin\frac{x}{2}) ^ 2
 $$
 
 ## 反三角函数公式
@@ -197,21 +197,21 @@ $$
 ### 负数关系
 
 $$
-arcsin(-x) = -arcsinx
+\arcsin{(-x)} = -\arcsin{x}
 \\
-arccos(-x) = \pi - arccosx
+\arccos{(-x)} = \pi - \arccos{x}
 $$
 
 ### 转换关系
 
 $$
-sin(arcsinx) = arcsin(sinx) = x
+\sin(\arcsin{x}) = \arcsin(\sin{x}) = x
 \\
-cos(arccosx) = arccos(cosx) = x
+\cos(\arccos{x}) = \arccos(\cos{x}) = x
 \\
-tan(arctanx) = arctan(tanx) = x
+\tan(\arctan{x}) = \arctan(\tan{x}) = x
 \\
-cot(arccotx) = arccot(cotx) = x
+\cot(arccot{x}) = arccot(\cot{x}) = x
 $$
 
 
