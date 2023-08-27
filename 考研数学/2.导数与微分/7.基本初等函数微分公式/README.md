@@ -16,17 +16,17 @@ $$
 ## 三角函数
 
 $$
-d(sinx) = {cosx}dx
+d(\sin{x}) = {\cos{x}}dx
 \\
-d(cosx) = {-sinx}dx
+d(\cos{x}) = {-\sin{x}}dx
 \\
-d(tanx) = {(secx) ^ 2}dx
+d(\tan{x}) = {(\sec{x}) ^ 2}dx
 \\
-d(cotx) = {(cscx) ^ 2}dx
+d(\cot{x}) = {-(\csc{x}) ^ 2}dx
 \\
-d(secx) = {secx \cdot tanx}dx
+d(\sec{x}) = {\sec{x} \cdot \tan{x}}dx
 \\
-d(cscx) = {-cscx \cdot cotx}dx
+d(\csc{x}) = {-\csc{x} \cdot \cot{x}}dx
 $$
 
 ## 幂函数
@@ -55,11 +55,11 @@ $$
 ## 反三角函数
 
 $$
-d(arcsinx) = {\frac{1}{\sqrt{1 - x ^ 2}}}dx
+d(\arcsin{x}) = {\frac{1}{\sqrt{1 - x ^ 2}}}dx
 \\
-d(arccosx) = {-\frac{1}{\sqrt{1 - x ^ 2}}}dx
+d(\arccos{x}) = {-\frac{1}{\sqrt{1 - x ^ 2}}}dx
 \\
-d(arctanx) = {\frac{1}{1 + x ^ 2}}dx
+d(\arctan{x}) = {\frac{1}{1 + x ^ 2}}dx
 \\
 d(arccotx) = {-\frac{1}{1 + x ^ 2}}dx
 $$
