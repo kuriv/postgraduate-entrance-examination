@@ -6,8 +6,19 @@
   * [例题一](#例题一)
   * [例题二](#例题二)
   * [例题三](#例题三)
+  * [例题四](#例题四)
 
 ## 定理内容
+
+$$
+带有佩亚诺余项的泰勒公式： f(x) = f(x_0) + f(x_0)\prime(x - x_0) + \frac{f(x_0)\prime\prime}{2!}(x - x_0) ^ 2 + \cdots + \frac{f(x_0) ^ {(n)}}{n!}(x - x_0) ^ n + o((x - x_0) ^ n) .
+$$
+
+$$
+带有拉格朗日余项的泰勒公式： f(x) = f(x_0) + f(x_0)\prime(x - x_0) + \frac{f(x_0)\prime\prime}{2!}(x - x_0) ^ 2 + \cdots + \frac{f(x_0) ^ {(n)}}{n!}(x - x_0) ^ n
+\\
++ \frac{f(x_0 + \theta(x - x_0)) ^ {(n + 1)}}{(n + 1)!}(x - x_0) ^ {n + 1} (0 \lt \theta \lt 1) .
+$$
 
 $$
 带有佩亚诺余项的麦克劳林公式： f(x) = f(0) + f(0)\prime{x} + \frac{f(0)\prime\prime}{2!}x ^ 2 + \cdots + \frac{f(0) ^ {(n)}}{n!}x ^ n + o(x ^ n) .
@@ -32,7 +43,7 @@ cosx = 1 - \frac{x ^ 2}{2!} + \cdots + (-1) ^ n \cdot \frac{x ^ {2n}}{(2n)!} + (
 \\
 \ln ^ {(x + 1)} = x - \frac{x ^ 2}{2} + \cdots + (-1) ^ {n - 1} \cdot \frac{x ^ n}{n} + (-1) ^ n \cdot \frac{x ^ {n + 1}}{(n + 1)(1 + {\theta}{x}) ^ {n + 1}} (0 \lt \theta \lt 1)
 \\
-(x + 1) ^ a = 1 + ax + \frac{a(a - 1)}{2!} + \cdots + \frac{a(a - 1) \cdots (a - n + 1)}{n!}x ^ n + \frac{a(a - 1) \cdots (a - n + 1)(a - n)}{(n + 1)!}(1 + {\theta}{x}) ^ {a - n - 1}x ^ {n + 1} (0 \lt \theta \lt 1)
+(x + 1) ^ a = 1 + ax + \frac{a(a - 1)}{2!}x ^ 2 + \cdots + \frac{a(a - 1) \cdots (a - n + 1)}{n!}x ^ n + \frac{a(a - 1) \cdots (a - n + 1)(a - n)}{(n + 1)!}(1 + {\theta}{x}) ^ {a - n - 1}x ^ {n + 1} (0 \lt \theta \lt 1)
 $$
 
 ## 经典例题
@@ -80,6 +91,11 @@ $$
 $$
 求函数 f(x) = \sqrt{x} 在 x_0 = 1 处的带有拉格朗日余项的四阶泰勒展开式.
 \\
+\because f(x) = f(x_0) + f(x_0)\prime(x - x_0) + \frac{f(x_0)\prime\prime}{2!}(x - x_0) ^ 2 + \cdots + \frac{f(x_0) ^ {(4)}}{4!}(x - x_0) ^ 4 + \frac{(f(x_0 + \theta(x - x_0))) ^ {(5)}}{5!}(x - x_0) ^ 5 ，
+\\
+\because f(x_0) = 1 ， f(x_0)\prime = \frac{1}{2}x_0 ^ {-\frac{1}{2}} ， f(x_0)\prime\prime = -\frac{1}{4}x_0 ^ {-\frac{3}{2}} ， f(x_0) ^ {(3)} = \frac{3}{8}x_0 ^ {-\frac{5}{2}} ， f(x_0) ^ {(4)} = -\frac{15}{16}x_0 ^ {-\frac{7}{2}} ， f(x_0) ^ {(5)} = \frac{105}{32}x_0 ^ {-\frac{9}{2}} ， 
+\\
+\therefore f(x) = 1 + \frac{1}{2}(x - 1) - \frac{1}{8}(x - 1) ^ 2 + \frac{1}{16}(x - 1) ^ 3 - \frac{5}{128}(x - 1) ^ 4 + \frac{7}{256}\frac{1}{(1 + \theta(x - 1)) ^ {\frac{9}{2}}}(x - 1) ^ 5 (0 \lt \theta \lt 1) .
 $$
 
 
