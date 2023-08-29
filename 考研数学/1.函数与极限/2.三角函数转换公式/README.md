@@ -153,7 +153,7 @@ $$
 $$
 \sin{2x} = 2\sin{x}\cos{x}
 \\
-\cos{2x} = 1 - 2(\sin{x}) ^ 2
+\cos{2x} = (\cos{x}) ^ 2 - (\sin{x}) ^ 2 = 2(\cos{x}) ^ 2 - 1 = 1 - 2(\sin{x}) ^ 2
 \\
 \tan{2x} = \frac{2\tan{x}}{1 - (\tan{x}) ^ 2}
 \\
