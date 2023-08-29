@@ -1,6 +1,6 @@
 # 积分法则
 
-* [有理运算法则](#有理运算法则)
+* [定理内容](#定理内容)
 * [经典例题](#经典例题)
   * [例题一](#例题一)
   * [例题二](#例题二)
@@ -11,12 +11,12 @@
   * [例题七](#例题七)
 
 
-## 有理运算法则
+## 定理内容
 
 $$
 \int[f(x) \pm g(x)]dx = \int{f(x)}dx \pm \int{g(x)}dx
 \\
-\int{{kf(x)}dx} = k\int{fx}dx
+\int{{kf(x)}dx} = k\int{f(x)}dx
 $$
 
 ## 经典例题
@@ -68,7 +68,7 @@ $$
 $$
 求 \int{\frac{1}{{(\sin\frac{x}{2}) ^ 2}{(\cos\frac{x}{2}) ^ 2}}}dx .
 \\
-\int{\frac{1}{{(\sin\frac{x}{2}) ^ 2}{(\cos\frac{x}{2}) ^ 2}}}dx = \int{\frac{1}{(\frac{\sin{x}}{2}) ^ 2}}dx = \int{\frac{1}{\frac{(\sin{x}) ^ 2}{4}}}dx = 4\int{(\csc{x}) ^ 2}dx = -4\cot{x} + C .
+\int{\frac{1}{{(\sin\frac{x}{2}) ^ 2}{(\cos\frac{x}{2}) ^ 2}}}dx = \int{\frac{1}{(\sin{\frac{x}{2}}\cos{\frac{x}{2}}) ^ 2}}dx = \int{\frac{1}{(\frac{\sin{x}}{2}) ^ 2}}dx = \int{\frac{1}{\frac{(\sin{x}) ^ 2}{4}}}dx = 4\int{(\csc{x}) ^ 2}dx = -4\cot{x} + C .
 $$
 
 ### 例题七
