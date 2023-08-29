@@ -27,6 +27,10 @@ $$
 \int{\sec{x}\tan{x}}dx = \sec{x} + C
 \\
 \int{\csc{x}\cot{x}}dx = -\csc{x} + C
+\\
+\int{\sec{x}}dx = \ln ^ {|\sec{x} + \tan{x}|} + C
+\\
+\int{\csc{x}}dx = \ln ^ {|\csc{x} - \cot{x}|} + C
 $$
 
 ## 幂函数
