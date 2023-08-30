@@ -7,7 +7,7 @@
   * [例题三](#例题三)
   * [例题四](#例题四)
   * [例题五](#例题五)
-  * [例题六]
+  * [例题六](#例题六)
   * [例题七]
 
 
@@ -106,13 +106,16 @@ $$
 $$
 求 \int{\frac{dx}{\sqrt{1 + x - x ^ 2}}} .
 \\
+\int{\frac{dx}{\sqrt{1 + x - x ^ 2}}} = \int{\frac{1}{\sqrt{\frac{\sqrt{5}}{2} ^ 2 - (x - \frac{1}{2}) ^ 2}}}dx = \int{\frac{1}{\sqrt{\frac{\sqrt{5}}{2} ^ 2 - (x - \frac{1}{2}) ^ 2}}}d(x - \frac{1}{2}) ，
+\\
+由公式得， \int{\frac{1}{\sqrt{\frac{\sqrt{5}}{2} ^ 2 - (x - \frac{1}{2}) ^ 2}}}d(x - \frac{1}{2}) = \arcsin{\frac{x - \frac{1}{2}}{\frac{\sqrt{5}}{2}}} + C = \arcsin{\frac{2x - 1}{\sqrt{5}}} + C .
 $$
 
 ### 例题七
 
 $$
 求 \int{\frac{x ^ 3}{(x ^ 2 - 2x + 2) ^ 2}}dx .
-\\
+\\
 $$
 
 
