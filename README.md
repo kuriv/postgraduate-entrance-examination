@@ -46,7 +46,7 @@
 
 已见繁花结硕果，更立壮志谱新篇
 
-
+须知少时凌云志曾许人间第一流
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen	"build"
 [build-url]: https://github.com/kuriv/civil-service-exam	"build"
