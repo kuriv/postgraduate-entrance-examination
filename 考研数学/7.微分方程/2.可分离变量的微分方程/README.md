@@ -19,9 +19,9 @@ $$
 \\
 分离变量后得， \frac{dy}{y} = 2xdx ，
 \\
-对两边同时积分，\int{\frac{dy}{y}} = \int{2x}dx ，则 \ln ^ {|y|} = x ^ 2 + C_1 ，
+对两边同时积分，\int{\frac{dy}{y}} = \int{2x}dx ，则 \ln ^ {|y|} = x ^ 2 + C ，
 \\
-\therefore |y| = e ^ {x ^ 2 + C_1} ， y = \pm{e ^ {x ^ 2 + C_1}} = \pm{e ^ {x ^ 2}e ^ {C_1}} ，
+\therefore |y| = e ^ {x ^ 2 + C} ， y = \pm{e ^ {x ^ 2 + C}} = \pm{e ^ {x ^ 2}e ^ {C}} ，
 \\
 \therefore y = Ce ^ {x ^ 2} .
 $$
