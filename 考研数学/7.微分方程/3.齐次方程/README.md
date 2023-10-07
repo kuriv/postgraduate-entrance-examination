@@ -21,7 +21,7 @@ $$
 $$
 方程 \frac{dy}{dx} = \frac{ax + by + c}{a_1x + b_1x + c_1} 当 c = c_1 = 0 是齐次的，否则不是齐次的.
 \\
-可以令 x = X + h ， y = Y + h ， dx = dX ， dy = dY ，则原方程为 \frac{dY}{dX} = \frac{aX + bY + ah + bk + c}{a_1X + b_1Y + a_1h + b_1k + c_1} ，
+可以令 x = X + h ， y = Y + k ， dx = dX ， dy = dY ，则原方程为 \frac{dY}{dX} = \frac{aX + bY + ah + bk + c}{a_1X + b_1Y + a_1h + b_1k + c_1} ，
 \\
 如果方程组
 \begin{cases}
