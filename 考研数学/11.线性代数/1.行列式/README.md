@@ -88,7 +88,7 @@ a_{1} \ \ \ \ a_{2} \ \ \ \ \cdots \ \ \ \ a_{n}\\
 \cdots \ \cdots \ \cdots \ \cdots\\
 a_{1} ^ {n-1} \ a_{2} ^ {n-1} \ \cdots \ a_{n} ^ {n-1}
 \end{vmatrix}
-= \Pi_{1 \le j \le i \le n}(a_i - a_j) .
+= \prod_{1 \le j \le i \le n}(a_i - a_j) .
 $$
 
 ### 分块行列式
