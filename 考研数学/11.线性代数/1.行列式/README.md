@@ -1,7 +1,13 @@
 # 行列式
 
 * [定理内容](#定理内容)
-* [特殊的高阶行列式]
+* [特殊的高阶行列式](#特殊的高阶行列式)
+  * [对角行列式](#对角行列式)
+  * [范德蒙行列式](#范德蒙行列式)
+  * [分块行列式](#分块行列式)
+
+* [行列式的计算性质](#行列式的计算性质)
+* [克拉默法则](#克拉默法则)
 
 ## 定理内容
 
@@ -37,8 +43,156 @@ $$
 
 ## 特殊的高阶行列式
 
+### 对角行列式
+
+$$
+\begin{vmatrix}
+a_{11} \ \ 0 \ \ \cdots \ \ 0 \ \ \\
+\ \ 0 \ \ a_{22} \cdots \ \ 0 \ \ \\
+\cdots \ \cdots \ \cdots \ \cdots\\
+\ \ 0 \ \ \ 0 \ \cdots \ a_{nn}
+\end{vmatrix}
+=
+\begin{vmatrix}
+a_{11} \ a_{12} \cdots a_{1n} \\
+\ \ 0 \ \ a_{22} \cdots a_{2n} \\
+\cdots \ \cdots \ \cdots \ \cdots\\
+\ \ 0 \ \ \ 0 \ \cdots \ a_{nn}
+\end{vmatrix}
+=
+\begin{vmatrix}
+a_{11} \ \ 0 \ \ \cdots \ \ 0 \ \ \\
+a_{21} \ a_{22} \cdots \ \ 0 \ \ \\
+\cdots \ \cdots \ \cdots \ \cdots\\
+a_{n1} \ a_{n2} \cdots \ a_{nn}
+\end{vmatrix}
+= a_{11}a_{22} \cdots a_{nn} .
 $$
 
+$$
+\begin{vmatrix}
+\ \ 0 \ \ \ \ 0 \ \ \ \ 0 \ \ \ \ l_1 \\
+\ \ 0 \ \ \ \ 0 \ \ \ \ l_2 \ \ \ 0 \ \\
+\ \ 0 \ \ \cdots \ \ 0 \ \ \ \ 0 \ \\
+\ \ l_n \ \ \ 0 \ \ \ \ 0 \ \ \ \ 0 \
+\end{vmatrix}
+= (-1) ^ {\frac{n(n-1)}{2}}{l_1}{l_2} \cdots {l_n} .
+$$
+
+### 范德蒙行列式
+
+$$
+\begin{vmatrix}
+1 \ \ \ \ \ 1 \ \ \ \ \ \cdots \ \ \ \ \ 1 \\
+a_{1} \ \ \ \ a_{2} \ \ \ \ \cdots \ \ \ \ a_{n}\\
+\cdots \ \cdots \ \cdots \ \cdots\\
+a_{1} ^ {n-1} \ a_{2} ^ {n-1} \ \cdots \ a_{n} ^ {n-1}
+\end{vmatrix}
+= \Pi_{1 \le j \le i \le n}(a_i - a_j) .
+$$
+
+### 分块行列式
+
+$$
+\begin{vmatrix}
+A \ C\\
+O \ B
+\end{vmatrix}
+=
+\begin{vmatrix}
+A \ O\\
+C \ B
+\end{vmatrix}
+=
+\begin{vmatrix}
+A
+\end{vmatrix}
+\begin{vmatrix}
+B
+\end{vmatrix} .
+$$
+
+## 行列式的计算性质
+
+$$
+行列式与其转置行列式相等，即 D = D ^ T .
+$$
+
+$$
+对调两行（或列）行列式改变符号.
+$$
+
+$$
+行列式某行（或列）有公因子可以提取到行列式的外面.
+$$
+
+$$
+若行列式某行（或列）元素全为零，则该行列式值为零.
+$$
+
+$$
+若行列式某两行（或列）元素相同，则该行列式值为零.
+$$
+
+$$
+若行列式某两行（或列）元素对应成比例，则该行列式值为零.
+$$
+
+$$
+行列式某行（或列）的每个元素均为两数之和时，行列式可分解为两个行列式之和.
+$$
+
+$$
+行列式某行（或列）的倍数加到另一行（或列），行列式不变.
+$$
+
+$$
+行列式等于行列式某行（或列）元素与其对应的代数余子式之积的和，即 D = a_{i1}A_{i1} + a_{i2}A_{i2} + \cdots + a_{in}A_{in} .
+$$
+
+$$
+行列式的某行（或列）元素与另一行（或列）对应元素的代数余子式之积的和为零，即 a_{i1}A_{j1} + a_{i2}A_{j2} + \cdots + a_{in}A_{jn} = 0 .
+$$
+
+## 克拉默法则
+
+$$
+对线性方程组 \begin{cases}
+a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n = 0 , \\
+a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n = 0 , \\
+\cdots \\
+a_{n1}x_1 + a_{n2}x_2 + \cdots + a_{nn}x_n = 0
+\end{cases}
+及
+\begin{cases}
+a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n = b_1 , \\
+a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n = b_2 , \\
+\cdots \\
+a_{n1}x_1 + a_{n2}x_2 + \cdots + a_{nn}x_n = b_n
+\end{cases} ，
+\\
+令 D = \begin{vmatrix}
+a_{11} \ a_{12} \ \cdots \ a_{1n}\\
+a_{21} \ a_{22} \ \cdots \ a_{2n}\\
+\cdots \ \cdots \ \cdots \ \cdots\\
+a_{n1} \ a_{n2} \ \cdots \ a_{nn}
+\end{vmatrix} ，
+D_1 = \begin{vmatrix}
+b_1 \ \ a_{12} \ \cdots \ a_{1n}\\
+b_2 \ \ a_{22} \ \cdots \ a_{2n}\\
+\cdots \ \cdots \ \cdots \ \cdots\\
+b_n \ \ a_{n2} \ \cdots \ a_{nn}
+\end{vmatrix} ，
+D2 = \begin{vmatrix}
+a_{11} \ \ b_1 \ \cdots \ a_{1n}\\
+a_{21} \ \ b_2 \ \cdots \ a_{2n}\\
+\cdots \ \cdots \ \cdots \ \cdots\\
+a_{n1} \ \ b_n \ \cdots \ a_{nn}
+\end{vmatrix} ，
+\\
+齐次线性方程只有零解的充分必要条件是 D \neq 0 ， 有非零解的充分必要条件是 D = 0 ，
+\\
+非齐次线性方程有唯一解的充分必要条件是 D \neq 0 ，当 D = 0 时，要么无解，要么有无穷多个解.
 $$
 
 
