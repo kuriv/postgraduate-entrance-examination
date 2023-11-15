@@ -39,7 +39,7 @@ $$
 $$
 如： \lim_{x \to 1}(1 - x ^ 2)\tan\frac{\pi}{2}x .
 \\
-\because 直接将 x = 1 带入，此时原式为 0 \cdot \infty 型，因此先将原式转换为 \frac{0}{0} 型或 \frac{\infty}{\infty} 型，再使用洛必达法则，
+\because 直接将 x = 1 带入，此时原式为 0 \cdot \infty 型，因此先将原式转换为 \frac{0}{0} 型或 \frac{\infty}{\infty} 型，再使用洛必达法则，\
 \\
 \therefore \lim_{x \to 1}(1 - x ^ 2)\tan\frac{\pi}{2}x = \lim_{x \to 1}\frac{(1 - x ^ 2)}{\frac{1}{\tan\frac{\pi}{2}x}} = \lim_{x \to 1}\frac{(1 - x ^ 2)}{\cot\frac{\pi}{2}x} ，
 \\
