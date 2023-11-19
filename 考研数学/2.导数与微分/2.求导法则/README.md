@@ -46,11 +46,11 @@ $$
 ### 例题一
 
 $$
-如：求 \ln ^ {\cos{(x - 1)}} 的导数.
+如：求 \ln\ ^ {\cos{(x - 1)}} 的导数.
 \\
 \because (\ln ^ {\cos{(x - 1)}})\prime = \frac{1}{\cos{(x - 1)}} \cdot -\sin{(x - 1)} \cdot 1 = \frac{-\sin{(x - 1)}}{\cos{(x - 1)}} = -\tan{(x - 1)} .
 \\
-\therefore \ln ^ {\cos{(x - 1)}} 的导数为 -\tan{(x - 1)} .
+\therefore \ln\ ^ {\cos{(x - 1)}} 的导数为 -\tan{(x - 1)} .
 $$
 
 

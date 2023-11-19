@@ -39,7 +39,7 @@ $$
 \\
 \because a = \lim_{x \to \infty}\frac{f(x)}{x} = \lim_{x \to \infty}\frac{\frac{2x ^ 3}{x ^ 2 - 3x + 2}}{x} = \lim_{x \to \infty}\frac{2x ^ 2}{x ^ 2 - 3x + 2} = 2 ，
 \\
-\because \lim_{x \to \infty}[f(x) - ax] = \lim_{x \to \infty}[\frac{2x ^ 3}{x ^ 2 - 3x + 2} - 2x] = \lim_{x \to \infty}\frac{2x ^ 3 - 2x ^ 3 + 6x ^ 2 - 4x}{x ^ 2 - 3x + 2} = \lim_{x \to \infty}\frac{6x ^ 2 - 4x}{x ^ 2 - 3x + 2} = 6 ，
+\because b = \lim_{x \to \infty}[f(x) - ax] = \lim_{x \to \infty}[\frac{2x ^ 3}{x ^ 2 - 3x + 2} - 2x] = \lim_{x \to \infty}\frac{2x ^ 3 - 2x ^ 3 + 6x ^ 2 - 4x}{x ^ 2 - 3x + 2} = \lim_{x \to \infty}\frac{6x ^ 2 - 4x}{x ^ 2 - 3x + 2} = 6 ，
 \\
 \therefore y = 2x + 6 是 \frac{2x ^ 3}{x ^ 2 - 3x + 2} 的斜渐近线.
 $$

@@ -34,17 +34,20 @@ $$
 $$
 如：计算等边双曲线 xy = 1 在点 (1 , 1) 处的曲率.
 \\
+\
+\
 \because y = \frac{1}{x} ，且 y\prime = -\frac{1}{x ^ 2} ， y\prime\prime = \frac{2}{x ^ 3} ，
 \\
 \therefore y\prime|_{x = 1} = -1 ， y\prime\prime|_{x = 1} = 2 ，
 \\
+\
 带入曲率公式，得： K = \frac{|2|}{(1 + (-1) ^ 2) ^ \frac{3}{2}} = \frac{\sqrt{2}}{2} .
 $$
 
 ### 例题二
 
 $$
-如：抛物线 y = ax ^ 2 + bx + c 上哪一点处的曲率最大？
+如：抛物线 y = ax ^ 2 + bx + c 上哪一点处的曲率最大？\
 \\
 \because y = ax ^ 2 + bx + c ，且 y\prime = 2ax + b ， y\prime\prime = 2a ，
 \\

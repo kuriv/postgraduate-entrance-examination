@@ -89,8 +89,9 @@ $$
 ### 例题四
 
 $$
-求函数 f(x) = \sqrt{x} 在 x_0 = 1 处的带有拉格朗日余项的四阶泰勒展开式.
-\\
+求函数 f(x) = \sqrt{x} 在 x_0 = 1 处的带有拉格朗日余项的四阶泰勒展开式. \\
+\
+\
 \because f(x) = f(x_0) + f(x_0)\prime(x - x_0) + \frac{f(x_0)\prime\prime}{2!}(x - x_0) ^ 2 + \cdots + \frac{f(x_0) ^ {(4)}}{4!}(x - x_0) ^ 4 + \frac{(f(x_0 + \theta(x - x_0))) ^ {(5)}}{5!}(x - x_0) ^ 5 ，
 \\
 \because f(x_0) = 1 ， f(x_0)\prime = \frac{1}{2}x_0 ^ {-\frac{1}{2}} ， f(x_0)\prime\prime = -\frac{1}{4}x_0 ^ {-\frac{3}{2}} ， f(x_0) ^ {(3)} = \frac{3}{8}x_0 ^ {-\frac{5}{2}} ， f(x_0) ^ {(4)} = -\frac{15}{16}x_0 ^ {-\frac{7}{2}} ， f(x_0) ^ {(5)} = \frac{105}{32}x_0 ^ {-\frac{9}{2}} ， 

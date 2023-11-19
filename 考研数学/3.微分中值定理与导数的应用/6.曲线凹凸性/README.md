@@ -22,8 +22,9 @@ $$
 ### 例题一
 
 $$
-如：判定曲线 y = \ln ^ x 的凹凸性.
-\\
+如：判定曲线 y = \ln ^ x 的凹凸性.\\
+\
+\
 \because 定义域为 (0 , +\infty) ，且 y\prime = \frac{1}{x} ， y\prime\prime = -\frac{1}{x ^ 2} ，
 \\
 当 x \in (0 , +\infty) 时， y\prime\prime \lt 0 ，

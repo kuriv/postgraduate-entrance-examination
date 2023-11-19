@@ -8,8 +8,8 @@
 ## 定理内容
 
 $$
-定义（第一充分条件）：设函数 f(x) 在 x_0 处连续，且在 x_0 的某去心邻域 u ^ o (x_0 , \delta) 内可导，
-\\
+定义（第一充分条件）：设函数 f(x) 在 x_0 处连续，且在 x_0 的某去心邻域 u ^ o (x_0 , \delta) 内可导，\\
+\
 若 x \in (x_0 - \delta , x_0) 时， f(x)\prime \gt 0 ，而 x \in (x_0 , x_0 + \delta) 时， f(x)\prime \lt 0 ，则 f(x) 在 x_0 处取得极大值，
 \\
 若 x \in (x_0 - \delta , x_0) 时， f(x)\prime \lt 0 ，而 x \in (x_0 , x_0 + \delta) 时， f(x)\prime \gt 0 ，则 f(x) 在 x_0 处取得极小值，
@@ -50,8 +50,9 @@ $$
 ### 例题二
 
 $$
-如：求函数 f(x) = (x ^ 2 - 1) ^ 3 + 1 的极值.
-\\
+如：求函数 f(x) = (x ^ 2 - 1) ^ 3 + 1 的极值.\\
+\
+\
 \because 定义域为 (-\infty , +\infty) ，且 f(x)\prime = 6x(x ^ 2 - 1) ^ 2 ， f(x)\prime\prime = 6(x ^ 2 - 1)(5x ^ 2 - 1) ，
 \\
 \because 当 f(x)\prime = 0 时，求得 x_1 = -1 ， x_2 = 0 ， x_3 = 1 ，
