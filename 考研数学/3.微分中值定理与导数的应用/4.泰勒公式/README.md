@@ -39,7 +39,7 @@ e ^ x = 1 + x + \frac{x ^ 2}{2!} + \cdots + \frac{x ^ n}{n!} + \frac{e ^ {\theta
 \\
 \sin{x} = x - \frac{x ^ 3}{3!} + \cdots + (-1) ^ {n - 1} \cdot \frac{x ^ {2n - 1}}{(2n - 1)!} + (-1) ^ n \cdot \frac{\cos({\theta}{x})}{(2n + 1)!}x ^ {2n + 1} (0 \lt \theta \lt 1)
 \\
-cosx = 1 - \frac{x ^ 2}{2!} + \cdots + (-1) ^ n \cdot \frac{x ^ {2n}}{(2n)!} + (-1) ^ {n + 1} \cdot \frac{\cos({\theta}{x})}{(2n + 2)!}x ^ {2n + 2} (0 \lt \theta \lt 1)
+\cos{x} = 1 - \frac{x ^ 2}{2!} + \cdots + (-1) ^ n \cdot \frac{x ^ {2n}}{(2n)!} + (-1) ^ {n + 1} \cdot \frac{\cos({\theta}{x})}{(2n + 2)!}x ^ {2n + 2} (0 \lt \theta \lt 1)
 \\
 \ln ^ {(x + 1)} = x - \frac{x ^ 2}{2} + \cdots + (-1) ^ {n - 1} \cdot \frac{x ^ n}{n} + (-1) ^ n \cdot \frac{x ^ {n + 1}}{(n + 1)(1 + {\theta}{x}) ^ {n + 1}} (0 \lt \theta \lt 1)
 \\
