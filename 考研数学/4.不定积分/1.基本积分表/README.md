@@ -18,17 +18,25 @@ $$
 ## 三角函数
 
 $$
-\int{\cos{x}}dx = \sin{x} + C
-\\
 \int{\sin{x}}dx = -\cos{x} + C
 \\
-\int{\frac{1}{(\cos{x}) ^ 2}}dx = \int{(\sec{x}) ^ 2}dx = \tan{x} + C
+\int{\cos{x}}dx = \sin{x} + C
 \\
-\int{\frac{1}{(\sin{x}) ^ 2}}dx = \int{(\csc{x} ^ 2)}dx = -\cot{x} + C
+\int{\tan{x}}dx = -\ln ^ {|\cos{x}|} + C
+\\
+\int{\cot{x}}dx = \ln ^ {|\sin{x}|} + C
+\\
+\int{(\sec{x}) ^ 2}dx = \int{\frac{1}{(\cos{x}) ^ 2}}dx = \tan{x} + C
+\\
+\int{(\csc{x} ^ 2)}dx = \int{\frac{1}{(\sin{x}) ^ 2}}dx = -\cot{x} + C
 \\
 \int{\sec{x}\tan{x}}dx = \sec{x} + C
 \\
 \int{\csc{x}\cot{x}}dx = -\csc{x} + C
+\\
+\int{\sec{x}}dx = \ln ^ {|\sec{x} + \tan{x}|} + C
+\\
+\int{\csc{x}}dx = \ln ^ {|\csc{x} - \cot{x}|} + C
 $$
 
 ## 幂函数
@@ -70,14 +78,6 @@ $$
 ## 常用公式
 
 $$
-\int{\tan{x}}dx = -\ln ^ {|\cos{x}|} + C
-\\
-\int{\cot{x}}dx = \ln ^ {|\sin{x}|} + C
-\\
-\int{\sec{x}}dx = \ln ^ {|\sec{x} + \tan{x}|} + C
-\\
-\int{\csc{x}}dx = \ln ^ {|\csc{x} - \cot{x}|} + C
-\\
 \int{\frac{dx}{a ^ 2 + x ^ 2}} = \frac{1}{a}\arctan{\frac{x}{a}} + C
 \\
 \int{\frac{dx}{x ^ 2 - a ^ 2}} = \frac{1}{2a}\ln ^ {|\frac{x - a}{x + a}|} + C
