@@ -78,15 +78,13 @@ $$
 ## 常用公式
 
 $$
-\int{\frac{dx}{a ^ 2 + x ^ 2}} = \frac{1}{a}\arctan{\frac{x}{a}} + C
-\\
-\int{\frac{dx}{x ^ 2 - a ^ 2}} = \frac{1}{2a}\ln ^ {|\frac{x - a}{x + a}|} + C
-\\
 \int{\frac{dx}{\sqrt{a ^ 2 - x ^ 2}}} = \arcsin{\frac{x}{a}} + C
 \\
-\int{\frac{dx}{\sqrt{x ^ 2 + a ^ 2}}} = \ln ^ {|x + \sqrt{x ^ 2 + a ^ 2}|} + C
+\int{\frac{dx}{a ^ 2 + x ^ 2}} = \frac{1}{a}\arctan{\frac{x}{a}} + C
 \\
-\int{\frac{dx}{\sqrt{x ^ 2 - a ^ 2}}} = \ln ^ {|x + \sqrt{x ^ 2 - a ^ 2}|} + C
+\int{\frac{dx}{a ^ 2 - x ^ 2}} = \frac{1}{2a}\ln ^ {|\frac{a + x}{a - x}|} + C
+\\
+\int{\frac{dx}{\sqrt{x ^ 2 \pm a ^ 2}}} = \ln ^ {|x + \sqrt{x ^ 2 \pm a ^ 2}|} + C
 $$
 
 
