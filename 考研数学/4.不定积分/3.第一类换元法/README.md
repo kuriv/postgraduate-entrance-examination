@@ -50,6 +50,7 @@ $$
 $$
 求 \int{\frac{1}{3 + 2x}}dx .
 \\
+\
 \int{\frac{1}{3 + 2x}}dx = \frac{1}{2}\int{\frac{1}{3 + 2x}}d(3 + 2x) = \frac{1}{2}\ln ^ {|3 + 2x|} + C .
 $$
 
