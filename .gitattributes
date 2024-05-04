@@ -1,3 +1,4 @@
 *.md    linguist-language=go
 *.emmx  linguist-language=go
 *.png   linguist-language=go
+*.jpg   linguist-language=go
