@@ -191,6 +191,8 @@ $$
 \cos{x} = \frac{1 - (\tan\frac{x}{2}) ^ 2}{1 + (\tan\frac{x}{2}) ^ 2}
 \\
 \tan{x} = \frac{2\tan\frac{x}{2}}{1 - (\tan\frac{x}{2}) ^ 2}
+\\
+\cot{x} = \frac{1 - (\tan\frac{x}{2}) ^ 2}{2\tan\frac{x}{2}}
 $$
 
 ### 其他公式
