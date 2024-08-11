@@ -16,6 +16,11 @@
 * [排列组合公式](#排列组合公式)
   * [排列公式](#排列公式)
   * [组合公式](#组合公式)
+* [函数性质](#函数性质)
+  * [函数单调性](#函数单调性)
+  * [函数奇偶性](#函数奇偶性)
+  * [函数周期性](#函数周期性)
+
 
 ## 因式分解
 
@@ -151,6 +156,8 @@ y = \sqrt{x} + 1 \Rightarrow y = (x - 1) ^ 2
 y = 3 ^ {x - 1} + 2 \Rightarrow \log_3{(x - 2)} + 1
 \\
 y = \log_2{(x + 4)} \Rightarrow y = 2 ^ x - 4
+\\
+y = \ln(x + \sqrt{x ^ 2 + 1}) \Rightarrow y = \frac{e ^ x - e ^ {-x}}{2}
 $$
 
 ## 排列组合公式
@@ -175,6 +182,46 @@ $$
 {C_5 ^ 3} = \frac{5 \times 4 \times 3}{1 \times 2 \times 3} = 10
 \\
 {C_n ^ n} = {C_n ^ 0} = 1
+$$
+
+## 函数性质
+
+### 函数单调性
+
+$$
+f(x) 是单调增函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \lt 0
+\\
+f(x) 是单调减函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \gt 0
+$$
+
+### 函数奇偶性
+
+$$
+f(x) + f(-x) 必是偶函数，如 \frac{e ^ x + e ^ {-x}}{2}
+\\
+f(x) - f(-x) 必是奇函数，如 \frac{e ^ x - e ^ {-x}}{2}
+$$
+
+$$
+f[g(x)] (内偶则偶，内奇同外) \begin{cases}
+奇[偶] \Rightarrow 偶,
+\\
+偶[偶] \Rightarrow 偶,
+\\
+非奇非偶[偶] \Rightarrow 偶,
+\\
+偶[奇] \Rightarrow 偶，
+\\
+奇[奇] \Rightarrow 奇.
+\end{cases}
+$$
+
+### 函数周期性
+
+$$
+若 g(x) 是周期函数，则复合函数 f[g(x)] 也是周期函数.
+\\
+若 f(x) 是以 T 为周期的可导函数，则 f(x)\prime 也以 T 为周期.
 $$
 
 

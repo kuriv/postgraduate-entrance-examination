@@ -62,6 +62,12 @@ $$
 (\arctan{x})\prime = \frac{1}{1 + x ^ 2}
 \\
 (arccotx)\prime = -\frac{1}{1 + x ^ 2}
+\\
+\ln(x + \sqrt{x ^ 2 + 1})\prime = \frac{1}{\sqrt{x ^ 2 + 1}}
+\\
+\sin(\arccos{x})\prime = \sqrt{1 - x ^ 2}
+\\
+\cos(\arcsin{x})\prime = \sqrt{1 - x ^ 2}
 $$
 
 

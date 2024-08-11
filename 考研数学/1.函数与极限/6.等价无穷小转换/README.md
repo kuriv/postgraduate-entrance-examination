@@ -23,7 +23,7 @@ $$
 ## 常用的等价无穷小
 
 $$
-x ～ \sin{x} ～ \tan{x} ～ \arcsin{x} ～ \arctan{x} ～ e ^ x - 1 ～ \ln^{x + 1} ，
+x ～ \sin{x} ～ \tan{x} ～ \arcsin{x} ～ \arctan{x} ～ e ^ x - 1 ～ \ln^{x + 1} ～ \ln(x + \sqrt{x ^ 2 + 1}) ，
 \\
 x - \sin{x} ～ \frac{1}{6}x ^ 3 ， 1 - \cos{x} ～ \frac{1}{2}x ^ 2 ， \sec{x} - 1 ～ \frac{1}{2}x ^ 2 ， \tan{x} - x ～ \frac{1}{3}x ^ 3 ，
 \\
