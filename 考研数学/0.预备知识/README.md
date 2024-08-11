@@ -77,7 +77,7 @@ $$
 $$
 
 $$
-e ^ {\ln2} = 2
+e ^ {\ln{2}} = 2
 $$
 
 ## 数列
@@ -115,7 +115,7 @@ $$
 ## 均值不等式
 
 $$
-\frac{1}{x} \gt \ln(1 + \frac{1}{x}) > \frac{1}{x + 1}
+\frac{1}{x} \gt \ln{(1 + \frac{1}{x})} > \frac{1}{x + 1}
 \\
 \frac{a + b}{2} \ge \sqrt{ab}
 \\
@@ -143,7 +143,7 @@ $$
 \\
 \ln{xy} = \ln{x} + \ln{y}
 \\
-\ln^{\frac{x}{y}} = \ln{x} - \ln{y}
+\ln{\frac{x}{y}} = \ln{x} - \ln{y}
 $$
 
 ## 反函数求解
