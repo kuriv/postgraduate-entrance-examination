@@ -1,34 +1,28 @@
-# 数列极限与函数极限证明
+# 数列极限与函数极限
 
 * [数列极限](#数列极限)
 * [函数极限](#函数极限)
 * [经典例题](#经典例题)
-  * [例题一](#例题一)
-  * [例题二](#例题二)
-  * [例题三](#例题三)
-  * [例题四](#例题四)
 
 
 ## 数列极限
 
 $$
-定义：对于数列 \{X_n\} ，如果存在常数 a ，对 \forall \epsilon \gt 0 ， \exists 正整数 N ，使得当 n \gt N 时，|X_n - a| \lt \epsilon 成立，则常数 a 是数列 \{X_n\} 的极限.
+定义：对于数列 \{X_n\} ，如果存在常数 a ，对 \forall \epsilon \gt 0 ， \exists N_+ ，使得当 n \gt N 时，|X_n - a| \lt \epsilon 成立，则常数 a 是数列 \{X_n\} 的极限.
 $$
 
 ## 函数极限
 
 $$
-定义一：对于函数 f(x) ，如果存在常数 A ，对 \forall \epsilon \gt 0 ， \exists \delta \gt 0 ，使得当 0 \lt |f(x) - A| \lt \delta 时，|f(x) - A| \lt \epsilon 成立，则常数 A 是函数 f(x) 当 x \to x_0 的极限.
+对于函数 f(x) ，如果存在常数 A ，对 \forall \epsilon \gt 0 ， \exists \delta \gt 0 ，使得当 0 \lt |f(x) - A| \lt \delta 时，|f(x) - A| \lt \epsilon 成立，则常数 A 是函数 f(x) 当 x \to x_0 的极限.
 $$
 
 
 $$
-定义二：对于函数 f(x) ，如果存在常数 A ，对 \forall \epsilon \gt 0， \exists X \gt 0 ，使得当 |x| \gt X 时，|f(x) - A | \lt \epsilon 成立，则常数 A 是函数 f(x) 当 x \to \infty 的极限.
+对于函数 f(x) ，如果存在常数 A ，对 \forall \epsilon \gt 0， \exists X \gt 0 ，使得当 |x| \gt X 时，|f(x) - A | \lt \epsilon 成立，则常数 A 是函数 f(x) 当 x \to \infty 的极限.
 $$
 
 ## 经典例题
-
-### 例题一
 
 $$
 证明： \lim_{x\to\infty} \frac{1}{n ^ 2} = 0 .
@@ -39,12 +33,10 @@ $$
 \\
 \therefore n \gt \frac{1}{\sqrt{\epsilon}} ，
 \\
-\therefore \forall \epsilon \gt 0 ， \exists 正整数 N = \lfloor\frac{1}{\sqrt{\epsilon}}\rfloor ，当 n \gt N 时，|X_n - a| = |\frac{1}{n ^ 2} - 0| \lt \epsilon ，
+\therefore \forall \epsilon \gt 0 ， \exists N_+ = \lfloor\frac{1}{\sqrt{\epsilon}}\rfloor ，当 n \gt N 时，|X_n - a| = |\frac{1}{n ^ 2} - 0| \lt \epsilon ，
 \\
 即 \lim_{x\to\infty} \frac{1}{n ^ 2} = 0 .
 $$
-
-### 例题二
 
 $$
 证明： \lim_{x\to\infty} \frac{3n + 1}{2n + 1} = \frac{3}{2} .
@@ -55,12 +47,10 @@ $$
 \\
 \therefore n \gt \frac{1}{4{\epsilon}} ，
 \\
-\therefore \forall \epsilon \gt 0 ， \exists 正整数 N = \lfloor\frac{1}{4{\epsilon}}\rfloor ，当 n \gt N 时，|X_n - a| = |\frac{3n + 1}{2n + 1} - \frac{3}{2}| \lt \epsilon ，
+\therefore \forall \epsilon \gt 0 ， \exists N_+ = \lfloor\frac{1}{4{\epsilon}}\rfloor ，当 n \gt N 时，|X_n - a| = |\frac{3n + 1}{2n + 1} - \frac{3}{2}| \lt \epsilon ，
 \\
 即 \lim_{x\to\infty} \frac{3n + 1}{2n + 1} = \frac{3}{2} .
 $$
-
-### 例题三
 
 
 $$
@@ -76,8 +66,6 @@ $$
 \\
 即 \lim_{x\to3} (3x - 1) = 8 .
 $$
-
-### 例题四
 
 $$
 证明： \lim_{x\to\infty} \frac{1 + x ^ 3}{2x ^ 3} = \frac{1}{2} .
