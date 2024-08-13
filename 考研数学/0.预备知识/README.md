@@ -124,6 +124,8 @@ $$
 a + b + c \ge 3\sqrt[3]{abc}
 \\
 x - 1 \lt [x] \le x
+\\
+0 \lt a \lt x \lt b ， 0 \lt c \lt y \lt d ， 则 \frac{c}{b} \lt \frac{y}{x} \lt \frac{d}{a}
 $$
 
 ## 根号运算
