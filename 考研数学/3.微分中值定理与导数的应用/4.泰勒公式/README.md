@@ -35,15 +35,25 @@ $$
 ## 常用泰勒公式
 
 $$
-e ^ x = 1 + x + \frac{x ^ 2}{2!} + \cdots + \frac{x ^ n}{n!} + \frac{e ^ {\theta{x}}}{(n + 1)!}x ^ {n + 1} (0 \lt \theta \lt 1)
+e ^ x = 1 + \frac{x}{1!} + \frac{x ^ 2}{2!} + \cdots + \frac{x ^ n}{n!} + o(x ^ n)
 \\
-\sin{x} = x - \frac{x ^ 3}{3!} + \cdots + (-1) ^ {n - 1} \cdot \frac{x ^ {2n - 1}}{(2n - 1)!} + (-1) ^ n \cdot \frac{\cos({\theta}{x})}{(2n + 1)!}x ^ {2n + 1} (0 \lt \theta \lt 1)
+\ln(x + 1) = x - \frac{x ^ 2}{2} + \frac{x ^ 3}{3} - \cdots + (-1) ^ {n - 1} \cdot \frac{x ^ n}{n} + o(x ^ n)
 \\
-\cos{x} = 1 - \frac{x ^ 2}{2!} + \cdots + (-1) ^ n \cdot \frac{x ^ {2n}}{(2n)!} + (-1) ^ {n + 1} \cdot \frac{\cos({\theta}{x})}{(2n + 2)!}x ^ {2n + 2} (0 \lt \theta \lt 1)
+\sin{x} = x - \frac{x ^ 3}{3!} + \frac{x ^ 5}{5!} - \cdots + (-1) ^ n \cdot \frac{x ^ {2n + 1}}{(2n + 1)!} + o(x ^ {2n + 1})
 \\
-\ln ^ {(x + 1)} = x - \frac{x ^ 2}{2} + \cdots + (-1) ^ {n - 1} \cdot \frac{x ^ n}{n} + (-1) ^ n \cdot \frac{x ^ {n + 1}}{(n + 1)(1 + {\theta}{x}) ^ {n + 1}} (0 \lt \theta \lt 1)
+\arcsin{x} = x + \frac{x ^ 3}{6} + \frac{3{x ^ 5}}{40} + \cdots + \frac{35{x ^ 9}}{1152} + o(x ^ 9)
 \\
-(x + 1) ^ a = 1 + ax + \frac{a(a - 1)}{2!}x ^ 2 + \cdots + \frac{a(a - 1) \cdots (a - n + 1)}{n!}x ^ n + \frac{a(a - 1) \cdots (a - n + 1)(a - n)}{(n + 1)!}(1 + {\theta}{x}) ^ {a - n - 1}x ^ {n + 1} (0 \lt \theta \lt 1)
+\cos{x} = 1 - \frac{x ^ 2}{2!} + \frac{x ^ 4}{4!} - \cdots + (-1) ^ n \cdot \frac{x ^ {2n}}{(2n)!} + o(x ^ {2n})
+\\
+\tan{x} = x + \frac{x ^ 3}{3} + \frac{2{x ^ 5}}{15} + \cdots + (-1) ^ {n - 1} \cdot \frac{2 ^ {2n}(2 ^ {2n} - 1)B_{2n}x ^ {2n - 1}}{(2n)!} + o(x ^ {2n - 1})
+\\
+\arctan{x} = x - \frac{x ^ 3}{3} + \frac{x ^ 5}{5} - \cdots + (-1) ^ n \cdot \frac{x ^ {2n + 1}}{2n + 1} + o(x ^ {2n + 1})
+\\
+\frac{1}{1 - x} = 1 + x + x ^ 2 + \cdots + x ^ n + o(x ^ n)
+\\
+\frac{1}{1 + x} = 1 - x + x ^ 2 - \cdots + (-1) ^ n \cdot x ^ n + o(x ^ n)
+\\
+(x + 1) ^ a = 1 + ax + \frac{a(a - 1)}{2!}x ^ 2 + \cdots + \frac{a(a - 1) \cdots (a - n + 1)}{n!}x ^ n + o(x ^ n)
 $$
 
 ## 经典例题
