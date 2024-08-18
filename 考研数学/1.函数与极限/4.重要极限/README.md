@@ -1,7 +1,8 @@
-# 两个重要极限
+# 重要极限
 
 * [重要极限一](#重要极限一)
 * [重要极限二](#重要极限二)
+* [重要极限三](#重要极限三)
 
 ## 重要极限一
 
@@ -17,6 +18,12 @@ $$
 \lim\limits_{x \to 0} (1 + x) ^ \frac{1}{x} = e .
 \\
 \lim\limits_{x \to \infty} (1 + \frac{1}{x}) ^ x = e .
+$$
+
+## 重要极限三
+
+$$
+\lim\limits_{x \to \infty} {x ^ \alpha} {\ln{x} ^ \beta} = 0 (\alpha \gt 0 ， \beta \gt 0) .
 $$
 
 
