@@ -38,7 +38,7 @@ $$
 ## 指数函数
 
 $$
-(a ^ x)\prime = a ^ x \ln ^ {a}
+(a ^ x)\prime = a ^ x \ln{a}
 \\
 (e ^ x)\prime = e ^ x
 \\
@@ -47,9 +47,9 @@ $$
 ## 对数函数
 
 $$
-(\log_a^{x})\prime = \frac{1}{x\ln^a}
+(\log_a^{x})\prime = \frac{1}{x\ln{a}}
 \\
-(\ln^{|x|})\prime = \frac{1}{x}
+(\ln{|x|})\prime = \frac{1}{x}
 $$
 
 ## 反三角函数
@@ -63,11 +63,11 @@ $$
 \\
 (arccotx)\prime = -\frac{1}{1 + x ^ 2}
 \\
+\sin(\arccos{x})\prime = \cos(\arcsin{x})\prime = \sqrt{1 - x ^ 2}
+\\
 \ln(x + \sqrt{x ^ 2 + 1})\prime = \frac{1}{\sqrt{x ^ 2 + 1}}
 \\
-\sin(\arccos{x})\prime = \sqrt{1 - x ^ 2}
-\\
-\cos(\arcsin{x})\prime = \sqrt{1 - x ^ 2}
+\ln(x + \sqrt{x ^ 2 - 1})\prime = \frac{1}{\sqrt{x ^ 2 - 1}}
 $$
 
 

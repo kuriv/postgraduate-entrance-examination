@@ -22,6 +22,7 @@
 * [反三角函数公式](#反三角函数公式)
   * [负数关系](#负数关系)
   * [转换关系](#转换关系)
+  * [特殊关系](#特殊关系)
 
 ## 函数公式
 
@@ -223,6 +224,16 @@ $$
 \tan(\arctan{x}) = \arctan(\tan{x}) = x
 \\
 \cot(arccot{x}) = arccot(\cot{x}) = x
+$$
+
+### 特殊关系
+
+$$
+\arcsin{x} + \arccos{x} = \frac{\pi}{2}
+\\
+\arctan{x} + arccot{x} = \frac{\pi}{2}
+\\
+\arctan{x} + \arctan{\frac{1}{x}} = \frac{\pi}{2}
 $$
 
 
