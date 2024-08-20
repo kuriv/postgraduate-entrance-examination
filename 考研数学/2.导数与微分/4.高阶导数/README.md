@@ -4,8 +4,6 @@
 * [常用高阶导数公式](#常用高阶导数公式)
 * [莱布尼兹公式](#莱布尼兹公式)
 * [经典例题](#经典例题)
-  * [例题一](#例题一)
-  * [例题二](#例题二)
 
 
 ## 定理内容
@@ -19,15 +17,17 @@ $$
 $$
 (u \pm v) ^ {(n)} = u ^ {(n)} \pm v ^ {(n)}
 \\
-(\sin{x}) ^ {(n)} = \sin(x + \frac{n}{2}\pi)
+[\sin(kx + b)] ^ {(n)} = k ^ n \cdot \sin(kx + b + \frac{n\pi}{2})
 \\
-(\cos{x}) ^ {(n)} = \cos(x + \frac{n}{2}\pi)
+[\cos(kx + b)] ^ {(n)} = k ^ n \cdot \cos(kx + b + \frac{n\pi}{2})
 \\
-(a ^ x) ^ {(n)} = a ^ x (\ln ^ {a}) ^ {(n)}
+(a ^ {kx}) ^ {(n)} = k ^ n \cdot a ^ {kx} (\ln ^ {a}) ^ {(n)}
 \\
-(e ^ x) ^ {(n)} = e ^ x
+(e ^ {kx + b}) ^ {(n)} = k ^ n \cdot e ^ {kx + b}
 \\
-(\ln ^ x) ^ {(n)} = (-1) ^ {(n - 1)} \cdot \frac{(n - 1)!}{x ^ {(n)}}
+[\ln(kx + b)] ^ {(n)} = (-1) ^ {(n - 1)} \cdot k ^ n \cdot \frac{(n - 1)!}{(kx + b) ^ n}
+\\
+(\frac{1}{kx + b}) ^ {(n)} = (-1) ^ {n} \cdot k ^ n \cdot \frac{n!}{(kx + b) ^ {(n + 1)}}
 $$
 
 ## 莱布尼兹公式
@@ -38,8 +38,6 @@ $$
 
 ## 经典例题
 
-### 例题一
-
 $$
 如：求函数 y = \sqrt{2x - x ^ 2} 的二阶导数.
 \\
@@ -48,8 +46,6 @@ y\prime = (\sqrt{2x - x ^ 2})\prime = \frac{2 - 2x}{2\sqrt{2x - x ^2}} = \frac{1
 y\prime\prime = (\frac{1 - x}{\sqrt{2x - x ^ 2}})\prime = \frac{-\sqrt{2x - x ^ 2} - \frac{(1 - x) ^ 2}{\sqrt{2x - x ^ 2}}}{2x - x ^2} = \frac{-2x + x ^ 2 - (1 - x) ^ 2}{(2x - x ^2)(\sqrt{2x - x ^ 2})} = -\frac{1}{(2x - x ^2)(\sqrt{2x - x ^ 2})} = -\frac{1}{y ^ 3} .
 $$
 
-### 例题二
-
 $$
 如：设 y = (x ^ 2 + 5x + 10)\sin{2x} ， 求 y ^ {(n)} .
 \\
@@ -57,7 +53,7 @@ $$
 \\
 + \cdots + {C_n ^ n}{(x ^ 2 + 5x + 10) ^ {(n)}}{(\sin{2x}) ^ {(0)}} ，
 \\
-\therefore y ^ {(n)} = {(x ^ 2 + 5x + 10)} \cdot {2 ^ n} \cdot {\sin(2x + \frac{n}{2}\pi)} + n \cdot {(2x + 5)} \cdot {2 ^ {n - 1}} \cdot {\sin(2x + \frac{n - 1}{2}\pi)} + \frac{n(n - 1)}{2} \cdot 2 \cdot {2 ^ {n - 2}} \cdot {\sin(2x + \frac{n - 2}{2}\pi)} .
+\therefore y ^ {(n)} = {(x ^ 2 + 5x + 10)} \cdot {2 ^ n} \cdot {\sin(2x + \frac{n\pi}{2})} + n \cdot {(2x + 5)} \cdot {2 ^ {n - 1}} \cdot {\sin(2x + \frac{(n - 1)\pi}{2})} + \frac{n(n - 1)}{2} \cdot 2 \cdot {2 ^ {n - 2}} \cdot {\sin(2x + \frac{(n - 2)\pi}{2})} .
 $$
 
 

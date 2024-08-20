@@ -47,9 +47,9 @@ $$
 ## 对数函数
 
 $$
-d(\log_a^{x}) = {\frac{1}{x\ln^a}}dx
+d(\log_a^{x}) = {\frac{1}{x\ln{a}}}dx
 \\
-d(\ln^{|x|}) = {\frac{1}{x}}dx
+d(\ln{|x|}) = {\frac{1}{x}}dx
 $$
 
 ## 反三角函数
@@ -62,6 +62,10 @@ d(\arccos{x}) = {-\frac{1}{\sqrt{1 - x ^ 2}}}dx
 d(\arctan{x}) = {\frac{1}{1 + x ^ 2}}dx
 \\
 d(arccotx) = {-\frac{1}{1 + x ^ 2}}dx
+\\
+d[\sin(\arccos{x})] = d[\cos(\arcsin{x})] = {\sqrt{1 - x ^ 2}}dx
+\\
+d(\ln(x + \sqrt{x ^ 2 \pm 1})) = {\frac{1}{\sqrt{x ^ 2 \pm 1}}}dx
 $$
 
 

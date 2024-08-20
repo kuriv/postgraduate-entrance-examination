@@ -65,9 +65,7 @@ $$
 \\
 \sin(\arccos{x})\prime = \cos(\arcsin{x})\prime = \sqrt{1 - x ^ 2}
 \\
-\ln(x + \sqrt{x ^ 2 + 1})\prime = \frac{1}{\sqrt{x ^ 2 + 1}}
-\\
-\ln(x + \sqrt{x ^ 2 - 1})\prime = \frac{1}{\sqrt{x ^ 2 - 1}}
+\ln(x + \sqrt{x ^ 2 \pm 1})\prime = \frac{1}{\sqrt{x ^ 2 \pm 1}}
 $$
 
 
