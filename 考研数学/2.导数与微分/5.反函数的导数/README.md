@@ -6,7 +6,7 @@
 ## 反函数求导
 
 $$
-反函数的导数等于其直接函数导数的倒数，即 \frac{dy}{dx} = \frac{1}{\frac{dx}{dy}} .
+反函数的导数等于其直接函数导数的倒数，即 \frac{dx}{dy} = \frac{1}{\frac{dy}{dx}} .
 \\
 (\arcsin{x})\prime = \frac{1}{(\sin{y})\prime}
 \\

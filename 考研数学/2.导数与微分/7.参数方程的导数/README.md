@@ -23,7 +23,7 @@ $$
 x = \theta(t) ， \\
 y = \delta(t)
 \end{cases}
-确定，其中 t 是参数，则 \frac{{d ^ 2}y}{dx ^ 2} = \frac{d(\frac{dy}{dx})}{dx} = \frac{d(\frac{dy}{dx}) / dt}{dx / dt} = \frac{\theta(t)\prime\prime\delta(t)\prime - \theta(t)\prime\delta(t)\prime\prime}{[\delta(t)\prime] ^ 3} .
+确定，其中 t 是参数，则 \frac{{d ^ 2}y}{dx ^ 2} = \frac{d(\frac{dy}{dx})}{dx} = \frac{d(\frac{dy}{dx}) / dt}{dx / dt} = \frac{\delta(t)\prime\prime\theta(t)\prime - \delta(t)\prime\theta(t)\prime\prime}{[\theta(t)\prime] ^ 3} .
 $$
 
 ## 经典例题
