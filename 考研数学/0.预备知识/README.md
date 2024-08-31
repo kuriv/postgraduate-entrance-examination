@@ -122,7 +122,9 @@ $$
 \\
 (\frac{{a + b}}{2}) ^ 2 \ge ab
 \\
-a + b + c \ge 3\sqrt[3]{abc}
+\frac{a + b + c}{3} \ge \sqrt[3]{abc}
+\\
+a ^ 2 + b ^ 2 \gt 2ab
 \\
 x - 1 \lt [x] \le x
 \\

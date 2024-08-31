@@ -25,7 +25,7 @@ $$
 ## 经典例题
 
 $$
-证明： \lim_{x\to\infty} \frac{1}{n ^ 2} = 0 .
+证明： \lim_{x \to \infty} \frac{1}{n ^ 2} = 0 .
 \\
 证明如下：|X_n - a| = |\frac{1}{n ^ 2} - 0| = \frac{1}{n ^ 2} ，
 \\
@@ -35,11 +35,11 @@ $$
 \\
 \therefore \forall \epsilon \gt 0 ， \exists N_+ = \lfloor\frac{1}{\sqrt{\epsilon}}\rfloor ，当 n \gt N 时，|X_n - a| = |\frac{1}{n ^ 2} - 0| \lt \epsilon ，
 \\
-即 \lim_{x\to\infty} \frac{1}{n ^ 2} = 0 .
+即 \lim_{x \to \infty} \frac{1}{n ^ 2} = 0 .
 $$
 
 $$
-证明： \lim_{x\to\infty} \frac{3n + 1}{2n + 1} = \frac{3}{2} .
+证明： \lim_{x \to \infty} \frac{3n + 1}{2n + 1} = \frac{3}{2} .
 \\
 证明如下：|X_n - a| = |\frac{3n + 1}{2n + 1} - \frac{3}{2}| = |\frac{2(3n + 1)}{2(2n + 1)} - \frac{3(2n + 1)}{2(2n + 1)}| = |\frac{-1}{4n + 2}| = \frac{1}{4n + 2} \lt \frac{1}{4n} ，
 \\
@@ -49,12 +49,12 @@ $$
 \\
 \therefore \forall \epsilon \gt 0 ， \exists N_+ = \lfloor\frac{1}{4{\epsilon}}\rfloor ，当 n \gt N 时，|X_n - a| = |\frac{3n + 1}{2n + 1} - \frac{3}{2}| \lt \epsilon ，
 \\
-即 \lim_{x\to\infty} \frac{3n + 1}{2n + 1} = \frac{3}{2} .
+即 \lim_{x \to \infty} \frac{3n + 1}{2n + 1} = \frac{3}{2} .
 $$
 
 
 $$
-证明： \lim_{x\to3} (3x - 1) = 8 .
+证明： \lim_{x \to 3} (3x - 1) = 8 .
 \\
 证明如下：|f(x) - A| = |(3x - 1) - 8| = |3x - 9| = 3|x - 3| ，
 \\
@@ -64,11 +64,11 @@ $$
 \\
 \therefore \forall \epsilon \gt 0 ， \exists \delta = \frac{\epsilon}{3} ，当 0 \lt |x - 3| \lt \delta， |f(x) - A| = |(3x - 1) - 8| \lt \epsilon ，
 \\
-即 \lim_{x\to3} (3x - 1) = 8 .
+即 \lim_{x \to 3} (3x - 1) = 8 .
 $$
 
 $$
-证明： \lim_{x\to\infty} \frac{1 + x ^ 3}{2x ^ 3} = \frac{1}{2} .
+证明： \lim_{x \to \infty} \frac{1 + x ^ 3}{2x ^ 3} = \frac{1}{2} .
 \\
 证明如下： |f(x) - A| = |\frac{1 + x ^ 3}{2x ^ 3} - \frac{1}{2}| = |\frac{1 + x ^ 3}{2x ^ 3} - \frac{x ^ 3}{2x ^ 3}| = |\frac{1}{2x ^ 3}| ，
 \\
@@ -78,7 +78,7 @@ $$
 \\
 \therefore \forall \epsilon \gt 0 ， \exists X = \frac{1}{\sqrt[3]{2\epsilon}} ，当 |x| \gt X 时， |f(x) - A| = |\frac{1 + x ^ 3}{2x ^ 3} - \frac{1}{2}| \lt \epsilon ，
 \\
-即 \lim_{x\to\infty} \frac{1 + x ^ 3}{2x ^ 3} = \frac{1}{2}.
+即 \lim_{x \to \infty} \frac{1 + x ^ 3}{2x ^ 3} = \frac{1}{2}.
 $$
 
 
