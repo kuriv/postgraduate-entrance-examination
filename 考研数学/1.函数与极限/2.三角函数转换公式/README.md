@@ -233,7 +233,9 @@ $$
 \\
 \arctan{x} + arccot{x} = \frac{\pi}{2}
 \\
-\arctan{x} + \arctan{\frac{1}{x}} = \frac{\pi}{2}
+当 x \gt 0 时， \arctan{x} + \arctan{\frac{1}{x}} = \frac{\pi}{2}
+\\
+当 x \lt 0 时， \arctan{x} + \arctan{\frac{1}{x}} = -\frac{\pi}{2}
 $$
 
 
