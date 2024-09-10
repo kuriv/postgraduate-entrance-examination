@@ -11,9 +11,9 @@
 ## 两个规定
 
 $$
-当 b = a 时， \int_{a} ^ {b}{f(x)dx} = 0 .
+当 b = a 时， \int_{a} ^ {b}{f(x)}dx = 0 .
 \\
-当 a \gt b 时， \int_{a} ^ {b}{f(x)dx} = -\int_{b} ^ {a}{f(x)dx} .
+当 a \gt b 时， \int_{a} ^ {b}{f(x)}dx = -\int_{b} ^ {a}{f(x)}dx .
 $$
 
 ## 积分区间长度
@@ -25,33 +25,33 @@ $$
 ## 积分线性性质
 
 $$
-假设 k_1 ， k_2 为常数，则 \int_{a} ^ {b}{[{k_1}f(x) \pm {k_2}g(x)]dx} = k_1\int_{a} ^ {b}{f(x)dx} \pm k_2\int_{a} ^ {b}{g(x)dx} .
+假设 k_1 ， k_2 为常数，则 \int_{a} ^ {b}{[{k_1}f(x) \pm {k_2}g(x)]}dx = k_1\int_{a} ^ {b}{f(x)}dx \pm k_2\int_{a} ^ {b}{g(x)}dx .
 $$
 
 ## 积分可拆性
 
 $$
-无论 a ， b ， c 的大小如何，总有 \int_{a} ^ {b}{f(x)dx} = \int_{a} ^ {c}{f(x)dx} + \int_{c} ^ {b}{f(x)dx} .
+无论 a ， b ， c 的大小如何，总有 \int_{a} ^ {b}{f(x)}dx = \int_{a} ^ {c}{f(x)}dx + \int_{c} ^ {b}{f(x)}dx .
 $$
 
 ## 积分保号性
 
 $$
-若在区间 [a , b] 上 f(x) \le g(x) ，则有 \int_{a} ^ {b}{f(x)dx} \le \int_{a} ^ {b}{g(x)dx} .
+若在区间 [a , b] 上 f(x) \le g(x) ，则有 \int_{a} ^ {b}{f(x)}dx \le \int_{a} ^ {b}{g(x)}dx .
 \\
-特殊地，有 |\int_{a} ^ {b}{f(x)dx}| \le \int_{a} ^ {b}{|f(x)|dx} .
+特殊地，有 |\int_{a} ^ {b}{f(x)}dx| \le \int_{a} ^ {b}{|f(x)|}dx .
 $$
 
 ## 估值定理
 
 $$
-设 M ， m 分别是 f(x) 在 [a , b] 上的最大值和最小值， L 为区间 [a , b] 的长度，则有 mL \le \int_{a} ^ {b}{f(x)dx} \le ML .
+设 M ， m 分别是 f(x) 在 [a , b] 上的最大值和最小值， L 为区间 [a , b] 的长度，则有 mL \le \int_{a} ^ {b}{f(x)}dx \le ML .
 $$
 
 ## 中值定理
 
 $$
-设 f(x) 在区间 [a , b] 上连续，则在 [a , b] 上至少存在一点 \xi ，使得 \int_{a} ^ {b}{f(x)dx} = f(\xi)(b - a) .
+设 f(x) 在区间 [a , b] 上连续，则在 [a , b] 上至少存在一点 \xi ，使得 \int_{a} ^ {b}{f(x)}dx = f(\xi)(b - a) .
 $$
 
 
