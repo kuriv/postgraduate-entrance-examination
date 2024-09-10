@@ -194,9 +194,9 @@ $$
 ### 函数单调性
 
 $$
-f(x) 是单调增函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \lt 0
+f(x) 是单调增函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \gt 0
 \\
-f(x) 是单调减函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \gt 0
+f(x) 是单调减函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \lt 0
 $$
 
 ### 函数奇偶性
