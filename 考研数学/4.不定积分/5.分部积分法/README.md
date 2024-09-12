@@ -101,5 +101,13 @@ $$
 \int{e ^ {\sqrt{x}}}dx = 2\int{{t}{e ^ t}}dt = 2\int{t}d(e ^ t) = 2[{t}{e ^ t} - \int{e ^ t}d(t)] = 2({t}{e ^ t} - \int{e ^ t}dt) = 2({t}{e ^ t} - e ^ t) + C = 2e ^ t(t - 1) + C = 2e ^ {\sqrt{x}}(\sqrt{x} - 1) + C .
 $$
 
+$$
+求 \int{(x ^ 3 + 2x +6)e ^ {2x}}dx .
+\\
+\int{(x ^ 3 + 2x +6)e ^ {2x}}dx = (x ^ 3 + 2x + 6)(\frac{1}{2}e ^ {2x}) - (3x ^ 2 + 2)(\frac{1}{4}e ^ {2x}) + 6x(\frac{1}{8}e ^ {2x}) - 6(\frac{1}{16}e ^ {2x}) + C
+\\
+=(\frac{1}{2}x ^ 3 - \frac{3}{4}x ^ 2 + \frac{7}{4}x + \frac{17}{8})e ^ {2x} + C .
+$$
+
 
 
