@@ -8,15 +8,15 @@
 ## 使用条件
 
 $$
-如果 \alpha ～ \alpha_1 ， \beta ～ \beta_1 ，则 \lim\frac{\alpha}{\beta} = \lim\frac{\alpha_1}{\beta} = \lim\frac{\alpha}{\beta_1} = \lim\frac{\alpha_1}{\beta_1} .
+如果 \alpha ～ \alpha_1 ， \beta ～ \beta_1 ，则 \lim \frac{\alpha}{\beta} = \lim \frac{\alpha_1}{\beta} = \lim \frac{\alpha}{\beta_1} = \lim \frac{\alpha_1}{\beta_1} .
 \\
-如： \lim_{x \to 0}\frac{\sin{x}}{x} = \frac{x}{x} = 1 .
+如： \lim_{x \to 0} \frac{\sin{x}}{x} = \frac{x}{x} = 1 .
 $$
 
 $$
-如果 \alpha ～ \alpha_1 ， \beta ～ \beta_1 ，且 \lim\frac{\alpha_1}{\beta_1} = A \neq 1 ，则 \alpha - \beta = \alpha_1 - \beta_1 .
+如果 \alpha ～ \alpha_1 ， \beta ～ \beta_1 ，且 \lim \frac{\alpha_1}{\beta_1} = A \neq 1 ，则 \alpha - \beta = \alpha_1 - \beta_1 .
 \\
-如果 \alpha ～ \alpha_1 ， \beta ～ \beta_1 ，且 \lim\frac{\alpha_1}{\beta_1} = A \neq -1 ，则 \alpha + \beta = \alpha_1 + \beta_1 .
+如果 \alpha ～ \alpha_1 ， \beta ～ \beta_1 ，且 \lim \frac{\alpha_1}{\beta_1} = A \neq -1 ，则 \alpha + \beta = \alpha_1 + \beta_1 .
 $$
 
 ## 常用等价无穷小
@@ -38,9 +38,9 @@ $$
 ## 经典例题
 
 $$
-如： \lim_{x \to 0}\frac{x - \sin{x}}{x ^ 3} 不能使用 \sin{x} ～ x 替换，因为 \lim\frac{\alpha_1}{\beta_1} = \frac{x}{x} = 1 ，
+如： \lim_{x \to 0} \frac{x - \sin{x}}{x ^ 3} 不能使用 \sin{x} ～ x 替换，因为 \lim \frac{\alpha_1}{\beta_1} = \frac{x}{x} = 1 ，
 \\
-而是使用 x - \sin{x} ～ \frac{1}{6}x ^ 3 ，即 \lim_{x \to 0}\frac{x - \sin{x}}{x ^ 3} = \frac{\frac{1}{6}x ^ 3}{x ^ 3} = \frac{1}{6} .
+而是使用 x - \sin{x} ～ \frac{1}{6}x ^ 3 ，即 \lim_{x \to 0} \frac{x - \sin{x}}{x ^ 3} = \frac{\frac{1}{6}x ^ 3}{x ^ 3} = \frac{1}{6} .
 $$
 
 

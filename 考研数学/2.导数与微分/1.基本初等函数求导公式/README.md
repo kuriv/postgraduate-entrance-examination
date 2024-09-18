@@ -16,17 +16,17 @@ $$
 ## 三角函数
 
 $$
-(\sin{x})\prime = \cos{x}
+\sin ^ {\prime} {x} = \cos{x}
 \\
-(\cos{x})\prime = -\sin{x}
+\cos ^ {\prime} {x} = -\sin{x}
 \\
-(\tan{x})\prime = (\sec{x}) ^ 2
+\tan ^ {\prime} {x} = \sec ^ 2 {x}
 \\
-(\cot{x})\prime = -(\csc{x}) ^ 2
+\cot ^ {\prime} {x} = -\csc ^ 2 {x}
 \\
-(\sec{x})\prime = \sec{x} \cdot \tan{x}
+\sec ^ {\prime} {x} = \sec{x} \cdot \tan{x}
 \\
-(\csc{x})\prime = -\csc{x} \cdot \cot{x}
+\csc ^ {\prime} {x} = -\csc{x} \cdot \cot{x}
 $$
 
 ## 幂函数

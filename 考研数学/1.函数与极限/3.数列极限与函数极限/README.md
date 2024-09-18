@@ -33,7 +33,7 @@ $$
 \\
 \therefore n \gt \frac{1}{\sqrt{\epsilon}} ，
 \\
-\therefore \forall \epsilon \gt 0 ， \exists N_+ = \lfloor\frac{1}{\sqrt{\epsilon}}\rfloor ，当 n \gt N 时，|X_n - a| = |\frac{1}{n ^ 2} - 0| \lt \epsilon ，
+\therefore \forall \epsilon \gt 0 ， \ \exists N_+ = \lfloor\frac{1}{\sqrt{\epsilon}}\rfloor ，当 n \gt N 时，|X_n - a| = |\frac{1}{n ^ 2} - 0| \lt \epsilon ，
 \\
 即 \lim_{x \to \infty} \frac{1}{n ^ 2} = 0 .
 $$
