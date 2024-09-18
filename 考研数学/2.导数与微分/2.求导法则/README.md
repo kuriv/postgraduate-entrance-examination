@@ -20,7 +20,7 @@ $$
 ## 复合函数求导
 
 $$
-设 u = g(x) 在 x 处可导， y = f(u) 在对应点处可导，则复合函数 f[g(x)] 在 x 处可导，且 \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx} = {f(u)}\prime{g(x)}\prime .
+设 u = g(x) 在 x 处可导， y = f(u) 在对应点处可导，则复合函数 f[g(x)] 在 x 处可导，且 \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx} = {f ^ {\prime} (u)}{g ^ {\prime} (x)} .
 $$
 
 ## 经典例题

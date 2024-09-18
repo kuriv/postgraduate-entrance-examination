@@ -20,9 +20,9 @@ $$
 \\
 \cos ^ {\prime} {x} = -\sin{x}
 \\
-\tan ^ {\prime} {x} = \sec ^ 2 {x}
+\tan ^ {\prime} {x} = \sec ^ {2} {x}
 \\
-\cot ^ {\prime} {x} = -\csc ^ 2 {x}
+\cot ^ {\prime} {x} = -\csc ^ {2} {x}
 \\
 \sec ^ {\prime} {x} = \sec{x} \cdot \tan{x}
 \\
@@ -55,15 +55,15 @@ $$
 ## 反三角函数
 
 $$
-(\arcsin{x})\prime = \frac{1}{\sqrt{1 - x ^ 2}}
+\arcsin ^ {\prime} {x} = \frac{1}{\sqrt{1 - x ^ 2}}
 \\
-(\arccos{x})\prime = -\frac{1}{\sqrt{1 - x ^ 2}}
+\arccos ^ {\prime} {x} = -\frac{1}{\sqrt{1 - x ^ 2}}
 \\
-(\arctan{x})\prime = \frac{1}{1 + x ^ 2}
+\arctan ^ {\prime} {x} = \frac{1}{1 + x ^ 2}
 \\
-(arccotx)\prime = -\frac{1}{1 + x ^ 2}
+arccot ^ {\prime} x = -\frac{1}{1 + x ^ 2}
 \\
-\sin(\arccos{x})\prime = \cos(\arcsin{x})\prime = \sqrt{1 - x ^ 2}
+\sin ^ {\prime} (\arccos{x}) = \cos ^ {\prime} (\arcsin{x}) = \sqrt{1 - x ^ 2}
 \\
 \ln(x + \sqrt{x ^ 2 \pm 1})\prime = \frac{1}{\sqrt{x ^ 2 \pm 1}}
 $$

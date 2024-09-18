@@ -17,9 +17,9 @@ $$
 $$
 (u \pm v) ^ {(n)} = u ^ {(n)} \pm v ^ {(n)}
 \\
-[\sin(kx + b)] ^ {(n)} = k ^ n \cdot \sin(kx + b + \frac{n\pi}{2})
+\sin ^ {(n)} (kx + b) = k ^ n \cdot \sin(kx + b + \frac{n\pi}{2})
 \\
-[\cos(kx + b)] ^ {(n)} = k ^ n \cdot \cos(kx + b + \frac{n\pi}{2})
+\cos ^ {(n)} (kx + b) = k ^ n \cdot \cos(kx + b + \frac{n\pi}{2})
 \\
 (a ^ {kx}) ^ {(n)} = k ^ n \cdot a ^ {kx} (\ln ^ {a}) ^ {(n)}
 \\
@@ -49,9 +49,9 @@ $$
 $$
 如：设 y = (x ^ 2 + 5x + 10)\sin{2x} ， 求 y ^ {(n)} .
 \\
-\because y ^ {(n)} = {C_n ^ 0}{(x ^ 2 + 5x + 10) ^ {(0)}}{(\sin{2x}) ^ {(n)}} + {C_n ^ 1}{(x ^ 2 + 5x + 10) ^ {(1)}}{(\sin{2x}) ^ {(n - 1)}} + {C_n ^ 2}{(x ^ 2 + 5x + 10) ^ {(2)}}{(\sin{2x}) ^ {(n - 2)}}
+\because y ^ {(n)} = {C_n ^ 0}{(x ^ 2 + 5x + 10) ^ {(0)}}{\sin ^ {(n)} {2x}} + {C_n ^ 1}{(x ^ 2 + 5x + 10) ^ {(1)}}{\sin ^ {(n - 1)} {2x}} + {C_n ^ 2}{(x ^ 2 + 5x + 10) ^ {(2)}}{\sin ^ {(n - 2)} {2x}}
 \\
-+ \cdots + {C_n ^ n}{(x ^ 2 + 5x + 10) ^ {(n)}}{(\sin{2x}) ^ {(0)}} ，
++ \cdots + {C_n ^ n}{(x ^ 2 + 5x + 10) ^ {(n)}}{\sin ^ {(0)} {2x}} ，
 \\
 \therefore y ^ {(n)} = {(x ^ 2 + 5x + 10)} \cdot {2 ^ n} \cdot {\sin(2x + \frac{n\pi}{2})} + n \cdot {(2x + 5)} \cdot {2 ^ {n - 1}} \cdot {\sin(2x + \frac{(n - 1)\pi}{2})} + \frac{n(n - 1)}{2} \cdot 2 \cdot {2 ^ {n - 2}} \cdot {\sin(2x + \frac{(n - 2)\pi}{2})} .
 $$

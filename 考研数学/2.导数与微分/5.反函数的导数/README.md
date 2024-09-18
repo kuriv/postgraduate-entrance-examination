@@ -6,15 +6,15 @@
 ## 反函数求导
 
 $$
-反函数的导数等于其直接函数导数的倒数，即 \frac{dx}{dy} = \frac{1}{\frac{dy}{dx}} .
+反函数的导数等于其直接函数导数的倒数，即\ \frac{dx}{dy} = \frac{1}{\frac{dy}{dx}} .
 \\
-(\arcsin{x})\prime = \frac{1}{(\sin{y})\prime}
+\arcsin ^ {\prime} {x} = \frac{1}{\sin ^ {\prime} {y}}
 \\
-(\arccos{x})\prime = \frac{1}{(\cos{y})\prime}
+\arccos ^ {\prime} {x} = \frac{1}{\cos ^ {\prime} {y}}
 \\
-(\arctan{x})\prime = \frac{1}{(\tan{y})\prime}
+\arctan ^ {\prime} {x} = \frac{1}{\tan ^ {\prime} {y}}
 \\
-(arccotx)\prime = \frac{1}{(\cot{y})\prime}
+arccot ^ {\prime} x = \frac{1}{\cot ^ {\prime} {y}}
 \\
 (\log_a^{x})\prime = \frac{1}{(a ^ y)\prime}
 $$
@@ -22,7 +22,7 @@ $$
 ## 反函数的二阶导数
 
 $$
-若存在函数 y = f(x) 二阶可导，且存在反函数 x = \theta(y) ，记 f(x)\prime = {y_x}\prime ， \theta(y)\prime = {x_y}\prime ，则有：
+若存在函数 y = f(x) 二阶可导，且存在反函数 x = \theta(y) ，记 f ^ {\prime} (x) = {y_x}\prime ， \theta ^ {\prime} (y) = {x_y}\prime ，则有：
 \\
 {y_x}\prime = \frac{1}{{x_y}\prime} ， {y_{xx}}\prime\prime = -\frac{{x_{yy}}\prime\prime}{({x_y}\prime) ^ 3} .
 \\

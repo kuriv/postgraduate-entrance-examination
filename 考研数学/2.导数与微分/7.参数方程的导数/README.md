@@ -12,7 +12,7 @@ $$
 x = \theta(t) ， \\
 y = \delta(t)
 \end{cases}
-确定，其中 t 是参数，则 \frac{dy}{dx} = \frac{dy / dt}{dx / dt} = \frac{\theta(t)\prime}{\delta(t)\prime} .
+确定，其中 t 是参数，则 \frac{dy}{dx} = \frac{dy / dt}{dx / dt} = \frac{\theta ^ {\prime} (t)}{\delta ^ {\prime} (t)} .
 $$
 
 ## 参数方程的二阶导数
@@ -23,7 +23,7 @@ $$
 x = \theta(t) ， \\
 y = \delta(t)
 \end{cases}
-确定，其中 t 是参数，则 \frac{{d ^ 2}y}{dx ^ 2} = \frac{d(\frac{dy}{dx})}{dx} = \frac{d(\frac{dy}{dx}) / dt}{dx / dt} = \frac{\delta(t)\prime\prime\theta(t)\prime - \delta(t)\prime\theta(t)\prime\prime}{[\theta(t)\prime] ^ 3} .
+确定，其中 t 是参数，则 \frac{{d ^ 2}y}{dx ^ 2} = \frac{d(\frac{dy}{dx})}{dx} = \frac{d(\frac{dy}{dx}) / dt}{dx / dt} = \frac{\delta ^ {\prime\prime} (t) \theta ^ {\prime} (t) - \delta ^ {\prime} (t) \theta ^ {\prime\prime} (t)}{[\theta ^ {\prime} (t)] ^ 3} .
 $$
 
 ## 经典例题

@@ -20,9 +20,9 @@ d(\sin{x}) = {\cos{x}}dx
 \\
 d(\cos{x}) = {-\sin{x}}dx
 \\
-d(\tan{x}) = {(\sec{x}) ^ 2}dx
+d(\tan{x}) = {\sec ^ {2} {x}}dx
 \\
-d(\cot{x}) = {-(\csc{x}) ^ 2}dx
+d(\cot{x}) = {-\csc ^ {2} {x}}dx
 \\
 d(\sec{x}) = {\sec{x} \cdot \tan{x}}dx
 \\
