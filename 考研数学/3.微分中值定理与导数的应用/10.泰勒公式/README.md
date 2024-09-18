@@ -6,21 +6,21 @@
 ## 定理内容
 
 $$
-带有拉格朗日余项的泰勒公式： f(x) = f(x_0) + f(x_0)\prime(x - x_0) + \frac{f(x_0)\prime\prime}{2!}(x - x_0) ^ 2 + \cdots + \frac{f(x_0) ^ {(n)}}{n!}(x - x_0) ^ n
+带有拉格朗日余项的泰勒公式： f(x) = f(x_0) + f ^ {\prime} (x_0) (x - x_0) + \frac{f ^ {\prime\prime} (x_0)}{2!}(x - x_0) ^ 2 + \cdots + \frac{f ^ {(n)} (x_0)}{n!}(x - x_0) ^ n
 \\
-+ \frac{f(x_0 + \theta(x - x_0)) ^ {(n + 1)}}{(n + 1)!}(x - x_0) ^ {n + 1} (0 \lt \theta \lt 1) .
++ \frac{f ^ {(n + 1)} (x_0 + \theta(x - x_0))}{(n + 1)!}(x - x_0) ^ {n + 1} (0 \lt \theta \lt 1) .
 $$
 
 $$
-带有拉格朗日余项的麦克劳林公式： f(x) = f(0) + f(0)\prime{x} + \frac{f(0)\prime\prime}{2!}x ^ 2 + \cdots + \frac{f(0) ^ {(n)}}{n!}x ^ n + \frac{f(\theta{x}) ^ {(n + 1)}}{(n + 1)!}x ^ {n + 1} (0 \lt \theta \lt 1) .
+带有拉格朗日余项的麦克劳林公式： f(x) = f(0) + f ^ {\prime} (0) {x} + \frac{f ^ {\prime\prime} (0)}{2!}x ^ 2 + \cdots + \frac{f ^ {(n)} (0)}{n!}x ^ n + \frac{f ^ {(n + 1)} (\theta{x})}{(n + 1)!}x ^ {n + 1} (0 \lt \theta \lt 1) .
 $$
 
 $$
-带有佩亚诺余项的泰勒公式： f(x) = f(x_0) + f(x_0)\prime(x - x_0) + \frac{f(x_0)\prime\prime}{2!}(x - x_0) ^ 2 + \cdots + \frac{f(x_0) ^ {(n)}}{n!}(x - x_0) ^ n + o((x - x_0) ^ n) .
+带有佩亚诺余项的泰勒公式： f(x) = f(x_0) + f ^ {\prime} (x_0) (x - x_0) + \frac{f ^ {\prime\prime} (x_0)}{2!}(x - x_0) ^ 2 + \cdots + \frac{f ^ {(n)} (x_0)}{n!}(x - x_0) ^ n + o((x - x_0) ^ n) .
 $$
 
 $$
-带有佩亚诺余项的麦克劳林公式： f(x) = f(0) + f(0)\prime{x} + \frac{f(0)\prime\prime}{2!}x ^ 2 + \cdots + \frac{f(0) ^ {(n)}}{n!}x ^ n + o(x ^ n) .
+带有佩亚诺余项的麦克劳林公式： f(x) = f(0) + f ^ {\prime} (0) {x} + \frac{f ^ {\prime\prime} (0)}{2!}x ^ 2 + \cdots + \frac{f ^ {(n)} (0)}{n!}x ^ n + o(x ^ n) .
 $$
 
 ![泰勒公式](泰勒公式1.png)

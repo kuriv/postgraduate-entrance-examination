@@ -6,7 +6,7 @@
 ## 定理内容
 
 $$
-凑微分法： \int{f[g(x)]g(x)\prime}dx = \int{f[g(x)]}d[g(x)] = \int{f(u)}du .
+凑微分法： \int{f[g(x)]g ^ {\prime} (x)}dx = \int{f[g(x)]}d[g(x)] = \int{f(u)}du .
 $$
 
 $$
@@ -89,15 +89,15 @@ $$
 $$
 
 $$
-求 \int{(\sin{x}) ^ 3}dx .
+求 \int{\sin ^ {3} {x}}dx .
 \\
-\int{(\sin{x}) ^ 3}dx = \int{\sin{x} \cdot (\sin{x}) ^ 2}dx = \int{\sin{x} \cdot [1 - (\cos{x}) ^ 2]}dx = -\int{[1 - (\cos{x}) ^ 2]}d(\cos{x}) = -\cos{x} + \frac{1}{3}(\cos{x}) ^ 3 + C .
+\int{\sin ^ {3} {x}}dx = \int{\sin{x} \cdot \sin ^ {2} {x}}dx = \int{\sin{x} \cdot (1 - \cos ^ {2} {x})}dx = -\int{(1 - \cos ^ {2} {x})}d(\cos{x}) = -\cos{x} + \frac{1}{3}\cos ^ {3} {x} + C .
 $$
 
 $$
-求 \int{(\sin{x}) ^ 2(\cos{x}) ^ 5}dx .
+求 \int{\sin ^ {2} {x} \cos ^ {5} {x}}dx .
 \\
-\int{(\sin{x}) ^ 2(\cos{x}) ^ 5}dx = \int{\cos{x} \cdot (\sin{x}) ^ 2(\cos{x}) ^ 4}dx = \int{\cos{x} \cdot (\sin{x}) ^ 2[1 - (\sin{x}) ^ 2] ^ 2}dx = \int{(\sin{x}) ^ 2[1 - (\sin{x}) ^ 2] ^ 2}d(\sin{x})
+\int{\sin ^ {2} {x} \cos ^ {5} {x}}dx = \int{\cos{x} \cdot \sin ^ {2} {x} \cdot \cos ^ {4} {x}}dx = \int{\cos{x} \cdot (\sin{x}) ^ 2[1 - (\sin{x}) ^ 2] ^ 2}dx = \int{(\sin{x}) ^ 2[1 - (\sin{x}) ^ 2] ^ 2}d(\sin{x})
 \\
 = \int{[(\sin{x}) ^ 2 - 2(\sin{x}) ^ 4 + (\sin{x}) ^ 6]}d(\sin{x}) = \frac{1}{3}(\sin{x}) ^ 3 - \frac{2}{5}(\sin{x}) ^ 5 + \frac{1}{7}(\sin{x}) ^ 7 + C .
 $$

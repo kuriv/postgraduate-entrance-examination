@@ -8,9 +8,9 @@
 $$
 定义：如果函数 f(x) 满足在闭区间 [a , b] 上连续，且在 (a , b) 内具有一阶和二阶导数，
 \\
-若在 (a , b) 内 f(x)\prime\prime \gt 0 ，则 f(x) 在 [a , b] 上的图形是凹的，
+若在 (a , b) 内 f ^ {\prime\prime} (x) \gt 0 ，则 f(x) 在 [a , b] 上的图形是凹的，
 \\
-若在 (a , b) 内 f(x)\prime\prime \lt 0 ，则 f(x) 在 [a , b] 上的图形是凸的.
+若在 (a , b) 内 f ^ {\prime\prime} (x) \lt 0 ，则 f(x) 在 [a , b] 上的图形是凸的.
 $$
 
 ## 经典例题

@@ -66,9 +66,7 @@ $$
 \\
 \therefore 抛物线 y = 0.4x ^ 2 在顶点 O (0 , 0) 处的曲率为 0.8 ，
 \\
-\therefore \rho = \frac{1}{K} = \frac{1}{0.8} = 1.25 ，
-\\
-\therefore 选用砂轮的直径不得超过 2.5 单位长.
+\therefore \rho = \frac{1}{K} = \frac{1}{0.8} = 1.25 ，选用砂轮的直径不得超过 2.5 单位长.
 $$
 
 

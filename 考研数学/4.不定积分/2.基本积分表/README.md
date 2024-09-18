@@ -29,9 +29,9 @@ $$
 \\
 \int{\csc{x}}dx = \int{\frac{1}{\sin{x}}}dx = \ln{|\csc{x} - \cot{x}|} + C
 \\
-\int{(\sec{x}) ^ 2}dx = \tan{x} + C
+\int{\sec ^ {2} {x}}dx = \tan{x} + C
 \\
-\int{(\csc{x} ^ 2)}dx = -\cot{x} + C
+\int{\csc ^ {2} {x}}dx = -\cot{x} + C
 \\
 \int{\sec{x}\tan{x}}dx = \sec{x} + C
 \\
@@ -87,13 +87,13 @@ $$
 ## 其他公式
 
 $$
-\int{(\sin{x}) ^ 2}dx = \int{\frac{1}{2}(1 - \cos{2x})}dx = \frac{1}{2}x - \frac{1}{4}\sin{2x} + C
+\int{\sin ^ {2} {x}}dx = \int{\frac{1}{2}(1 - \cos{2x})}dx = \frac{1}{2}x - \frac{1}{4}\sin{2x} + C
 \\
-\int{(\cos{x}) ^ 2}dx = \int{\frac{1}{2}(1 + \cos{2x})}dx = \frac{1}{2}x + \frac{1}{4}\sin{2x} + C
+\int{\cos ^ {2} {x}}dx = \int{\frac{1}{2}(1 + \cos{2x})}dx = \frac{1}{2}x + \frac{1}{4}\sin{2x} + C
 \\
-\int{(\tan{x}) ^ 2}dx = \int{[(\sec{x}) ^ 2 - 1]}dx = \tan{x} - x + C
+\int{\tan ^ {2} {x}}dx = \int{(\sec ^ {2} {x} - 1)}dx = \tan{x} - x + C
 \\
-\int{(\cot{x}) ^ 2}dx = \int{[(\csc{x}) ^ 2 - 1]}dx = \cot{x} - x + C
+\int{\cot ^ {2} {x}}dx = \int{(\csc ^ {2} {x} - 1)}dx = \cot{x} - x + C
 $$
 
 
