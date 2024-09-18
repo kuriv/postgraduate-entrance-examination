@@ -50,9 +50,9 @@ $$
 $$
 求 \int{\sqrt{a ^ 2 - x ^ 2}}dx .
 \\
-令 x = a\sin{t} ，则 \sqrt{a ^ 2 - x ^ 2} = \sqrt{{a ^ 2} - {a ^ 2}{(\sin{t}) ^ 2}} = \sqrt{a ^ 2[1 - (\sin{t}) ^ 2]} = \sqrt{{a ^ 2}{(\cos{t}) ^ 2}} = a\cos{t} ， d(x) = {a\cos{t}}dt ，
+令 x = a\sin{t} ，则 \sqrt{a ^ 2 - x ^ 2} = \sqrt{{a ^ 2} - {a ^ 2}{\sin ^ {2} {t}}} = \sqrt{a ^ 2(1 - \sin ^ {2} {t})} = \sqrt{{a ^ 2}{\cos ^ {2} {t}}} = a\cos{t} ， d(x) = {a\cos{t}}dt ，
 \\
-\int{\sqrt{a ^ 2 - x ^ 2}}dx = \int{{a ^ 2}(\cos{t}) ^ 2}dt = a ^ 2\int{(\cos{t}) ^ 2}dt = \frac{a ^ 2}{2}\int{(1 + \cos{2t})}dt = \frac{a ^ 2}{2}\int{1}dt + \frac{a ^ 2}{2}\int{\cos{2t}}dt = \frac{a ^ 2}{2}t + \frac{a ^ 2}{4}\int{\cos{2t}}d(2t)
+\int{\sqrt{a ^ 2 - x ^ 2}}dx = \int{{a ^ 2}\cos ^ {2} {t}}dt = a ^ 2\int{\cos ^ {2} {t}}dt = \frac{a ^ 2}{2}\int{(1 + \cos{2t})}dt = \frac{a ^ 2}{2}\int{1}dt + \frac{a ^ 2}{2}\int{\cos{2t}}dt = \frac{a ^ 2}{2}t + \frac{a ^ 2}{4}\int{\cos{2t}}d(2t)
 \\
 = \frac{a ^ 2}{2}t + \frac{a ^ 2}{4}\sin{2t} + C = \frac{a ^ 2}{2}t + \frac{a ^ 2}{4}(2\sin{t}\cos{t}) + C ，
 \\
@@ -64,9 +64,9 @@ $$
 $$
 求 \int{\frac{1}{\sqrt{x ^ 2 + a ^ 2}}}dx .
 \\
-令 x = a\tan{t} ，则 \sqrt{x ^ 2 + a ^ 2} = \sqrt{{a ^ 2}{(\tan{t}) ^ 2} + a ^ 2} = \sqrt{a ^ 2[1 + (\tan{t}) ^ 2]} = \sqrt{{a ^ 2}{(\sec{t}) ^ 2}} = a\sec{t} ， d(x) = {a(\sec{t}) ^ 2}dt ，
+令 x = a\tan{t} ，则 \sqrt{x ^ 2 + a ^ 2} = \sqrt{{a ^ 2}{\tan ^ {2} {t}} + a ^ 2} = \sqrt{a ^ 2(1 + \tan ^ {2} {t})} = \sqrt{{a ^ 2}{\sec ^ {2} {t}}} = a\sec{t} ， d(x) = {a\sec ^ {2} {t}}dt ，
 \\
-\int{\frac{1}{\sqrt{x ^ 2 + a ^ 2}}}dx = \int{\frac{1}{a\sec{t}} \cdot a(\sec{t}) ^ 2}dt = \int{\sec{t}}dt = \ln{|\sec{t} + \tan{t}|} + C ，
+\int{\frac{1}{\sqrt{x ^ 2 + a ^ 2}}}dx = \int{\frac{1}{a\sec{t}} \cdot a\sec ^ {2} {t}}dt = \int{\sec{t}}dt = \ln{|\sec{t} + \tan{t}|} + C ，
 \\
 \because x = a\tan{t} ，则 \tan{t} = \frac{x}{a} ， \sec{x} = \frac{\sqrt{x ^ 2 + a ^ 2}}{a} ，
 \\
@@ -76,7 +76,7 @@ $$
 $$
 求 \int{\frac{1}{\sqrt{x ^ 2 - a ^ 2}}}dx .
 \\
-令 x = a\sec{t} ，则 \sqrt{x ^ 2 - a ^ 2} = \sqrt{{a ^ 2}{(\sec{t}) ^ 2} - a ^ 2} = \sqrt{a ^ 2[(\sec{t}) ^ 2 - 1]} = \sqrt{{a ^ 2}{(\tan{t}) ^ 2}} = a\tan{t} ， d(x) = a\sec{t}\tan{t}dt ，
+令 x = a\sec{t} ，则 \sqrt{x ^ 2 - a ^ 2} = \sqrt{{a ^ 2}{\sec ^ {2} {t}} - a ^ 2} = \sqrt{a ^ 2(\sec ^ {2} {t} - 1)} = \sqrt{{a ^ 2}{\tan ^ {2} {t}}} = a\tan{t} ， d(x) = a\sec{t}\tan{t}dt ，
 \\
 \int{\frac{1}{\sqrt{x ^ 2 - a ^ 2}}}dx = \int{\frac{1}{a\tan{t}} \cdot a\sec{t}\tan{t}}dt = \int{\sec{t}}dt = \ln{|\sec{t} + \tan{t}|} + C ，
 \\

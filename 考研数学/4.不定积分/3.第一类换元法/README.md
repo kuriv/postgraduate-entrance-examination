@@ -97,9 +97,9 @@ $$
 $$
 求 \int{\sin ^ {2} {x} \cos ^ {5} {x}}dx .
 \\
-\int{\sin ^ {2} {x} \cos ^ {5} {x}}dx = \int{\cos{x} \cdot \sin ^ {2} {x} \cdot \cos ^ {4} {x}}dx = \int{\cos{x} \cdot (\sin{x}) ^ 2[1 - (\sin{x}) ^ 2] ^ 2}dx = \int{(\sin{x}) ^ 2[1 - (\sin{x}) ^ 2] ^ 2}d(\sin{x})
+\int{\sin ^ {2} {x} \cos ^ {5} {x}}dx = \int{\cos{x} \cdot \sin ^ {2} {x} \cdot \cos ^ {4} {x}}dx = \int{\cos{x} \cdot \sin ^ {2} {x} (1 - \sin ^ {2} {x}) ^ 2}dx = \int{\sin ^ {2} {x} (1 - \sin ^ {2} {x}) ^ 2}d(\sin{x})
 \\
-= \int{[(\sin{x}) ^ 2 - 2(\sin{x}) ^ 4 + (\sin{x}) ^ 6]}d(\sin{x}) = \frac{1}{3}(\sin{x}) ^ 3 - \frac{2}{5}(\sin{x}) ^ 5 + \frac{1}{7}(\sin{x}) ^ 7 + C .
+= \int{(\sin ^ {2} {x} - 2\sin ^ {4} {x} + \sin ^ {6} {x})}d(\sin{x}) = \frac{1}{3}\sin ^ {3} {x} - \frac{2}{5}\sin ^ {5} {x} + \frac{1}{7}\sin ^ {7} {x} + C .
 $$
 
 $$
@@ -115,53 +115,53 @@ $$
 $$
 
 $$
-求 \int{(\cos{x}) ^ 2}dx .
+求 \int{\cos ^ {2} {x}}dx .
 \\
-\int{(\cos{x}) ^ 2}dx = \int{\frac{1}{2}(1 + \cos{2x})}dx = \frac{1}{2}\int{(1 + \cos{2x})}dx = \frac{1}{2}(\int{1}dx + \int{\cos{2x}}dx) = \frac{1}{2}x + \frac{1}{2}\int{\cos{2x}}dx
+\int{\cos ^ {2} {x}}dx = \int{\frac{1}{2}(1 + \cos{2x})}dx = \frac{1}{2}\int{(1 + \cos{2x})}dx = \frac{1}{2}(\int{1}dx + \int{\cos{2x}}dx) = \frac{1}{2}x + \frac{1}{2}\int{\cos{2x}}dx
 \\
 = \frac{1}{2}x + \frac{1}{4}\int{\cos{2x}}d(2x) = \frac{1}{2}x + \frac{1}{4}\sin{2x} + C .
 $$
 
 $$
-求 \int{(\tan{x}) ^ 2}dx .
+求 \int{\tan ^ {2} {x}}dx .
 \\
-\int{(\tan{x}) ^ 2}dx = \int{[(\sec{x}) ^ 2 -1]}dx = \int{(\sec{x}) ^ 2}dx - \int{1}dx = \tan{x} - x + C .
+\int{\tan ^ {2} {x}}dx = \int{(\sec ^ {2} {x} - 1)}dx = \int{\sec ^ {2} {x}}dx - \int{1}dx = \tan{x} - x + C .
 $$
 
 $$
-求 \int{(\sin{x}) ^ 2(\cos{x}) ^ 4}dx .
+求 \int{\sin ^ {2} {x} \cos ^ {4} {x}}dx .
 \\
 = \int{\frac{1 - \cos{2x}}{2} \cdot (\frac{1 + \cos{2x}}{2}) ^ 2}dx
 \\
 = \frac{1}{8}\int{(1 - \cos{2x})(1 + \cos{2x}) ^ 2}dx
 \\
-= \frac{1}{8}\int{[1 + \cos{2x} - (\cos{2x}) ^ 2 - (\cos{2x}) ^ 3]}dx
+= \frac{1}{8}\int{(1 + \cos{2x} - \cos ^ {2} {2x} - \cos ^ {3} {2x})}dx
 \\
-= \frac{1}{8}\int{[\cos{2x} - (\cos{2x}) ^ 3]}dx + \frac{1}{8}\int{[1 - (\cos{2x}) ^ 2]}dx
+= \frac{1}{8}\int{(\cos{2x} - \cos ^ {3} {2x})}dx + \frac{1}{8}\int{(1 - \cos ^ {2} {2x})}dx
 \\
-= \frac{1}{8}\int{(\cos{2x})[1 - (\cos{2x}) ^ 2]}dx + \frac{1}{8}\int{(\sin{2x}) ^ 2}dx
+= \frac{1}{8}\int{(\cos{2x})(1 - \cos ^ {2} {2x})}dx + \frac{1}{8}\int{\sin ^ {2} {2x}}dx
 \\
-= \frac{1}{16}\int{(\sin{2x}) ^ 2}d(\sin{2x}) + \frac{1}{16}\int{(1 - \cos{4x})}dx
+= \frac{1}{16}\int{\sin ^ {2} {2x}}d(\sin{2x}) + \frac{1}{16}\int{(1 - \cos{4x})}dx
 \\
-= \frac{1}{16} \cdot \frac{1}{3}(\sin{2x}) ^ 3 + \frac{1}{16}x - \frac{1}{64}\int{\cos{4x}}d(4x)
+= \frac{1}{16} \cdot \frac{1}{3}\sin ^ {3} {2x} + \frac{1}{16}x - \frac{1}{64}\int{\cos{4x}}d(4x)
 \\
-= \frac{1}{48}(\sin{2x}) ^ 3 + \frac{1}{16}x - \frac{1}{64}\sin{4x} + C .
+= \frac{1}{48}\sin ^ {3} {2x} + \frac{1}{16}x - \frac{1}{64}\sin{4x} + C .
 $$
 
 $$
-求 \int{(\sec{x}) ^ 6}dx .
+求 \int{\sec ^ {6} {x}}dx .
 \\
-\int{(\sec{x}) ^ 6}dx = \int{(\sec{x}) ^ 2(\sec{x}) ^ 4}dx = \int{(1 + (\tan{x}) ^ 2) ^ 2}d(\tan{x}) = \int{(1 + 2(\tan{x}) ^ 2 + (\tan{x}) ^ 4)}d(\tan{x})
+\int{\sec ^ {6} {x}}dx = \int{\sec ^ {2} {x} \sec ^ {4} {x}}dx = \int{(1 + \tan ^ {2} {x}) ^ 2}d(\tan{x}) = \int{(1 + 2\tan ^ {2} {x} + \tan ^ {4} {x})}d(\tan{x}) \
 \\
-= \tan{x} + \frac{2}{3}(\tan{x}) ^ 3 + \frac{1}{5}(\tan{x}) ^ 5 + C .
+= \tan{x} + \frac{2}{3}\tan ^ {3} {x} + \frac{1}{5}\tan ^ {5} {x} + C .
 $$
 
 $$
-求 \int{(\tan{x}) ^ 5(\sec{x}) ^ 3}dx .
+求 \int{\tan ^ {5} {x} \sec ^ {3} {x}}dx .
 \\
-\int{(\tan{x}) ^ 5(\sec{x}) ^ 3}dx = \int{\tan{x}\sec{x}(\tan{x}) ^ 4(\sec{x}) ^ 2}dx = \int{\tan{x}\sec{x}[(\sec{x}) ^ 2 - 1] ^ 2(\sec{x}) ^ 2}dx = \int{[(\sec{x}) ^ 2 - 1] ^ 2(\sec{x}) ^ 2}d(\sec{x})
+\int{\tan ^ {5} {x} \sec ^ {3} {x}}dx = \int{\tan{x} \sec{x} \tan ^ {4} {x} \sec ^ {2} {x}}dx = \int{\tan{x} \sec{x} (\sec ^ {2} {x} - 1) ^ 2 \sec ^ {2} {x}}dx = \int{(\sec ^ {2} {x} - 1) ^ 2 \sec ^ {2} {x}}d(\sec{x})
 \\
-= \int{[(\sec{x}) ^ 6 - 2(\sec{x}) ^ 4 + (\sec{x}) ^ 2]}d(\sec{x}) = \frac{1}{7}(\sec{x}) ^ 7 - \frac{2}{5}(\sec{x}) ^ 5 + \frac{1}{3}(\sec{x}) ^ 3 + C .
+= \int{(\sec ^ {6} {x} - 2\sec ^ {4} {x} + \sec ^ {2} {x})}d(\sec{x}) = \frac{1}{7}\sec ^ {7} {x} - \frac{2}{5}\sec ^ {5} {x} + \frac{1}{3}\sec ^ {3} {x} + C .
 $$
 
 $$
@@ -173,15 +173,15 @@ $$
 $$
 
 $$
-求 \int{(\sin\frac{x}{2}) ^ 2}dx .
+求 \int{\sin ^ {2} \frac{x}{2}}dx .
 \\
-\int{(\sin\frac{x}{2}) ^ 2}dx = \int{\frac{1}{2}(1 - \cos{x})}dx = \frac{1}{2}\int(1 - \cos{x})dx = \frac{1}{2}(\int{1}dx - \int{\cos{x}}dx) = \frac{1}{2}(x - \sin{x}) + C .
+\int{\sin ^ {2} \frac{x}{2}}dx = \int{\frac{1}{2}(1 - \cos{x})}dx = \frac{1}{2}\int(1 - \cos{x})dx = \frac{1}{2}(\int{1}dx - \int{\cos{x}}dx) = \frac{1}{2}(x - \sin{x}) + C .
 $$
 
 $$
-求 \int{\frac{1}{{(\sin\frac{x}{2}) ^ 2}{(\cos\frac{x}{2}) ^ 2}}}dx .
+求 \int{\frac{1}{{\sin ^ {2} \frac{x}{2}}{\cos ^ {2} \frac{x}{2}}}}dx .
 \\
-\int{\frac{1}{{(\sin\frac{x}{2}) ^ 2}{(\cos\frac{x}{2}) ^ 2}}}dx = \int{\frac{1}{(\sin{\frac{x}{2}}\cos{\frac{x}{2}}) ^ 2}}dx = \int{\frac{1}{(\frac{\sin{x}}{2}) ^ 2}}dx = \int{\frac{1}{\frac{(\sin{x}) ^ 2}{4}}}dx = 4\int{(\csc{x}) ^ 2}dx = -4\cot{x} + C .
+\int{\frac{1}{{\sin ^ {2} \frac{x}{2}}{\cos ^ {2} \frac{x}{2}}}}dx = \int{\frac{1}{(\sin{\frac{x}{2}}\cos{\frac{x}{2}}) ^ 2}}dx = \int{\frac{1}{(\frac{\sin{x}}{2}) ^ 2}}dx = \int{\frac{1}{\frac{\sin ^ {2} {x}}{4}}}dx = 4\int{\csc ^ {2} {x}}dx = -4\cot{x} + C .
 $$
 
 $$

@@ -80,17 +80,17 @@ $$
 $$
 
 $$
-求 \int{(\sec{x}) ^ 3}dx .
+求 \int{\sec ^ {3} {x}}dx .
 \\
-\int{(\sec{x}) ^ 3}dx = \int{\sec{x} \cdot (\sec{x}) ^ 2}dx = \int{\sec{x}}d(\tan{x}) = \sec{x}\tan{x} - \int{\tan{x}}d(\sec{x}) = \sec{x}\tan{x} - \int{\tan{x} \cdot \sec{x}\tan{x}}dx
+\int{\sec ^ {3} {x}}dx = \int{\sec{x} \cdot \sec ^ {2} {x}}dx = \int{\sec{x}}d(\tan{x}) = \sec{x}\tan{x} - \int{\tan{x}}d(\sec{x}) = \sec{x}\tan{x} - \int{\tan{x} \cdot \sec{x}\tan{x}}dx
 \\
-= \sec{x}\tan{x} - \int{\sec{x}(\tan{x}) ^ 2}dx = \sec{x}\tan{x} - \int{\sec{x}[(\sec{x}) ^ 2 - 1]}dx = \sec{x}\tan{x} - \int{[(\sec{x}) ^ 3 - \sec{x}]}dx
+= \sec{x}\tan{x} - \int{\sec{x}\tan ^ {2} {x}}dx = \sec{x}\tan{x} - \int{\sec{x}(\sec ^ {2} {x} - 1)}dx = \sec{x}\tan{x} - \int{(\sec ^ {3} {x} - \sec{x})}dx
 \\
-= \sec{x}\tan{x} - \int{(\sec{x}) ^ 3}dx + \int{\sec{x}}dx = \sec{x}\tan{x} + \ln{|\sec{x} + \tan{x}|} - \int{(\sec{x}) ^ 3}dx ，
+= \sec{x}\tan{x} - \int{\sec ^ {3} {x}}dx + \int{\sec{x}}dx = \sec{x}\tan{x} + \ln{|\sec{x} + \tan{x}|} - \int{\sec ^ {3} {x}}dx ，
 \\
-\therefore 2\int{(\sec{x}) ^ 3}dx = \sec{x}\tan{x} + \ln{|\sec{x} + \tan{x}|} ，
+\therefore 2\int{\sec ^ {3} {x}}dx = \sec{x}\tan{x} + \ln{|\sec{x} + \tan{x}|} ，
 \\
-\therefore \int{(\sec{x}) ^ 3}dx = \frac{1}{2}(\sec{x}\tan{x} + \ln{|\sec{x} + \tan{x}|}) + C .
+\therefore \int{\sec ^ {3} {x}}dx = \frac{1}{2}(\sec{x}\tan{x} + \ln{|\sec{x} + \tan{x}|}) + C .
 $$
 
 $$
