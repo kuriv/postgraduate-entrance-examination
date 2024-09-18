@@ -36,7 +36,7 @@ $$
 \\
 \therefore \lim_{x \to 1} (1 - x ^ 2)\tan\frac{\pi}{2}x = \lim_{x \to 1} \frac{(1 - x ^ 2)}{\frac{1}{\tan\frac{\pi}{2}x}} = \lim_{x \to 1} \frac{(1 - x ^ 2)}{\cot\frac{\pi}{2}x} ，
 \\
-\therefore \lim_{x \to 1} \frac{(1 - x ^ 2)\prime}{(\cot\frac{\pi}{2}x)\prime} = \lim_{x \to 1} \frac{-2x}{-\frac{\pi}{2}(\csc\frac{\pi}{2}x) ^ 2} ，
+\therefore \lim_{x \to 1} \frac{(1 - x ^ 2)\prime}{\cot ^ {\prime} \frac{\pi}{2}x} = \lim_{x \to 1} \frac{-2x}{-\frac{\pi}{2}\csc ^ {2} \frac{\pi}{2}x} ，
 \\
 \because 直接将 x = 1 带入，此时原式为 \frac{-2}{-\frac{\pi}{2}} = \frac{4}{\pi} ，即 \lim_{x \to 1} (1 - x ^ 2)\tan\frac{\pi}{2}x 的极限为 \frac{4}{\pi} .
 $$

@@ -68,7 +68,7 @@ $$
 \\
 \int{\frac{1}{\sqrt{x ^ 2 + a ^ 2}}}dx = \int{\frac{1}{a\sec{t}} \cdot a\sec ^ {2} {t}}dt = \int{\sec{t}}dt = \ln{|\sec{t} + \tan{t}|} + C ，
 \\
-\because x = a\tan{t} ，则 \tan{t} = \frac{x}{a} ， \sec{x} = \frac{\sqrt{x ^ 2 + a ^ 2}}{a} ，
+\because x = a\tan{t} ，则 \tan{t} = \frac{x}{a} ， \sec{t} = \frac{\sqrt{x ^ 2 + a ^ 2}}{a} ，
 \\
 \therefore \ln{|\sec{t} + \tan{t}|} + C = \ln{|\frac{\sqrt{x ^ 2 + a ^ 2}}{a} + \frac{x}{a}|} + C .
 $$

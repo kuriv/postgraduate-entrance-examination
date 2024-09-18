@@ -69,11 +69,11 @@ $$
 $$
 求 \int{\frac{1 + \sin{x}}{\sin{x}(1 + \cos{x})}}dx .
 \\
-\because \frac{1 + \sin{x}}{\sin{x}(1 + \cos{x})} = \frac{1 + \frac{2\tan{\frac{x}{2}}}{1 + (\tan{\frac{x}{2}}) ^ 2}}{\frac{2\tan{\frac{x}{2}}}{1 + (\tan{\frac{x}{2}}) ^ 2}(1 + \frac{1 - (\tan{\frac{x}{2}}) ^ 2}{1 + (\tan{\frac{x}{2}}) ^ 2})}
+\because \frac{1 + \sin{x}}{\sin{x}(1 + \cos{x})} = \frac{1 + \frac{2\tan{\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}}}{\frac{2\tan{\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}}(1 + \frac{1 - \tan ^ {2} {\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}})}
 \\
-令 \tan{\frac{x}{2}} = u ， x = 2\arctan{u} ， d(x) = {\frac{2}{1 + u ^ 2}}du ，则 \int{\frac{1 + \frac{2\tan{\frac{x}{2}}}{1 + (\tan{\frac{x}{2}}) ^ 2}}{\frac{2\tan{\frac{x}{2}}}{1 + (\tan{\frac{x}{2}}) ^ 2}(1 + \frac{1 - (\tan{\frac{x}{2}}) ^ 2}{1 + (\tan{\frac{x}{2}}) ^ 2})}}dx = \int{\frac{1 + \frac{2u}{1 + u ^ 2}}{\frac{2u}{1 + u ^ 2}(1 + \frac{1 - u ^ 2}{1 + u ^ 2})} \cdot \frac{2}{1 + u ^ 2}}du
+令 \tan{\frac{x}{2}} = u ， x = 2\arctan{u} ， d(x) = {\frac{2}{1 + u ^ 2}}du ，则 \int{\frac{1 + \frac{2\tan{\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}}}{\frac{2\tan{\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}}(1 + \frac{1 - \tan ^ {2} {\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}})}}dx = \int{\frac{1 + \frac{2u}{1 + u ^ 2}}{\frac{2u}{1 + u ^ 2}(1 + \frac{1 - u ^ 2}{1 + u ^ 2})} \cdot \frac{2}{1 + u ^ 2}}du
 \\
-= \frac{1}{2}\int{(u + 2 + \frac{1}{u})}du = \frac{1}{2}(\frac{1}{2}u ^ 2 + 2u + \ln{|u|}) + C = \frac{1}{4}u ^ 2 + u + \frac{1}{2}\ln{|u|} + C = \frac{1}{4}(\tan{\frac{x}{2}}) ^ 2 + \tan{\frac{x}{2}} + \frac{1}{2}\ln{|\tan{\frac{x}{2}}|} + C .
+= \frac{1}{2}\int{(u + 2 + \frac{1}{u})}du = \frac{1}{2} \ (\frac{1}{2}u ^ 2 + 2u + \ln{|u|}) + C = \frac{1}{4}u ^ 2 + u + \frac{1}{2}\ln{|u|} + C = \frac{1}{4}\tan ^ {2} {\frac{x}{2}} + \tan{\frac{x}{2}} + \frac{1}{2}\ln{|\tan{\frac{x}{2}}|} + C .
 $$
 
 $$

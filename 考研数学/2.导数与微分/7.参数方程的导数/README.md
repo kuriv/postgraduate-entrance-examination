@@ -53,7 +53,7 @@ y = t\sin{t} + \cos{t}
 \\
 \frac{dx}{dt} = \frac{d(\sin{t})}{dt} = \cos{t} ， \frac{d(\cos{t})}{dt} = -\sin{t} ，
 \\
-\therefore \frac{{d ^ 2}y}{dx ^ 2} = \frac{(\cos{t} - t\sin{t})\cos{t} + t\sin{t}\cos{t}}{\cos{t} ^ 3} = \frac{1}{\cos{t}} .
+\therefore \frac{{d ^ 2}y}{dx ^ 2} = \frac{(\cos{t} - t\sin{t})\cos{t} + t\sin{t}\cos{t}}{\cos ^ {3} {t}} = \frac{1}{\cos{t}} .
 $$
 
 

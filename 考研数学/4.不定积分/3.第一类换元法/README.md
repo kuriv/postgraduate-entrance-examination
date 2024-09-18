@@ -47,7 +47,7 @@ $$
 $$
 求 \int{{2 ^ x}{e ^ x}}dx .
 \\
-\int{{2 ^ x}{e ^ x}}dx = \int{(2e) ^ x}dx = \frac{(2e) ^ x}{\ln{2e}} + C = \frac{{2 ^ x}{e ^ x}}{\ln ^ 2 + 1} + C .
+\int{{2 ^ x}{e ^ x}}dx = \int{(2e) ^ x}dx = \frac{(2e) ^ x}{\ln{2e}} + C = \frac{{2 ^ x}{e ^ x}}{\ln{2} + 1} + C .
 $$
 
 $$
