@@ -51,16 +51,36 @@ $$
 $$
 华里士公式：
 \\
-\int_0 ^ {\frac{\pi}{2}}{\sin ^ n {x}}dx = \int_0 ^ {\frac{\pi}{2}}{\cos ^ n {x}}dx = 
+\int_0 ^ {\frac{\pi}{2}}{\sin ^ n {x}}dx = \int_0 ^ {\frac{\pi}{2}}{\cos ^ n {x}}dx =
+\begin{cases}
+\frac{n - 1}{n} \cdot \frac{n - 3}{n - 2} \cdot \cdots \cdot \frac{2}{3} \cdot 1 ， n 为大于 1 的奇数， \\
+\frac{n - 1}{n} \cdot \frac{n - 3}{n - 2} \cdot \cdots \cdot \frac{1}{2} \cdot \frac{\pi}{2} ， n 为大于 1 的偶数.
+\end{cases}
+\\
+\int_0 ^ {\pi}{\sin ^ n {x}}dx =
+\begin{cases}
+2 \cdot \frac{n - 1}{n} \cdot \frac{n - 3}{n - 2} \cdot \cdots \cdot \frac{2}{3} \cdot 1 ， n 为大于 1 的奇数， \\
+2 \cdot \frac{n - 1}{n} \cdot \frac{n - 3}{n - 2} \cdot \cdots \cdot \frac{1}{2} \cdot \frac{\pi}{2} ， n 为大于 1 的偶数.
+\end{cases}
+\\
+\int_0 ^ {\pi}{\cos ^ n {x}}dx =
+\begin{cases}
+0 ， n 为正奇数， \\
+2 \cdot \frac{n - 1}{n} \cdot \frac{n - 3}{n - 2} \cdot \cdots \cdot \frac{1}{2} \cdot \frac{\pi}{2} ， n 为正偶数.
+\end{cases}
+\\
+\int_0 ^ {2\pi}{\sin ^ n {x}}dx = \int_0 ^ {2\pi}{\cos ^ n {x}}dx
+\begin{cases}
+0 ， n 为正奇数， \\
+4 \cdot \frac{n - 1}{n} \cdot \frac{n - 3}{n - 2} \cdot \cdots \cdot \frac{1}{2} \cdot \frac{\pi}{2} ，  n 为正偶数.
+\end{cases}
+\\
+利用华里士公式可以快速计算某些特殊的定积分，如：
+\\
+\int_0 ^ {\frac{\pi}{2}}{\sin ^ {8} {x}}dx = \frac{7}{8} \cdot \frac{5}{6} \cdot \frac{3}{4} \cdot \frac{1}{2} \cdot \frac{\pi}{2} = \frac{35}{256}\pi ，
+\\
+\int_0 ^ {\pi}{\sin ^ {9} {x}}dx = 2 \cdot \frac{8}{9} \cdot \frac{6}{7} \cdot \frac{4}{5} \cdot \frac{2}{3} \cdot 1 = \frac{256}{315} .
 $$
-
-
-
-
-
-
-
-
 
 ## 经典例题
 
@@ -74,9 +94,57 @@ $$
 \therefore \int_2 ^ {2\sqrt{2}}{f(x)}dx = \int_2 ^ {2\sqrt{2}}{\frac{x}{x ^ 2 -2}}dx = \frac{1}{2}\int_2 ^ {2\sqrt{2}}{\frac{1}{x ^ 2 -2}}d(x ^ 2 - 2) = \frac{1}{2}\ln{(x ^ 2 - 2)}|_2 ^ {2\sqrt{2}} = \frac{1}{2}(\ln{6} - \ln{2}) = \frac{1}{2}\ln{3} .
 $$
 
+$$
+求 \int_{-1} ^ {1}{x ^ 2 \sqrt{1 - x ^ 2}}dx .
+\\
+\because {x ^ 2 \sqrt{1 - x ^ 2}} 是偶函数，则 \int_{-1} ^ {1}{x ^ 2 \sqrt{1 - x ^ 2}}dx = 2\int_0 ^ {1}{x ^ 2 \sqrt{1 - x ^ 2}}dx ，
+\\
+令 x = \sin{t} ，则 x ^ 2 \sqrt{1 - x ^ 2} = \sin ^ {2} {t} \sqrt{1 - \sin ^ {2} {t}} = \sin ^ {2} {t} \cos{t} ， d(x) = \cos{t}dt ，
+\\
+当 x = 0 时，可取 t = 0 ，当 x = 1 时，可取 t = \frac{\pi}{2} ，
+\\
+\therefore 2\int_0 ^ {1}{x ^ 2 \sqrt{1 - x ^ 2}}dx = 2\int_0 ^ {\frac{\pi}{2}}{\sin ^ {2} {t} \cos ^ {2} {t}}dx = 2\int_0 ^ {\frac{\pi}{2}}{\sin ^ {2} {t}(1 - \sin ^ {2} {t})}dx = 2\int_0 ^ {\frac{\pi}{2}}{\sin ^ {2} {t} - \sin ^ {4} {t}}dx = 2(\frac{1}{2} \cdot \frac{\pi}{2}- \frac{3}{4} \cdot \frac{1}{2} \cdot \frac{\pi}{2}) = \frac{\pi}{8} .
+$$
 
+$$
+求 \int_0 ^ {1}{\arcsin{\sqrt{1 - x ^ 2}}}dx .
+\\
+令 x = \cos{t} ，则 \arcsin{\sqrt{1 - x ^ 2}} = \arcsin{\sqrt{1 - \cos ^ {2} {t}}} = \arcsin({\sin{t}}) ， d(x) = -\sin{t}dt ，
+\\
+当 x = 0 时，可取 t = \frac{\pi}{2} ，当 x = 1 时，可取 t = 0 ，
+\\
+\therefore \int_{0} ^ {1}{\arcsin{\sqrt{1 - x ^ 2}}}dx = \int_{\frac{\pi}{2}} ^ {0}{\arcsin(\sin{t}) \cdot (-\sin{t})}dt = \int_{0} ^ {\frac{\pi}{2}}{t\sin{t}}dt
+\\
+= \int_{0} ^ {\frac{\pi}{2}}{t}d(-\cos{t}) = -t\cos{t}|_{0} ^ {\frac{\pi}{2}} + \int_{0} ^ {\frac{\pi}{2}}{\cos{t}}dt = \sin{t}|_{0} ^ {\frac{\pi}{2}} = 1 .
+$$
 
+$$
+求 \int_{0} ^ {1}{x\arcsin{\sqrt{4x - 4x ^ 2}}}dx .
+\\
+\because 4x - 4x ^ 2 = 1 - (1 - 2x) ^ 2 ，
+\\
+令 1 - 2x = t ，则 x = \frac{1 - t}{2} ， x\arcsin{\sqrt{4x - 4x ^ 2}} = \frac{1 - t}{2}\arcsin{\sqrt{1 - t ^ 2}} ， d(x) = -\frac{1}{2}dt ，
+\\
+当 x = 0 时，可取 t = 1 ，当 x = 1 时，可取 t = -1 ，
+\\
+\therefore \int_{0} ^ {1}{x\arcsin{\sqrt{4x - 4x ^ 2}}}dx = \int_{1} ^ {-1}{\frac{1 - t}{2}}\arcsin{\sqrt{1 - t ^ 2}} \cdot -\frac{1}{2}dt = \frac{1}{4}\int_{-1} ^ {1}(1 - t)\arcsin{\sqrt{1 - t ^ 2}}dt
+\\
+= \frac{1}{4}\int_{-1} ^ {1}\arcsin{\sqrt{1 - t ^ 2}}dt - \frac{1}{4}\int_{-1} ^ {1}t\arcsin{\sqrt{1 - t ^ 2}}dt ，
+\\
+= \frac{1}{2}\int_{0} ^ {1}{\sqrt{1 - t ^ 2}}dt = \frac{1}{2} .
+$$
 
+$$
+设 f(x) 在 [0 , 1] 上连续，证明 \int_{0} ^ {\pi}{xf(\sin{x})}dx = \frac{\pi}{2}\int_{0} ^ {\pi}{f(\sin{x})}dx ，并计算 \int_{0} ^ {\pi}{x\sin ^ {9} {x}}dx .
+\\
+令 x = \pi - t ，则 d(x) = -dt ， \int_{0} ^ {\pi}{xf(\sin{x})}dx = \int_{0} ^ {\pi}{(\pi - t)f[\sin{(\pi - t)}]}dt = \int_{0} ^ {\pi}{(\pi - t)f(\sin{t})}dt
+\\
+= \pi\int_{0} ^ {\pi}{f(\sin{t})}dt - \int_{0} ^ {\pi}{tf(\sin{t})}dt = \pi\int_{0} ^ {\pi}{f(\sin{x})}dx - \int_{0} ^ {\pi}{xf(\sin{x})}dx ，
+\\
+\therefore \int_{0} ^ {\pi}{xf(\sin{x})}dx = \frac{\pi}{2}\int_{0} ^ {\pi}{f(\sin{x})}dx ，
+\\
+\therefore \int_{0} ^ {\pi}{x\sin ^ {9} {x}}dx = \frac{\pi}{2}\int_{0} ^ {\pi}{\sin ^ {9} {x}}dx = \frac{\pi}{2} \cdot 2 \cdot \frac{8}{9} \cdot \frac{6}{7} \cdot \frac{4}{5} \cdot \frac{2}{3} \cdot 1 = \frac{128}{315}\pi .
+$$
 
 
 
