@@ -153,9 +153,9 @@ $$
 ### 恒等公式
 
 $$
-(\sin{x}) ^ 2 = \frac{1}{2}(1 - \cos{2x})
+\sin ^ {2} {x} = \frac{1}{2}(1 - \cos{2x})
 \\
-(\cos{x}) ^ 2 = \frac{1}{2}(1 + \cos{2x})
+\cos ^ {2} {x} = \frac{1}{2}(1 + \cos{2x})
 $$
 
 ### 倍角公式
@@ -163,11 +163,11 @@ $$
 $$
 \sin{2x} = 2\sin{x}\cos{x}
 \\
-\cos{2x} = (\cos{x}) ^ 2 - (\sin{x}) ^ 2 = 2(\cos{x}) ^ 2 - 1 = 1 - 2(\sin{x}) ^ 2
+\cos{2x} = \cos ^ {2} {x} - \sin ^ {2} {x} = 2\cos ^ {2} {x} - 1 = 1 - 2\sin ^ {2} {x}
 \\
-\tan{2x} = \frac{2\tan{x}}{1 - (\tan{x}) ^ 2}
+\tan{2x} = \frac{2\tan{x}}{1 - \tan ^ {2} {x}}
 \\
-\cot{2x} = \frac{1 - (\tan{x}) ^ 2}{2\tan{x}}
+\cot{2x} = \frac{1 - \tan ^ {2} {x}}{2\tan{x}}
 $$
 
 ### 半角公式
@@ -187,13 +187,13 @@ $$
 ### 万能公式
 
 $$
-\sin{x} = \frac{2\tan\frac{x}{2}}{1 + (\tan\frac{x}{2}) ^ 2}
+\sin{x} = \frac{2\tan\frac{x}{2}}{1 + \tan ^ {2} \frac{x}{2}}
 \\
-\cos{x} = \frac{1 - (\tan\frac{x}{2}) ^ 2}{1 + (\tan\frac{x}{2}) ^ 2}
+\cos{x} = \frac{1 - \tan ^ {2} \frac{x}{2}}{1 + \tan ^ {2} \frac{x}{2}}
 \\
-\tan{x} = \frac{2\tan\frac{x}{2}}{1 - (\tan\frac{x}{2}) ^ 2}
+\tan{x} = \frac{2\tan\frac{x}{2}}{1 - \tan ^ {2} \frac{x}{2}}
 \\
-\cot{x} = \frac{1 - (\tan\frac{x}{2}) ^ 2}{2\tan\frac{x}{2}}
+\cot{x} = \frac{1 - \tan ^ {2} \frac{x}{2}}{2\tan\frac{x}{2}}
 $$
 
 ### 其他公式
@@ -201,7 +201,7 @@ $$
 $$
 1 - \sin{x} = (\sin\frac{x}{2} - \cos\frac{x}{2}) ^ 2
 \\
-1 - \cos{x} = 2(\sin\frac{x}{2}) ^ 2
+1 - \cos{x} = 2\sin ^ {2} \frac{x}{2}
 \\
 \cos{x} - \sin{x} = \sqrt{2}\cos{(x + \frac{\pi}{4})}
 $$
