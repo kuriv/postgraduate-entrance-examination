@@ -24,7 +24,7 @@ $$
 $$
 
 $$
-f(x) 可导 \Rightarrow 连续 \Rightarrow 可积 \Rightarrow 有界.
+f(x) 可导 \Rightarrow f(x) 连续 \Rightarrow f(x) 可积 \Rightarrow f(x) 有界.
 $$
 
 
