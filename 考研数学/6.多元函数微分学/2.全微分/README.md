@@ -54,9 +54,13 @@ $$
 \\
 \because \frac{\partial{z_1}}{\partial{y}}|(0 , 0) = \lim_{y \to 0} {\frac{z_1(0 , y) - z_1(0 , 0)}{y - 0}} = 0 ，
 \\
-\therefore \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{\Delta{z} - (A\Delta{x} + B\Delta{y})}{\sqrt{(\Delta{x}) ^ 2 + (\Delta{x}) ^ 2}}} = \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{z_1(x , y) - z_1(0 , 0) - \frac{\partial{z_1}}{\partial{x}}|(0 , 0) \cdot x - \frac{\partial{z_1}}{\partial{y}}|(0 , 0) \cdot y}{\sqrt{x ^ 2 + y ^ 2}}} = \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{|xy|}{\sqrt{x ^ 2 + y ^ 2}}}
+\therefore \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{\Delta{z} - (A\Delta{x} + B\Delta{y})}{\sqrt{(\Delta{x}) ^ 2 + (\Delta{x}) ^ 2}}} = \lim_{x \to 0 ， y \to 0} {\frac{z_1(x , y) - z_1(0 , 0) - \frac{\partial{z_1}}{\partial{x}}|(0 , 0) \cdot x - \frac{\partial{z_1}}{\partial{y}}|(0 , 0) \cdot y}{\sqrt{x ^ 2 + y ^ 2}}} = \lim_{x \to 0 ， y \to 0} {\frac{|xy|}{\sqrt{x ^ 2 + y ^ 2}}} ，
 \\
-= \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{\sqrt{x ^ 2 + y ^ 2}}{2}} = 0 ，
+由夹逼准则可得， 0 \le {\frac{|xy|}{\sqrt{x ^ 2 + y ^ 2}}} \le {\frac{\frac{x ^ 2 + y ^ 2}{2}}{\sqrt{x ^ 2 + y ^ 2}}} = \frac{\sqrt{x ^ 2 + y ^ 2}}{2} ,
+\\
+\because \lim_{x \to 0 ， y \to 0} {\frac{\sqrt{x ^ 2 + y ^ 2}}{2}} = 0 ，
+\\
+\therefore \lim_{x \to 0 ， y \to 0} {\frac{|xy|}{\sqrt{x ^ 2 + y ^ 2}}} = 0 ,
 \\
 \therefore z_1 在点 (0 , 0) 处可微.
 \\
@@ -64,9 +68,9 @@ $$
 \\
 \because \frac{\partial{z_2}}{\partial{y}}|(0 , 0) = \lim_{y \to 0} {\frac{z_2(0 , y) - z_2(0 , 0)}{y - 0}} = 0 ，
 \\
-\therefore \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{\Delta{z} - (A\Delta{x} + B\Delta{y})}{\sqrt{(\Delta{x}) ^ 2 + (\Delta{x}) ^ 2}}} = \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{z_2(x , y) - z_2(0 , 0) - \frac{\partial{z_2}}{\partial{x}}|(0 , 0) \cdot x - \frac{\partial{z_2}}{\partial{y}}|(0 , 0) \cdot y}{\sqrt{x ^ 2 + y ^ 2}}} = \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{\frac{x|y|}{\sqrt{x ^ 2 + y ^ 2}}}{\sqrt{x ^ 2 + y ^ 2}}}
+\therefore \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{\Delta{z} - (A\Delta{x} + B\Delta{y})}{\sqrt{(\Delta{x}) ^ 2 + (\Delta{x}) ^ 2}}} = \lim_{x \to 0 ， y \to 0} {\frac{z_2(x , y) - z_2(0 , 0) - \frac{\partial{z_2}}{\partial{x}}|(0 , 0) \cdot x - \frac{\partial{z_2}}{\partial{y}}|(0 , 0) \cdot y}{\sqrt{x ^ 2 + y ^ 2}}} = \lim_{x \to 0 ， y \to 0} {\frac{\frac{x|y|}{\sqrt{x ^ 2 + y ^ 2}}}{\sqrt{x ^ 2 + y ^ 2}}}
 \\
-= \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{x|y|}{x ^ 2 + y ^ 2}} ，
+= \lim_{x \to 0 ， y \to 0} {\frac{x|y|}{x ^ 2 + y ^ 2}} ，
 \\
 \therefore z_2 在点 (0 , 0) 处不可微.
 $$
