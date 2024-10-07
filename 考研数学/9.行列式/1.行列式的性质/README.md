@@ -27,31 +27,30 @@ $$
 
 $$
 行列式中某行（列）元素均是两个数之和，则可拆成两个行列式之和，即
-\
-\\
+\\\
 \
 \begin{vmatrix}
-a_{11} \ \ \ \ \ \ \ \ \ a_{12} \ \ \ \ \ \ \ \ \ \cdots \ \ \ \ \ \ \ \ \ a_{1n} \\
-\vdots \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots \\
-a_{i1} + b_{i1} \ \ a_{i2} + b_{i2} \ \ \cdots \ \ a_{in} + b_{in} \\
-\vdots \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots \\
-a_{n1} \ \ \ \ \ \ \ \ \ a_{n2} \ \ \ \ \ \ \ \ \ \cdots \ \ \ \ \ \ \ \ \ a_{nn}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{i1} + b_{i1} & a_{i2} + b_{i2} & \cdots & a_{in} + b_{in} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix}
 =
 \begin{vmatrix}
-a_{11} \ \ \ a_{12} \ \ \ \cdots \ \ \ a_{1n} \\
-\vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \\
-a_{i1} \ \ \ a_{i2} \ \ \ \cdots \ \ \ a_{in} \\
-\vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \\
-a_{n1} \ \ \ a_{n2} \ \ \ \cdots \ \ \ a_{nn}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{i1} & a_{i2} & \cdots & a_{in} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix}
 +
 \begin{vmatrix}
-a_{11} \ \ \ a_{12} \ \ \ \cdots \ \ \ a_{1n} \\
-\vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \\
-b_{i1} \ \ \ b_{i2} \ \ \ \cdots \ \ \ b_{in} \\
-\vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \\
-a_{n1} \ \ \ a_{n2} \ \ \ \cdots \ \ \ a_{nn}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+\vdots & \vdots & \vdots & \vdots \\
+b_{i1} & b_{i2} & \cdots & b_{in} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix} .
 $$
 
@@ -61,19 +60,19 @@ $$
 \\
 \
 \begin{vmatrix}
-a_{11} \ \ \ a_{12} \ \ \ \cdots \ \ \ a_{1n} \\
-\vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \\
-ka_{i1} \ \ ka_{i2} \ \ \cdots \ \ ka_{in} \\
-\vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \\
-a_{n1} \ \ \ a_{n2} \ \ \ \cdots \ \ \ a_{nn}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+\vdots & \vdots & \vdots & \vdots \\
+ka_{i1} & ka_{i2} & \cdots & ka_{in} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix}
 =
 k\begin{vmatrix}
-a_{11} \ \ \ a_{12} \ \ \ \cdots \ \ \ a_{1n} \\
-\vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \\
-a_{i1} \ \ \ a_{i2} \ \ \ \cdots \ \ \ a_{in} \\
-\vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \vdots \\
-a_{n1} \ \ \ a_{n2} \ \ \ \cdots \ \ \ a_{nn}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{i1} & a_{i2} & \cdots & a_{in} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix} .
 $$
 
@@ -119,24 +118,24 @@ $$
 
 $$
 \begin{vmatrix}
-a_{11} \ \ \ 0 \ \ \ \cdots \ \ \ 0 \ \ \\
-\ \ 0 \ \ \ a_{22} \ \cdots \ \ \ 0 \ \ \\
-\vdots \ \ \ \ \ \vdots \ \ \ \ \ \vdots \ \ \ \ \ \vdots \\
-\ \ \ \ 0 \ \ \ \ 0 \ \ \ \cdots \ \ a_{nn}
+a_{11} & 0 & \cdots & 0 \\
+0 & a_{22} & \cdots & 0 \\
+\vdots & \vdots & \vdots & \vdots \\
+0 & 0 & \cdots & a_{nn}
 \end{vmatrix}
 =
 \begin{vmatrix}
-a_{11} \ a_{12} \ \cdots \ a_{1n} \\
-\ \ 0 \ \ a_{22} \ \cdots \ a_{2n} \\
-\vdots \ \ \ \ \ \vdots \ \ \ \ \ \vdots \ \ \ \ \ \vdots \\
-\ \ \ \ 0 \ \ \ \ 0 \ \ \ \cdots \ \ a_{nn}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+0 & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \vdots & \vdots \\
+0 & 0 & \cdots & a_{nn}
 \end{vmatrix}
 =
 \begin{vmatrix}
-a_{11} \ \ 0 \ \ \ \ \cdots \ \ 0 \ \ \\
-a_{21} \ \ a_{22} \ \cdots \ \ 0 \ \ \\
-\vdots \ \ \ \ \ \vdots \ \ \ \ \ \vdots \ \ \ \ \ \vdots \\
-\ \ a_{n1} \ \ a_{n2} \ \cdots \ a_{nn}
+a_{11} & 0 & \cdots & 0 \\
+a_{21} & a_{22} & \cdots & 0 \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix}
 = a_{11}a_{22} \cdots a_{nn} .
 $$
@@ -145,24 +144,24 @@ $$
 
 $$
 \begin{vmatrix}
-0 \ \ \ \ \ \ \ \cdots \ \ \ \ \ \ 0 \ \ \ \ \ a_{1n} \\
-0 \ \ \ \ \ \cdots \ \ \ a_{2 , n - 1} \ \ \ \ \ 0 \\
-\vdots \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \vdots \\
-a_{n1} \ \ \ \cdots \ \ \ \ \ \ 0 \ \ \ \ \ \ \ \ 0
+0 & \cdots & 0 & a_{1n} \\
+0 & \cdots & a_{2 , n - 1} & 0 \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & \cdots & 0 & 0
 \end{vmatrix}
 =
 \begin{vmatrix}
-0 \ \ \ \ \ \ \ \ \cdots \ \ \ \ \ 0 \ \ \ \ \ \ \ a_{1n} \ \ \\
-\ \ \ 0 \ \ \ \ \ \cdots \ \ \ \ a_{2 , n - 1} \ \ \ a_{2n} \ \ \ \ \ \\
-\vdots \ \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \\
-a_{n1} \ \ \ \cdots \ \ \ a_{n , n - 1} \ \ \ a_{nn} \ \
+0 & \cdots & 0 & a_{1n} \\
+0 & \cdots & a_{2 , n - 1} & a_{2n} \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & \cdots & a_{n , n - 1} & a_{nn}
 \end{vmatrix}
 =
 \begin{vmatrix}
-a_{11} \ \ \cdots \ \ a_{1 , n - 1} \ \ \ a_{1n} \ \ \\
-a_{21} \ \ \cdots \ \ a_{2 , n - 1} \ \ \ 0 \ \ \ \ \ \\
-\vdots \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \vdots \ \ \ \ \ \ \ \ \ \vdots \ \ \ \\
-a_{n1} \ \ \cdots \ \ \ \ 0 \ \ \ \ \ \ \ \ 0 \ \ \ \
+a_{11} & \cdots & a_{1 , n - 1} & a_{1n} \\
+a_{21} & \cdots & a_{2 , n - 1} & 0 \\
+\vdots & \vdots & \vdots & \vdots \\
+a_{n1} & \cdots & 0 & 0
 \end{vmatrix}
 = (-1) ^ {\frac{n(n-1)}{2}}{a_{1n}}{a_{2 , n - 1}} \cdots {a_{n1}} .
 $$
@@ -173,34 +172,34 @@ $$
 设 A 为 m 阶行列式， B 为 n 阶行列式，则
 \\
 \begin{vmatrix}
-A \ O\\
-O \ B
+A & O\\
+O & B
 \end{vmatrix}
 =
 \begin{vmatrix}
-A \ C\\
-O \ B
+A & C\\
+O & B
 \end{vmatrix}
 =
 \begin{vmatrix}
-A \ O\\
-C \ B
+A & O\\
+C & B
 \end{vmatrix}
 = |A||B| .
 \\
 \begin{vmatrix}
-O \ A\\
-B \ O
+O & A\\
+B & O
 \end{vmatrix}
 =
 \begin{vmatrix}
-O \ A\\
-B \ C
+O & A\\
+B & C
 \end{vmatrix}
 =
 \begin{vmatrix}
-C \ A\\
-B \ O
+C & A\\
+B & O
 \end{vmatrix}
 = (-1) ^ {mn} |A||B| .
 $$
@@ -209,10 +208,10 @@ $$
 
 $$
 \begin{vmatrix}
-1 \ \ \ \ \ 1 \ \ \ \ \ \cdots \ \ \ \ \ 1 \\
-x_{1} \ \ \ \ x_{2} \ \ \ \ \cdots \ \ \ \ x_{n}\\
-\cdots \ \cdots \ \cdots \ \cdots\\
-x_{1} ^ {n-1} \ x_{2} ^ {n-1} \ \cdots \ x_{n} ^ {n-1}
+1 & 1 & \cdots & 1 \\
+x_{1} & x_{2} & \cdots & x_{n}\\
+\cdots & \cdots & \cdots & \cdots\\
+x_{1} ^ {n-1} & x_{2} ^ {n-1} & \cdots & x_{n} ^ {n-1}
 \end{vmatrix}
 = \prod_{1 \le i \le j \le n}(x_j - x_i) .
 $$
@@ -222,50 +221,51 @@ $$
 $$
 求
 \begin{vmatrix}
-1 \ \ \ 1 \ \ \ 1 \ \ \ 1 \\
-1 \ \ \ 2 \ \ \ 0 \ \ \ 0 \\
-1 \ \ \ 0 \ \ \ 3 \ \ \ 0 \\
-1 \ \ \ 0 \ \ \ 0 \ \ \ 4
+1 & 1 & 1 & 1 \\
+1 & 2 & 0 & 0 \\
+1 & 0 & 3 & 0 \\
+1 & 0 & 0 & 4
 \end{vmatrix} .
 \\
 \begin{vmatrix}
-1 \ \ \ 1 \ \ \ 1 \ \ \ 1 \\
-1 \ \ \ 2 \ \ \ 0 \ \ \ 0 \\
-1 \ \ \ 0 \ \ \ 3 \ \ \ 0 \\
-1 \ \ \ 0 \ \ \ 0 \ \ \ 4
+1 & 1 & 1 & 1 \\
+1 & 2 & 0 & 0 \\
+1 & 0 & 3 & 0 \\
+1 & 0 & 0 & 4
 \end{vmatrix}
 =
 1 \cdot (-1) ^ {(1 + 4)} \cdot
 \begin{vmatrix}
-1 \ \ \ 2 \ \ \ 0 \\
-1 \ \ \ 0 \ \ \ 3 \\
-1 \ \ \ 0 \ \ \ 0
+1 & 2 & 0 \\
+1 & 0 & 3 \\
+1 & 0 & 0
 \end{vmatrix}
 +
 4 \cdot (-1) ^ {(4 + 4)} \cdot
 \begin{vmatrix}
-1 \ \ \ 1 \ \ \ 1 \\
-1 \ \ \ 2 \ \ \ 0 \\
-1 \ \ \ 0 \ \ \ 3
+1 & 1 & 1 \\
+1 & 2 & 0 \\
+1 & 0 & 3
 \end{vmatrix}
 \\
+\
 =
 (-1) \cdot 3 \cdot (-1) ^ {(2 + 3)}
 \begin{vmatrix}
-1 \ \ \ 2 \\
-1 \ \ \ 0
+1 & 2 \\
+1 & 0
 \end{vmatrix}
 +
 4 \cdot
 \begin{vmatrix}
-1 \ \ \ 1 \ \ \ 2 \\
-0 \ \ \ 1 \ \ \ 0 \\
-1 \ \ \ 0 \ \ \ 3
+1 & 1 & 2 \\
+0 & 1 & 0 \\
+1 & 0 & 3
 \end{vmatrix}
 = 3 \cdot (-2) + 4 \cdot 1 \cdot (-1) ^ {(2 + 2)}
 \begin{vmatrix}
-1 \ \ \ 2 \\
-1 \ \ \ 3
+1 & 2 \\
+1 & 3
 \end{vmatrix}
 = -6 + 4 = -2 .
 $$
