@@ -37,7 +37,7 @@ $$
 \\
 然后写出线性增量 A\Delta{x} + B\Delta{y} ，其中 A = f_x ^ {\prime} (x_0 , y_0) ， B = f_y ^ {\prime} (x_0 , y_0) ，
 \\
-最后作极限 \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{\Delta{z} - (A\Delta{x} + B\Delta{y})}{\sqrt{(\Delta{x}) ^ 2 + (\Delta{x}) ^ 2}}} ，若该极限等于 0 ，则 z = f(x , y) 在点 (x_0 , y_0) 处可微.
+最后作极限 \lim_{\Delta{x} \to 0 ， \Delta{y} \to 0} {\frac{\Delta{z} - (A\Delta{x} + B\Delta{y})}{\sqrt{(\Delta{x}) ^ 2 + (\Delta{y}) ^ 2}}} ，若该极限等于 0 ，则 z = f(x , y) 在点 (x_0 , y_0) 处可微.
 $$
 
 ## 经典例题
