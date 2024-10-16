@@ -3,6 +3,8 @@
 * [可分离变量型微分方程](#可分离变量型微分方程)
 * [齐次型微分方程](#齐次型微分方程)
 * [一阶线性微分方程](#一阶线性微分方程)
+* [伯努利方程](#伯努利方程)
+* [二阶可降阶微分方程](#二阶可降阶微分方程)
 * [经典例题](#经典例题)
 
 ## 可分离变量型微分方程
@@ -27,6 +29,29 @@ $$
 
 $$
 形如 y ^ {\prime} + p(x)y = q(x) 的方程叫作一阶线性微分方程，其中 p(x) ， q(x) 为已知的连续函数，其通解公式为 y = e ^ {-\int{p(x)}dx}[\int{e ^ {\int{p(x)}dx} \cdot q(x)}dx + C] .
+$$
+
+## 伯努利方程
+
+$$
+形如 \frac{dy}{dx} + p(x)y = q(x){y ^ n} (n \neq 0 , 1) 的方程叫作伯努利方程，其中 p(x) ， q(x) 为已知的连续函数，
+\\
+其解法为先变形为 y ^ {-n}\frac{dy}{dx} + p(x){y ^ {1 - n}} = q(x) ，再令 z = y ^ {1 - n} ，得 \frac{dz}{dx} = (1 - n){y ^ {-n}}\frac{dy}{dx} ，则 \frac{1}{1 - n}\frac{dz}{dx} + p(x){z} = q(x) ，解此一阶线性微分方程即可.
+$$
+
+## 二阶可降阶微分方程
+
+$$
+形如 y ^ {\prime\prime} = f(x , y ^ {\prime}) (不显含未知函数 y) 的方程解法为先令 y ^ {\prime} = p ， y ^ {\prime\prime} = p ^ {\prime} ，则原方程变为一阶方程 \frac{dp}{dx} = f(x , p) ，
+\
+\\
+若求得其通解为 p = \phi(x , C_1) ，即 y ^ {\prime} = \phi(x , C_1) ，则原方程的通解为 y = \int{\phi(x , C_1)}dx + C_2 .
+$$
+
+$$
+形如 y ^ {\prime\prime} = f(y , y ^ {\prime}) (不显含未知函数 x) 的方程解法为先令 y ^ {\prime} = p ， y ^ {\prime\prime} = \frac{dp}{dx} = \frac{dp}{dy}\frac{dy}{dx} = \frac{dp}{dy}p ，则原方程变为一阶方程 p\frac{dp}{dy} = f(y , p) ，
+\\
+若求得其通解为 p = \phi(y , C_1) ，则由 p = \frac{dp}{dx} 可得 \frac{dy}{dx} = \phi(y , C_1) ，分离变量得 \frac{dy}{\phi(y , C_1)} = dx ，两边积分得 \int{\frac{1}{\phi(y , C_1)}}dy = x + C_2 .
 $$
 
 ## 经典例题
@@ -127,6 +152,54 @@ $$
 = e ^ {-ex}[\int_{x_0} ^ {x}{e ^ {et} \cdot (1 - \frac{1}{t}) ^ t}dt + C] = \frac{\int_{x_0} ^ {x}{e ^ {et} \cdot (1 - \frac{1}{t}) ^ t}dt + C}{e ^ {ex}} ，
 \\
 \therefore \lim_{x \to +\infty} {\frac{\int_{x_0} ^ {x}{e ^ {et} \cdot (1 - \frac{1}{t}) ^ t}dt + C}{e ^ {ex}}} = \lim_{x \to +\infty} {\frac{e ^ {ex} \cdot (1 - \frac{1}{x}) ^ {x}}{e ^ {ex} \cdot e}} = \lim_{x \to +\infty} {\frac{e ^ {ex} \cdot e ^ {-1}}{e ^ {ex} \cdot e}} = \frac{1}{e ^ 2} .
+$$
+
+$$
+求 ydx = (1 + x\ln{y})xdy (y \gt 0) 的通解.
+\\
+\because ydx = (1 + x\ln{y})xdy \Rightarrow \frac{dx}{dy} = \frac{(1 + x\ln{y})x}{y} \Rightarrow \frac{dx}{dy} = \frac{x + {x ^ 2}\ln{y}}{y} \Rightarrow \frac{dx}{dy} - \frac{1}{y}x = \frac{\ln{y}}{y}{x ^ 2} \Rightarrow {x ^ {-2}}\frac{dx}{dy} - \frac{1}{y}{x ^ {-1}} = \frac{\ln{y}}{y} ，
+\\
+令 z = {x ^ {-1}} ，则 \frac{dz}{dy} = -\frac{1}{x ^ 2}\frac{dx}{dy} ，
+\\
+\therefore \frac{dz}{dy} + \frac{1}{y}z = -\frac{\ln{y}}{y} ，
+\\
+\therefore z = x ^ {-1} = e ^ {-\int{p(y)}dy}[\int{e ^ {\int{p(y)}dy} \cdot q(y)}dx + C] = e ^ {-\int{\frac{1}{y}}dy}[\int{e ^ {\int{\frac{1}{y}}dy} \cdot -\frac{\ln{y}}{y}}dy + C] = \frac{1}{y}[\int{-\ln{y}}dy + C] = \frac{1}{y}[y(1 - \ln{y}) + C] ，
+\\
+\therefore 通解为 \frac{1}{x} = 1 - \ln{y} + \frac{C}{y} .
+$$
+
+$$
+求微分方程 y ^ {\prime\prime} = {y ^ {\prime}}[1 + (y ^ {\prime}) ^ 2] 满足 y(0) = 0 ， y ^ {\prime} (0) = 1 的特解.
+\\
+令 y ^ {\prime} = p ，则 y ^ {\prime\prime} = p ^ {\prime} ，
+\\
+\therefore y ^ {\prime\prime} = {y ^ {\prime}}[1 + (y ^ {\prime}) ^ 2] \Rightarrow p ^ {\prime} = p(1 + p ^ 2) \Rightarrow \frac{dp}{dx} = p(1 + p ^ 2) \Rightarrow \frac{dp}{p(1 + p ^ 2)} = dx \Rightarrow \ln{\frac{p ^ 2}{1 + p ^ 2}} = 2x + \ln{C_1} ，
+\\
+\therefore C_1 = \frac{1}{2} ，
+\\
+\therefore y ^ {\prime} = p = \sqrt{\frac{e ^ {2x}}{2 - e ^ {2x}}} = \frac{e ^ x}{\sqrt{2 - e ^ {2x}}} ，
+\\
+\therefore y = \int{\frac{e ^ x}{\sqrt{2 - e ^ {2x}}}}dx = \int{\frac{e ^ x}{\sqrt{2}\sqrt{1 - \frac{e ^ {2x}}{2}}}}dx = \int{\frac{\frac{e ^ x}{\sqrt{2}}}{\sqrt{1 - \frac{e ^ {2x}}{2}}}}dx = \int{\frac{\frac{e ^ x}{\sqrt{2}}}{\sqrt{1 - (\frac{e ^ {x}}{\sqrt{2}}) ^ 2}}}dx = \arcsin{\frac{e ^ x}{\sqrt{2}}} + C_2 ，
+\\
+\therefore C_2 = -\frac{\pi}{4} ，
+\\
+\therefore y = \arcsin{\frac{e ^ x}{\sqrt{2}}} -\frac{\pi}{4} .
+$$
+
+$$
+求微分方程 y{y ^ {\prime\prime}} - \frac{2}{3}(y ^ {\prime}) ^ 2 = 0 满足 y(0) = 0 的解.
+\\
+令 y ^ {\prime} = p ，则 y ^ {\prime\prime} = \frac{dp}{dy}p ，
+\\
+\therefore y{y ^ {\prime\prime}} - \frac{2}{3}(y ^ {\prime}) ^ 2 = 0 \Rightarrow y\frac{dp}{dy}p - \frac{2}{3}{p ^ 2} = 0 \Rightarrow \frac{dp}{p} = \frac{2}{3}\frac{dy}{y} ，
+\\
+\therefore \int{\frac{1}{p}}dp = \frac{2}{3}\int{\frac{1}{y}}dy \Rightarrow \ln{p} = \frac{2}{3}\ln{y} + \ln{C_1} \Rightarrow p = C_1{y ^ {\frac{2}{3}}} ，
+\\
+\therefore \frac{dy}{y ^ {\frac{2}{3}}} = {C_1}dx \Rightarrow \int{y ^ {-\frac{2}{3}}}dy = \int{C_1}dx \Rightarrow 3{y ^ {\frac{1}{3}}} = {C_1}x + C_2 ，
+\\
+\therefore C_2 = 0 ，
+\\
+\therefore y = C_3{x ^ 3} .
 $$
 
 
