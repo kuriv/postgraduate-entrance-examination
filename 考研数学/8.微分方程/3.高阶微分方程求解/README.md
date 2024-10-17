@@ -2,6 +2,7 @@
 
 * [二阶常系数齐次线性微分方程](#二阶常系数齐次线性微分方程)
 * [二阶常系数非齐次线性微分方程](#二阶常系数非齐次线性微分方程)
+* [高阶常系数齐次线性微分方程](#高阶常系数齐次线性微分方程)
 * [经典例题](#经典例题)
 
 ## 二阶常系数齐次线性微分方程
@@ -23,7 +24,50 @@ $$
 ## 二阶常系数非齐次线性微分方程
 
 $$
+方程 y ^ {\prime\prime} + p{y ^ {\prime}} + qy = f(x) (f(x) \neq 0) 称为二阶常系数非齐次线性微分方程，其中 p ， q 为常数， f(x) 为已知的连续函数，叫作自由项.
+$$
 
+$$
+当自由项 f(x) = p_n(x){e ^ {\alpha{x}}} 时，特解要设为 y ^ * = e ^ {\alpha{x}}{Q_n(x)}{x ^ k} ，其中
+\\
+\begin{cases}
+e ^ {\alpha{x}} 照抄， \\
+Q_n(x) 为 x 的 n 次多项式， \\
+k =
+\begin{cases}
+0 ， \alpha 不是特征根， \\
+1 ， \alpha 是单特征根， \\
+2 ， \alpha 是二重特征根 .
+\end{cases}
+\end{cases}
+$$
+
+$$
+当自由项 f(x) = {e ^ {\alpha{x}}}[P_m(x)\cos{\beta{x}} + P_n(x)\sin{\beta{x}}] 时，特解要设为 y ^ * = e ^ {\alpha{x}}[Q_l ^ {(1)} (x)\cos{\beta{x}} + Q_l ^ {(2)} (x)\sin{\beta{x}}]{x ^ k} ，其中
+\\
+\begin{cases}
+e ^ {\alpha{x}} 照抄， \\
+l = \max\{m , n\} ， Q_l ^ {(1)} (x) , Q_l ^ {(2)} (x) 分别为 x 的两个不同的 l 次多项式， \\
+k =
+\begin{cases}
+0 ， \alpha \pm \beta{i} 不是特征根， \\
+1 ， \alpha \pm \beta{i} 是特征根.
+\end{cases}
+\end{cases}
+$$
+
+## 高阶常系数齐次线性微分方程
+
+$$
+n (n \gt 2) 阶常系数齐次线性微分方程：
+\\
+若 r 为单实根，写 C{e ^ {rx}} .
+\\
+若 r 为 k 重实根，写 (C_1 + C_2{x} + C_3{x ^ 2} + \cdots + C_k{x ^ {k - 1}}){e ^ {rx}} .
+\\
+若 r 为单复根 \alpha \pm \beta{i} ，写 e ^ {\alpha{x}}(C_1\cos{\beta{x}} + C_2\sin{\beta{x}}) .
+\\
+若 r 为二重复根 \alpha \pm \beta{i} ，写 e ^ {\alpha{x}}(C_1\cos{\beta{x}} + C_2\sin{\beta{x}} + C_3{x}\cos{\beta{x}} + C_4{x}\sin{\beta{x}}) .
 $$
 
 ## 经典例题
@@ -67,4 +111,27 @@ C_2 = 0
 \\
 \therefore f(x) = e ^ {-x}\cos{2x} .
 $$
+
+$$
+求 y ^ {\prime\prime} - 3{y ^ {\prime}} + 2y = 2{e ^ {-x}}\cos{x} 的通解.
+\\
+\because y ^ {\prime\prime} - 3{y ^ {\prime}} + 2y = 2{e ^ {-x}}\cos{x} 的特征方程为 r ^ 2 - 3r + 2 = 0 ，
+\\
+\therefore r_1 = 2 ， r_2 = 1 ，
+\\
+\therefore 该方程通解为 C_1{e ^ {2x}} + C_2{e ^ x} ，
+\\
+设方程特解为 y ^ * = e ^ {-x}(A\cos{x} + B\sin{x}) ，
+\\
+\therefore y ^ {*\prime} = e ^ {-x}[(B - A)\cos{x} - (A + B)\sin{x}] ， y ^ {*\prime\prime} = e ^ {-x}(-2B\cos{x} + 2A\sin{x}) ，
+\\
+\begin{cases}
+A = \frac{1}{5} ， \\
+B = -\frac{1}{5}
+\end{cases}
+\\
+\therefore y ^ * = \frac{1}{5}e ^ {-x}(\cos{x} - \sin{x}) .
+$$
+
+
 
