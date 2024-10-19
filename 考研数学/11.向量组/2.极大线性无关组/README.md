@@ -64,7 +64,8 @@ $$
 \end{pmatrix}
 ，求 CB.
 \\
-令 A = [\alpha_1 ， \alpha_2 ， \alpha_3 ， \alpha_4 ， \alpha_5] =
+\\
+令 A = [\alpha_1 ， \alpha_2 ， \alpha_3 ， \alpha_4] =
 \begin{pmatrix}
 1 & -2 & -1 & 2 \\
 2 & -3 & -2 & 3 \\
@@ -83,7 +84,7 @@ $$
 \\
 \therefore A 的极大线性无关组为 \alpha_3 ， \alpha_2 ， 且 \alpha_3 = -\alpha_1 ， \alpha_2 = -\alpha_4 ，
 \\
-\therefore A = [\alpha_1 ， \alpha_2 ， \alpha_3 ， \alpha_4 ， \alpha_5] = [\alpha_3 , \alpha_2]
+\therefore A = [\alpha_1 ， \alpha_2 ， \alpha_3 ， \alpha_4] = [\alpha_3 , \alpha_2]
 \begin{pmatrix}
 -1 & 0 & 1 & 0 \\
 0 & 1 & 0 & -1 
