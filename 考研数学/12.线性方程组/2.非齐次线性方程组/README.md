@@ -7,11 +7,11 @@
 ## 有解条件
 
 $$
-若 r(A) \neq r([A , b]) (b 不能由 \alpha_1 , \alpha_2 , \cdots , \alpha_n 线性表示) ，则方程组无解.
-\\
-若 r(A) = r([A , b]) = n (\alpha_1 , \alpha_2 , \cdots , \alpha_n 线性无关， \alpha_1 , \alpha_2 , \cdots , \alpha_n , b 线性相关) ，则方程组有唯一解.
+若 r(A) = r([A , b]) = r = n (\alpha_1 , \alpha_2 , \cdots , \alpha_n 线性无关， \alpha_1 , \alpha_2 , \cdots , \alpha_n , b 线性相关) ，则方程组有唯一解.
 \\
 若 r(A) = r([A , b]) = r \lt n ，则方程组有无穷多解.
+\\
+若 r(A) \lt r([A , b]) (b 不能由 \alpha_1 , \alpha_2 , \cdots , \alpha_n 线性表示) ，则方程组无解.
 $$
 
 ## 求解步骤

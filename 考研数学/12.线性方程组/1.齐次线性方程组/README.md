@@ -8,7 +8,7 @@
 ## 有解条件
 
 $$
-当 r(A) = n (\alpha_1 , \alpha_2 , \cdots , \alpha_n 线性无关) 时，方程组有唯一零解.
+当 r(A) = r = n (\alpha_1 , \alpha_2 , \cdots , \alpha_n 线性无关) 时，方程组只有零解（唯一解）.
 \\
 当 r(A) = r \lt n (\alpha_1 , \alpha_2 , \cdots , \alpha_n 线性相关) 时，方程组有非零解（无穷多解），且有 n - r 个线性无关解.
 $$
