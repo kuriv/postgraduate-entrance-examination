@@ -6,7 +6,7 @@
 ## 定理内容
 
 $$
-定义： \lim_{x \to x_0} \frac{f(x)}{g(x)} = \lim_{x \to x_0} \frac{f ^ {\prime} (x)}{f ^ {\prime} (x)} .
+\lim_{x \to x_0} \frac{f(x)}{g(x)} = \lim_{x \to x_0} \frac{f ^ {\prime} (x)}{f ^ {\prime} (x)} .
 \\
 洛必达法则可用来求七种类型不定式的极限，即 \frac{0}{0} ， \frac{\infty}{\infty} ， \infty - \infty ， 0 \cdot \infty ， \infty ^ 0 ， 0 ^ 0 ， 1 ^ \infty ，
 \\

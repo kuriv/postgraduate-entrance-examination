@@ -8,7 +8,7 @@
 ## 数列极限
 
 $$
-定义：对于数列 \{X_n\} ，如果存在常数 a ，对 \forall \epsilon \gt 0 ， \exists N_+ ，使得当 n \gt N 时，|X_n - a| \lt \epsilon 成立，则常数 a 是数列 \{X_n\} 的极限.
+对于数列 \{X_n\} ，如果存在常数 a ，对 \forall \epsilon \gt 0 ， \exists N_+ ，使得当 n \gt N 时，|X_n - a| \lt \epsilon 成立，则常数 a 是数列 \{X_n\} 的极限.
 $$
 
 ## 函数极限
