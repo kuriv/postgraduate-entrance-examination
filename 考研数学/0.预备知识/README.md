@@ -194,25 +194,27 @@ $$
 ### 函数单调性
 
 $$
-f(x) 是单调增函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \gt 0
-\\
+\begin{cases}
+f(x) 是单调增函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \gt 0 ， \\
 f(x) 是单调减函数 \Leftarrow\Rightarrow (x_1 - x_2)[f(x_1) - f(x_2)] \lt 0
+\end{cases}
 $$
 
 ### 函数奇偶性
 
 $$
-奇函数乘以奇函数等于偶函数
-\\
-奇函数乘以偶函数等于奇函数
-\\
+\begin{cases}
+奇函数乘以奇函数等于偶函数， \\
+奇函数乘以偶函数等于奇函数， \\
 偶函数乘以偶函数等于偶函数
+\end{cases}
 $$
 
 $$
-f(x) + f(-x) 必是偶函数，如 \frac{e ^ x + e ^ {-x}}{2} ， \frac{1}{2 ^ x + 1} + \frac{1}{2}
-\\
+\begin{cases}
+f(x) + f(-x) 必是偶函数，如 \frac{e ^ x + e ^ {-x}}{2} ， \frac{1}{2 ^ x + 1} + \frac{1}{2} ， \\
 f(x) - f(-x) 必是奇函数，如 \frac{e ^ x - e ^ {-x}}{2} ， \frac{1}{2 ^ x + 1} - \frac{1}{2}
+\end{cases}
 $$
 
 $$
@@ -232,9 +234,10 @@ $$
 ### 函数周期性
 
 $$
-若 g(x) 是周期函数，则复合函数 f[g(x)] 也是周期函数
-\\
+\begin{cases}
+若 g(x) 是周期函数，则复合函数 f[g(x)] 也是周期函数， \\
 若 f(x) 是以 T 为周期的可导函数，则 f(x)\prime 也以 T 为周期
+\end{cases}
 $$
 
 ## 恒等式
