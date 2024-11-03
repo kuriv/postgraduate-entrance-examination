@@ -61,7 +61,7 @@ $$
 \\
 \arctan ^ {\prime} {x} = \frac{1}{1 + x ^ 2}
 \\
-arccot ^ {\prime} x = -\frac{1}{1 + x ^ 2}
+\arccot ^ {\prime} x = -\frac{1}{1 + x ^ 2}
 \\
 \sin ^ {\prime} (\arccos{x}) = \cos ^ {\prime} (\arcsin{x}) = \sqrt{1 - x ^ 2}
 \\
