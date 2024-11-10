@@ -35,3 +35,23 @@ $$
 
 ## 经典例题
 
+$$
+如：设 D_t = \{(x , y|2{x ^ 2} + 3{y ^ 2} \le 6t)\} (t \ge 0) ， f(x , y) =
+\begin{cases}
+\frac{\sqrt[3]{1 - (x ^ 2 + y ^ 2)} - 1}{e ^ {x ^ 2 + y ^ 2}} ， (x , y) \neq (0 , 0) ，
+\\
+a ， (x , y) = (0 , 0) ，
+\end{cases}
+为连续函数，令 F(t) = \iint_{D_t}{f(x , y)}dxdy ，求 F_{+} ^ {\prime} (0) .
+\\
+\because f(x , y) 为连续函数，
+\\
+\therefore \lim_{(x , y) \to (0 , 0)} f(x , y) = \lim_{(x , y) \to (0 , 0)} \frac{\sqrt[3]{1 - (x ^ 2 + y ^ 2)} - 1}{e ^ {x ^ 2 + y ^ 2}} = \lim_{(x , y) \to (0 , 0)} \frac{-\frac{1}{3}(x ^ 2 + y ^ 2)}{x ^ 2 + y ^ 2} = -\frac{1}{3} = a ，
+\\
+\therefore F_{+} ^ {\prime} (0) = \lim_{t \to 0} \frac{F(t) - F(0)}{t - 0} = \lim_{t \to 0} \frac{F(t)}{t} = \lim_{t \to 0} \frac{\iint_{D_t}{f(x , y)}dxdy}{t} = \lim_{t \to 0} \frac{\sqrt{6}\pi{t}f(\xi , \eta)}{t} ， 其中 (\xi , \eta) \in D_t ，
+\\
+\therefore \lim_{t \to 0} \frac{\sqrt{6}\pi{t}f(\xi , \eta)}{t} = -\frac{1}{3}\sqrt{6}\pi .
+$$
+
+
+
