@@ -13,7 +13,7 @@ $$
 ## 经典例题
 
 $$
-求 \int{\frac{x + 1}{x ^ 2 - 5x + 6}}dx .
+如：求 \int{\frac{x + 1}{x ^ 2 - 5x + 6}}dx .
 \\
 令 \frac{x + 1}{x ^ 2 - 5x + 6} = \frac{A}{x - 3} + \frac{B}{x - 2} ，则 x + 1 = A(x - 2) + B(x - 3) ，
 \\
@@ -27,7 +27,7 @@ B = -3 ，
 $$
 
 $$
-求 \int{\frac{x + 2}{(2x + 1)(x ^ 2 + x + 1)}}dx .
+如：求 \int{\frac{x + 2}{(2x + 1)(x ^ 2 + x + 1)}}dx .
 \\
 令 \frac{x + 2}{(2x + 1)(x ^ 2 + x + 1)} = \frac{A}{2x + 1} + \frac{Bx + C}{x ^ 2 + x + 1} ，则 x + 2 = A(x ^ 2 + x + 1) + (Bx + C)(2x + 1) ，
 \\
@@ -48,7 +48,7 @@ C = 0 ，
 $$
 
 $$
-求 \int{\frac{x - 3}{(x - 1)(x ^ 2 - 1)}}dx .
+如：求 \int{\frac{x - 3}{(x - 1)(x ^ 2 - 1)}}dx .
 \\
 \because \frac{x - 3}{(x - 1)(x ^ 2 - 1)} = \frac{x - 3}{(x - 1) ^ 2(x + 1)} ，
 \\
@@ -67,7 +67,7 @@ C = -1 ，
 $$
 
 $$
-求 \int{\frac{1 + \sin{x}}{\sin{x}(1 + \cos{x})}}dx .
+如：求 \int{\frac{1 + \sin{x}}{\sin{x}(1 + \cos{x})}}dx .
 \\
 \because \frac{1 + \sin{x}}{\sin{x}(1 + \cos{x})} = \frac{1 + \frac{2\tan{\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}}}{\frac{2\tan{\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}}(1 + \frac{1 - \tan ^ {2} {\frac{x}{2}}}{1 + \tan ^ {2} {\frac{x}{2}}})}
 \\
@@ -77,7 +77,7 @@ $$
 $$
 
 $$
-求 \int{\frac{\sqrt{x - 1}}{x}}dx .
+如：求 \int{\frac{\sqrt{x - 1}}{x}}dx .
 \\
 令 \sqrt{x - 1} = u ， 则 x = u ^ 2 + 1 ， d(x) = {2u}du ，
 \\
@@ -85,7 +85,7 @@ $$
 $$
 
 $$
-求 \int{\frac{dx}{1 + \sqrt[3]{x + 2}}} .
+如：求 \int{\frac{dx}{1 + \sqrt[3]{x + 2}}} .
 \\
 令 \sqrt[3]{x + 2} = u ，则 x = u ^ 3 - 2 ， d(x) = {3u ^ 2}du ，
 \\
@@ -95,7 +95,7 @@ $$
 $$
 
 $$
-求 \int{\frac{dx}{(1 + \sqrt[3]{x})\sqrt{x}}} .
+如：求 \int{\frac{dx}{(1 + \sqrt[3]{x})\sqrt{x}}} .
 \\
 令 \sqrt[6]{x} = u ，则 x = u ^ 6 ， d(x) = {6u ^ 5}du ，
 \\

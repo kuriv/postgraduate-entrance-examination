@@ -93,7 +93,7 @@ $$
 \\
 \int{\tan ^ {2} {x}}dx = \int{(\sec ^ {2} {x} - 1)}dx = \tan{x} - x + C
 \\
-\int{\cot ^ {2} {x}}dx = \int{(\csc ^ {2} {x} - 1)}dx = \cot{x} - x + C
+\int{\cot ^ {2} {x}}dx = \int{(\csc ^ {2} {x} - 1)}dx = -\cot{x} - x + C
 $$
 
 

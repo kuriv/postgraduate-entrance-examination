@@ -48,7 +48,7 @@ $$
 ## 经典例题
 
 $$
-求 \int{\sqrt{a ^ 2 - x ^ 2}}dx .
+如：求 \int{\sqrt{a ^ 2 - x ^ 2}}dx .
 \\
 令 x = a\sin{t} ，则 \sqrt{a ^ 2 - x ^ 2} = \sqrt{{a ^ 2} - {a ^ 2}{\sin ^ {2} {t}}} = \sqrt{a ^ 2(1 - \sin ^ {2} {t})} = \sqrt{{a ^ 2}{\cos ^ {2} {t}}} = a\cos{t} ， d(x) = {a\cos{t}}dt ，
 \\
@@ -62,7 +62,7 @@ $$
 $$
 
 $$
-求 \int{\frac{1}{\sqrt{x ^ 2 + a ^ 2}}}dx .
+如：求 \int{\frac{1}{\sqrt{x ^ 2 + a ^ 2}}}dx .
 \\
 令 x = a\tan{t} ，则 \sqrt{x ^ 2 + a ^ 2} = \sqrt{{a ^ 2}{\tan ^ {2} {t}} + a ^ 2} = \sqrt{a ^ 2(1 + \tan ^ {2} {t})} = \sqrt{{a ^ 2}{\sec ^ {2} {t}}} = a\sec{t} ， d(x) = {a\sec ^ {2} {t}}dt ，
 \\
@@ -74,7 +74,7 @@ $$
 $$
 
 $$
-求 \int{\frac{1}{\sqrt{x ^ 2 - a ^ 2}}}dx .
+如：求 \int{\frac{1}{\sqrt{x ^ 2 - a ^ 2}}}dx .
 \\
 令 x = a\sec{t} ，则 \sqrt{x ^ 2 - a ^ 2} = \sqrt{{a ^ 2}{\sec ^ {2} {t}} - a ^ 2} = \sqrt{a ^ 2(\sec ^ {2} {t} - 1)} = \sqrt{{a ^ 2}{\tan ^ {2} {t}}} = a\tan{t} ， d(x) = a\sec{t}\tan{t}dt ，
 \\
@@ -86,7 +86,7 @@ $$
 $$
 
 $$
-求 \int{\frac{\sqrt{a ^ 2 - x ^ 2}}{x ^ 4}}dx .
+如：求 \int{\frac{\sqrt{a ^ 2 - x ^ 2}}{x ^ 4}}dx .
 \\
 令 x = \frac{1}{t} ，则 d(x) = -\frac{1}{t ^ 2}dt ， \int{\frac{\sqrt{a ^ 2 - x ^ 2}}{x ^ 4}}dx = \int{\frac{\sqrt{a ^ 2 - \frac{1}{t ^ 2}}}{\frac{1}{t ^ 4}} \cdot -\frac{1}{t ^ 2}}dt = -\int{\sqrt{{a ^ 2}{t ^ 2} - 1}t}dt ，
 \\

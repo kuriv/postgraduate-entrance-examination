@@ -20,19 +20,19 @@ $$
 ## 经典例题
 
 $$
-求 \int{x\cos{x}}dx .
+如：求 \int{x\cos{x}}dx .
 \\
 \int{x\cos{x}}dx = \int{x}d(\sin{x}) = x\sin{x} - \int{\sin{x}}dx = x\sin{x} + \cos{x} + C .
 $$
 
 $$
-求 \int{xe ^ x}dx .
+如：求 \int{xe ^ x}dx .
 \\
 \int{xe ^ x}dx = \int{x}d(e ^ x) = xe ^ x - \int{e ^ x}dx = xe ^ x - e ^ x + C = e ^ x(x - 1) + C .
 $$
 
 $$
-求 \int{x ^ 2e ^ x}dx .
+如：求 \int{x ^ 2e ^ x}dx .
 \\
 \int{x ^ 2e ^ x}dx = \int{x ^ 2}d(e ^ x) = x ^ 2e ^ x - \int{e ^ x}d(x ^ 2) = x ^ 2e ^ x - 2\int{xe ^ x}dx ，
 \\
@@ -42,13 +42,13 @@ $$
 $$
 
 $$
-求 \int{x\ln{x}}dx .
+如：求 \int{x\ln{x}}dx .
 \\
 \int{x\ln{x}}dx = \int{\ln{x}}d(\frac{1}{2}x ^ 2) = \frac{1}{2}x ^ 2\ln{x} - \int{\frac{1}{2}x ^ 2}d(\ln{x}) = \frac{1}{2}x ^ 2\ln{x} - \frac{1}{2}\int{x}dx = \frac{1}{2}x ^ 2\ln{x} - \frac{1}{4}x ^ 2 + C .
 $$
 
 $$
-求 \int{\arccos{x}}dx .
+如：求 \int{\arccos{x}}dx .
 \\
 \int{\arccos{x}}dx = \int{\arccos{x}}d(x) = x\arccos{x} - \int{x}d(\arccos{x}) = x\arccos{x} + \int{\frac{x}{\sqrt{1 - x ^ 2}}}dx = x\arccos{x} - \frac{1}{2}\int{\frac{1}{\sqrt{1 - x ^ 2}}}d(1 - x ^ 2)
 \\
@@ -56,7 +56,7 @@ $$
 $$
 
 $$
-求 \int{x\arctan{x}}dx .
+如：求 \int{x\arctan{x}}dx .
 \\
 \int{x\arctan{x}}dx = \int{\arctan{x}}d(\frac{1}{2}x ^ 2) = \frac{1}{2}x ^ 2\arctan{x} - \int{\frac{1}{2}x ^ 2}d(\arctan{x}) = \frac{1}{2}x ^ 2\arctan{x} - \frac{1}{2}\int{x ^ 2 \cdot \frac{1}{1 + x ^ 2}}dx
 \\
@@ -66,7 +66,7 @@ $$
 $$
 
 $$
-求 \int{e ^ x\sin{x}}dx .
+如：求 \int{e ^ x\sin{x}}dx .
 \\
 \because \int{e ^ x\sin{x}}dx = \int{\sin{x}}d(e ^ x) = e ^ x\sin{x} - \int{e ^ x}d(\sin{x}) = e ^ x\sin{x} - \int{e ^ x\cos{x}}dx ，
 \\
@@ -80,7 +80,7 @@ $$
 $$
 
 $$
-求 \int{\sec ^ {3} {x}}dx .
+如：求 \int{\sec ^ {3} {x}}dx .
 \\
 \int{\sec ^ {3} {x}}dx = \int{\sec{x} \cdot \sec ^ {2} {x}}dx = \int{\sec{x}}d(\tan{x}) = \sec{x}\tan{x} - \int{\tan{x}}d(\sec{x}) = \sec{x}\tan{x} - \int{\tan{x} \cdot \sec{x}\tan{x}}dx
 \\
@@ -94,7 +94,7 @@ $$
 $$
 
 $$
-求 \int{e ^ {\sqrt{x}}}dx .
+如：求 \int{e ^ {\sqrt{x}}}dx .
 \\
 令 \sqrt{x} = t ，则 x = t ^ 2 ， d(x) = 2tdt ，
 \\
@@ -102,7 +102,7 @@ $$
 $$
 
 $$
-求 \int{(x ^ 3 + 2x +6)e ^ {2x}}dx .
+如：求 \int{(x ^ 3 + 2x +6)e ^ {2x}}dx .
 \\
 \int{(x ^ 3 + 2x +6)e ^ {2x}}dx = (x ^ 3 + 2x + 6)(\frac{1}{2}e ^ {2x}) - (3x ^ 2 + 2)(\frac{1}{4}e ^ {2x}) + 6x(\frac{1}{8}e ^ {2x}) - 6(\frac{1}{16}e ^ {2x}) + C
 \\
