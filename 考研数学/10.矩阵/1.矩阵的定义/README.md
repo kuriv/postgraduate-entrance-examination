@@ -147,7 +147,7 @@ $$
 ## 经典例题
 
 $$
-设 \alpha = [a_1 , a_2 , a_3] ^ {T} ， \beta = [b_1 , b_2 , b_3] ^ {T} ， A = \alpha{\beta ^ {T}} ，求 A ^ {n} .
+如：设 \alpha = [a_1 , a_2 , a_3] ^ {T} ， \beta = [b_1 , b_2 , b_3] ^ {T} ， A = \alpha{\beta ^ {T}} ，求 A ^ {n} .
 \\
 \because \alpha{\beta ^ {T}} =
 \begin{pmatrix}
@@ -174,7 +174,7 @@ a_3
 $$
 
 $$
-设 A =
+如：设 A =
 \begin{pmatrix}
 1 & -1 & -1 & -1 \\
 -1 & 1 & -1 & -1 \\
@@ -210,7 +210,7 @@ $$
 $$
 
 $$
-已知 A =
+如：已知 A =
 \begin{pmatrix}
 1 & 1 & 0 \\
 0 & 1 & 1 \\
