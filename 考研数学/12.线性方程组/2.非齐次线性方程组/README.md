@@ -27,7 +27,9 @@ $$
 ## 经典例题
 
 $$
-设 A =
+\
+\
+如：设 A =
 \begin{pmatrix}
 \lambda & 1 & 1 \\
 0 & \lambda - 1 & 0 \\

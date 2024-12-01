@@ -12,7 +12,9 @@ $$
 ## 经典例题
 
 $$
-设 A 为 2 阶矩阵且 A ^ 2 - A = 2E ， P = [\alpha , A\alpha] ，求 {P ^ {-1}}AP ，并判断 A 是否可相似于对角矩阵.
+\
+\
+如：设 A 为 2 阶矩阵且 A ^ 2 - A = 2E ， P = [\alpha , A\alpha] ，求 {P ^ {-1}}AP ，并判断 A 是否可相似于对角矩阵.
 \\
 \because A ^ 2 - A = 2E ，
 \\
@@ -50,7 +52,9 @@ $$
 $$
 
 $$
-设 A 为 3 阶矩阵，已知 \alpha_1 ， \alpha_2 ， \alpha_3 是线性无关的 3 维列向量，且满足 A\alpha_1 = \alpha_1 + \alpha_2 + \alpha_3 ， A\alpha_2 = 2\alpha_2 + \alpha_3 ， A\alpha_3 = 2\alpha_2 + 3\alpha_3 ，
+\
+\
+如：设 A 为 3 阶矩阵，已知 \alpha_1 ， \alpha_2 ， \alpha_3 是线性无关的 3 维列向量，且满足 A\alpha_1 = \alpha_1 + \alpha_2 + \alpha_3 ， A\alpha_2 = 2\alpha_2 + \alpha_3 ， A\alpha_3 = 2\alpha_2 + 3\alpha_3 ，
 \\
 求矩阵 B ，使得 A[\alpha_1 , \alpha_2 , \alpha_3] = [\alpha_1 , \alpha_2 , \alpha_3]B ，求矩阵 A 的特征值，求可逆矩阵 P ，使得 {P ^ {-1}}AP 为对角矩阵.
 \\
