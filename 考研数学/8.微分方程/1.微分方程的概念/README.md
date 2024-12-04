@@ -32,7 +32,7 @@ $$
 ## 经典例题
 
 $$
-设 y = y(x) 是二阶常系数线性微分方程 y ^ {\prime\prime} + py ^ {\prime} + qy = e ^ {3x} 满足初始条件 y(0) = y ^ {\prime} (0) = 0 的特解，求 \lim_{x \to 0} {\frac{\ln(1 + x ^ 2)}{y(x)}} .
+如：设 y = y(x) 是二阶常系数线性微分方程 y ^ {\prime\prime} + py ^ {\prime} + qy = e ^ {3x} 满足初始条件 y(0) = y ^ {\prime} (0) = 0 的特解，求 \lim_{x \to 0} {\frac{\ln(1 + x ^ 2)}{y(x)}} .
 \\
 \because \lim_{x \to 0} {\frac{\ln(1 + x ^ 2)}{y(x)}} = \lim_{x \to 0} {\frac{x ^ 2}{y(x)}} = \lim_{x \to 0} {\frac{2x}{y ^ {\prime} (x)}} = \lim_{x \to 0} {\frac{2}{y ^ {\prime\prime} (x)}} ，
 \\
