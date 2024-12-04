@@ -104,7 +104,7 @@ $$
 $$
 
 $$
-设 L 是一条平面曲线，其上任意一点 P (x , y) (x \gt 0) 到坐标原点的距离恒等于该点处的切线在 y 轴上的截距，且 L 经过点 (\frac{1}{2} , 0) ，求曲线 L 的方程.
+如：设 L 是一条平面曲线，其上任意一点 P (x , y) (x \gt 0) 到坐标原点的距离恒等于该点处的切线在 y 轴上的截距，且 L 经过点 (\frac{1}{2} , 0) ，求曲线 L 的方程.
 \\
 \because 设曲线 L 过点 P (x , y) 的切线方程为 Y - y = \frac{dy}{dx}(X - x) ，令 X = 0 ，则 Y = y - x\frac{dy}{dx} ，
 \\
@@ -122,7 +122,7 @@ $$
 $$
 
 $$
-设 y = y(x) 是微分方程 y ^ {\prime} + y = e ^ {-x}\cos{x} 满足 y(0) = 0 的特解，求 y(x) .
+如：设 y = y(x) 是微分方程 y ^ {\prime} + y = e ^ {-x}\cos{x} 满足 y(0) = 0 的特解，求 y(x) .
 \\
 \because y = e ^ {-\int{p(x)}dx}[\int{e ^ {\int{p(x)}dx} \cdot q(x)}dx + C] \Rightarrow y = e ^ {-x}(\int{\cos{x}}dx + C) \Rightarrow y = e ^ {-x}(\sin{x} + C) ，
 \\
@@ -132,7 +132,7 @@ $$
 $$
 
 $$
-求微分方程 ydx + (x - 3{y ^ 2})dy = 0 满足条件 y|_{x = 1} = 1 的解.
+如：求微分方程 ydx + (x - 3{y ^ 2})dy = 0 满足条件 y|_{x = 1} = 1 的解.
 \\
 \because ydx + (x - 3{y ^ 2})dy = 0 \Rightarrow ydx + xdy - 3{y ^ 2}dy = 0 \Rightarrow \frac{dx}{dy} + \frac{x}{y} - 3y = 0 \Rightarrow \frac{dx}{dy} + \frac{1}{y}x = 3y ，
 \\
@@ -145,7 +145,7 @@ $$
 $$
 
 $$
-设函数 y = \phi(x) 是微分方程 y ^ {\prime} + ey = (1 - \frac{1}{x}) ^ x 的一个解，求 \lim_{x \to +\infty} {\phi(x)} .
+如：设函数 y = \phi(x) 是微分方程 y ^ {\prime} + ey = (1 - \frac{1}{x}) ^ x 的一个解，求 \lim_{x \to +\infty} {\phi(x)} .
 \\
 \because y = e ^ {-\int{p(x)}dx}[\int{e ^ {\int{p(x)}dx} \cdot q(x)}dx + C] = e ^ {-\int{e}dx}[\int{e ^ {\int{e}dx} \cdot (1 - \frac{1}{x}) ^ x}dx + C] = e ^ {-ex}[\int{e ^ {ex} \cdot (1 - \frac{1}{x}) ^ x}dx + C]
 \\
@@ -155,7 +155,7 @@ $$
 $$
 
 $$
-求 ydx = (1 + x\ln{y})xdy (y \gt 0) 的通解.
+如：求 ydx = (1 + x\ln{y})xdy (y \gt 0) 的通解.
 \\
 \because ydx = (1 + x\ln{y})xdy \Rightarrow \frac{dx}{dy} = \frac{(1 + x\ln{y})x}{y} \Rightarrow \frac{dx}{dy} = \frac{x + {x ^ 2}\ln{y}}{y} \Rightarrow \frac{dx}{dy} - \frac{1}{y}x = \frac{\ln{y}}{y}{x ^ 2} \Rightarrow {x ^ {-2}}\frac{dx}{dy} - \frac{1}{y}{x ^ {-1}} = \frac{\ln{y}}{y} ，
 \\
@@ -169,7 +169,7 @@ $$
 $$
 
 $$
-求微分方程 y ^ {\prime\prime} = {y ^ {\prime}}[1 + (y ^ {\prime}) ^ 2] 满足 y(0) = 0 ， y ^ {\prime} (0) = 1 的特解.
+如：求微分方程 y ^ {\prime\prime} = {y ^ {\prime}}[1 + (y ^ {\prime}) ^ 2] 满足 y(0) = 0 ， y ^ {\prime} (0) = 1 的特解.
 \\
 令 y ^ {\prime} = p ，则 y ^ {\prime\prime} = p ^ {\prime} ，
 \\
@@ -187,7 +187,7 @@ $$
 $$
 
 $$
-求微分方程 y{y ^ {\prime\prime}} - \frac{2}{3}(y ^ {\prime}) ^ 2 = 0 满足 y(0) = 0 的解.
+如：求微分方程 y{y ^ {\prime\prime}} - \frac{2}{3}(y ^ {\prime}) ^ 2 = 0 满足 y(0) = 0 的解.
 \\
 令 y ^ {\prime} = p ，则 y ^ {\prime\prime} = \frac{dp}{dy}p ，
 \\

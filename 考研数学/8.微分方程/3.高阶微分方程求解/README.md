@@ -73,7 +73,7 @@ $$
 ## 经典例题
 
 $$
-设函数 y = y(x) 是微分方程 y ^ {\prime\prime} + y ^ {\prime} - 2y = 0 的解，且在 x = 0 处 y(x) 取得极值 3，求 y(x) .
+如：设函数 y = y(x) 是微分方程 y ^ {\prime\prime} + y ^ {\prime} - 2y = 0 的解，且在 x = 0 处 y(x) 取得极值 3，求 y(x) .
 \\
 \because y ^ {\prime\prime} + y ^ {\prime} - 2y = 0 的特征方程为 r ^ 2 + r - 2 = 0 ，
 \\
@@ -95,7 +95,9 @@ C_2 = 2
 $$
 
 $$
-设函数 y = f(x) 满足微分方程 y ^ {\prime\prime} + 2{y ^ {\prime}} + 5y = 0 ，且 f(0) = 1 ， f ^ {\prime} (0) = -1 ，求 f(x) .
+\
+\
+如：设函数 y = f(x) 满足微分方程 y ^ {\prime\prime} + 2{y ^ {\prime}} + 5y = 0 ，且 f(0) = 1 ， f ^ {\prime} (0) = -1 ，求 f(x) .
 \\
 \because y ^ {\prime\prime} + 2{y ^ {\prime}} + 5y = 0 的特征方程为 r ^ 2 + 2r + 5 = 0 ，
 \\
@@ -113,7 +115,7 @@ C_2 = 0
 $$
 
 $$
-求 y ^ {\prime\prime} - 3{y ^ {\prime}} + 2y = 2{e ^ {-x}}\cos{x} 的通解.
+如：求 y ^ {\prime\prime} - 3{y ^ {\prime}} + 2y = 2{e ^ {-x}}\cos{x} 的通解.
 \\
 \because y ^ {\prime\prime} - 3{y ^ {\prime}} + 2y = 2{e ^ {-x}}\cos{x} 的特征方程为 r ^ 2 - 3r + 2 = 0 ，
 \\
