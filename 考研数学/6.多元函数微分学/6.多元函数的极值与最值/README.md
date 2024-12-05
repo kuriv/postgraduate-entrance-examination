@@ -87,7 +87,7 @@ $$
 ## 经典例题
 
 $$
-已知函数 z = z(x , y) 由方程 (x ^ 2 + y ^ 2)z + \ln{z} + 2(x + y + 1) = 0 确定，求 z(x , y) 的极值.
+如：已知函数 z = z(x , y) 由方程 (x ^ 2 + y ^ 2)z + \ln{z} + 2(x + y + 1) = 0 确定，求 z(x , y) 的极值.
 \\
 对方程 (x ^ 2 + y ^ 2)z + \ln{z} + 2(x + y + 1) = 0 两端分别对 x 和 y 求偏导数可得，
 \begin{cases}
@@ -120,7 +120,7 @@ A = \frac{\partial ^ {2} {z}}{\partial{x} ^ {2}}|_{(-1 , -1)} = -\frac{2}{3} ，
 $$
 
 $$
-设 a , b 满足 \int_a ^ {b}{|x|}dx = \frac{1}{2} (a \le 0 ， b \ge 0) ，求曲线 y = x ^ 2 + ax 与直线 y = bx 所围成区域面积的最大值和最小值.
+如：设 a , b 满足 \int_a ^ {b}{|x|}dx = \frac{1}{2} (a \le 0 ， b \ge 0) ，求曲线 y = x ^ 2 + ax 与直线 y = bx 所围成区域面积的最大值和最小值.
 \\
 \because \int_a ^ {b}{|x|}dx = \int_a ^ {0}{-x}dx + \int_{0} ^ {b}{x}dx = \frac{1}{2}a ^ 2 + \frac{1}{2}b ^ 2 = \frac{1}{2}(a ^ 2 + b ^ 2) = \frac{1}{2} ，
 \\

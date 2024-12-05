@@ -16,7 +16,7 @@ $$
 ## 经典例题
 
 $$
-设 z = f({e ^ x}\sin{y} , x ^ 2 + y ^ 2) ，其中 f 具有二阶连续偏导数， f_1 ^ {\prime} (0 , 0) = 1 ， f_2 ^ {\prime} (0 , 0) = -1 ，求 \frac{\partial ^ {2} {z}}{\partial{x}\partial{y}}|_{(0 , 0)} .
+如：设 z = f({e ^ x}\sin{y} , x ^ 2 + y ^ 2) ，其中 f 具有二阶连续偏导数， f_1 ^ {\prime} (0 , 0) = 1 ， f_2 ^ {\prime} (0 , 0) = -1 ，求 \frac{\partial ^ {2} {z}}{\partial{x}\partial{y}}|_{(0 , 0)} .
 \\
 \because \frac{\partial{z}}{\partial{x}} = f_1 ^ {\prime} \cdot ({e ^ x}\sin{y})_{x} ^ {\prime} + f_2 ^ {\prime} \cdot (x ^ 2 + y ^ 2)_{x} ^ {\prime} = {e ^ x}\sin{y}f_1 ^ {\prime} + {2x}f_2 ^ {\prime} ，
 \\
@@ -28,7 +28,7 @@ $$
 $$
 
 $$
-设函数 f(x , e ^ x) = x + e ^ x ，且 f_1 ^ {\prime} (x , y)|_{y = e ^ x} = 1 + 2{e ^ x} ，求 f_2 ^ {\prime} (x , y)|_{y = e ^ x} .
+如：设函数 f(x , e ^ x) = x + e ^ x ，且 f_1 ^ {\prime} (x , y)|_{y = e ^ x} = 1 + 2{e ^ x} ，求 f_2 ^ {\prime} (x , y)|_{y = e ^ x} .
 \\
 \
 \
@@ -38,7 +38,9 @@ $$
 $$
 
 $$
-设对任意的 x ， y 有 (\frac{\partial{f}}{\partial{x}}) ^ 2 + (\frac{\partial{f}}{\partial{y}}) ^ 2 = 4 ，用变量代换 x = uv ， y = \frac{u ^ 2 - v ^ 2}{2} 将函数 f(x , y) 变换成函数 g(u , v) ，
+\
+\
+如：设对任意的 x ， y 有 (\frac{\partial{f}}{\partial{x}}) ^ 2 + (\frac{\partial{f}}{\partial{y}}) ^ 2 = 4 ，用变量代换 x = uv ， y = \frac{u ^ 2 - v ^ 2}{2} 将函数 f(x , y) 变换成函数 g(u , v) ，
 \\
 且满足关系式 a(\frac{\partial{g}}{\partial{u}}) ^ 2 - b(\frac{\partial{g}}{\partial{v}}) ^ 2 = u ^ 2 + v ^ 2 ，求 a ， b .
 \\
@@ -70,7 +72,7 @@ $$
 $$
 
 $$
-若函数 z = z(x , y) 由方程 e ^ {x + 2y + 3z} + xyz = 1 确定，求 dz|_{(0 , 0)} .
+如：若函数 z = z(x , y) 由方程 e ^ {x + 2y + 3z} + xyz = 1 确定，求 dz|_{(0 , 0)} .
 \\
 当 x = 0 ， y = 0 时， e ^ {x + 2y + 3z} + xyz = e ^ {3z} = 1 ，
 \\

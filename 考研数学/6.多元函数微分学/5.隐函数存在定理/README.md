@@ -18,7 +18,7 @@ $$
 ## 经典例题
 
 $$
-设函数 z = z(x , y) 由方程 F(x + z{y} ^ {-1} , y + z{x} ^ {-1}) = 0 所确定，其中 F 具有连续偏导数，且 x{F_1 ^ {\prime}} + y{F_2 ^ {\prime}} \neq 0 ，求 x\frac{\partial{z}}{\partial{x}} + y\frac{\partial{z}}{\partial{y}} .
+如：设函数 z = z(x , y) 由方程 F(x + z{y} ^ {-1} , y + z{x} ^ {-1}) = 0 所确定，其中 F 具有连续偏导数，且 x{F_1 ^ {\prime}} + y{F_2 ^ {\prime}} \neq 0 ，求 x\frac{\partial{z}}{\partial{x}} + y\frac{\partial{z}}{\partial{y}} .
 \\
 令 G(x , y , z) = F(x + z{y} ^ {-1} , y + z{x} ^ {-1}) ，
 \\
