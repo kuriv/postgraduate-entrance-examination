@@ -33,7 +33,7 @@ $$
 ## 经典例题
 
 $$
-已知函数 f(x , y) = \ln(y + |x\sin{y}|) ，求 \frac{\partial{f}}{\partial{x}}_{(0 , 1)} ， \frac{\partial{f}}{\partial{y}}_{(0 , 1)} .
+如：已知函数 f(x , y) = \ln(y + |x\sin{y}|) ，求 \frac{\partial{f}}{\partial{x}}_{(0 , 1)} ， \frac{\partial{f}}{\partial{y}}_{(0 , 1)} .
 \\
 \because \frac{\partial{f}}{\partial{x}}_{(0 , 1)} = \lim_{x \to 0} {\frac{f(x , 1) - f(0 , 1)}{x - 0}} = \lim_{x \to 0} {\frac{\ln(1 + |x|\sin{1})}{x}} = \lim_{x \to 0} \frac{|x|\sin{1}}{x} ，
 \\
@@ -45,7 +45,7 @@ $$
 $$
 
 $$
-设函数 f(t) 连续，令 F(x , y) = \int_{0} ^ {x - y}{(x - y - t)f(t)}dt ，求 \frac{\partial{F}}{\partial{x}} ， \frac{\partial{F}}{\partial{y}} ， \frac{\partial ^ {2} {F}}{\partial{x} ^ 2} ， \frac{\partial ^ {2} {F}}{\partial{y} ^ 2} .
+如：设函数 f(t) 连续，令 F(x , y) = \int_{0} ^ {x - y}{(x - y - t)f(t)}dt ，求 \frac{\partial{F}}{\partial{x}} ， \frac{\partial{F}}{\partial{y}} ， \frac{\partial ^ {2} {F}}{\partial{x} ^ 2} ， \frac{\partial ^ {2} {F}}{\partial{y} ^ 2} .
 \\
 \because F(x , y) = \int_{0} ^ {x - y}{(x - y - t)f(t)}dt = x\int_{0} ^ {x - y}{f(t)}dt - y\int_{0} ^ {x - y}{f(t)}dt - \int_{0} ^ {x - y}{tf(t)}dt ，
 \\
