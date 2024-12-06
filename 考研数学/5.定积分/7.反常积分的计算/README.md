@@ -12,7 +12,7 @@ $$
 ## 经典例题
 
 $$
-求 \int_{\frac{1}{2}} ^ {\frac{3}{2}}{\frac{1}{\sqrt{|x - x ^ 2|}}}dx .
+如：求 \int_{\frac{1}{2}} ^ {\frac{3}{2}}{\frac{1}{\sqrt{|x - x ^ 2|}}}dx .
 \\
 \because \int_{\frac{1}{2}} ^ {\frac{3}{2}}{\frac{1}{\sqrt{|x - x ^ 2|}}}dx = \int_{\frac{1}{2}} ^ {1}{\frac{1}{\sqrt{x - x ^ 2}}}dx + \int_{1} ^ {\frac{3}{2}}{\frac{1}{\sqrt{x ^ 2 - x}}}dx ，
 \\
@@ -24,7 +24,7 @@ $$
 $$
 
 $$
-求 \int_{3} ^ {+\infty}{\frac{1}{(x - 1) ^ 4\sqrt{x ^ 2 - 2x}}}dx .
+如：求 \int_{3} ^ {+\infty}{\frac{1}{(x - 1) ^ 4\sqrt{x ^ 2 - 2x}}}dx .
 \\
 \because \int_{3} ^ {+\infty}{\frac{1}{(x - 1) ^ 4\sqrt{x ^ 2 - 2x}}}dx = \int_{3} ^ {+\infty}{\frac{1}{(x - 1) ^ 4\sqrt{(x - 1) ^ 2 - 1}}}dx ，
 \\

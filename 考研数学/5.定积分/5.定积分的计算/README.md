@@ -85,7 +85,7 @@ $$
 ## 经典例题
 
 $$
-设 f(x + \frac{1}{x}) = \frac{x + x ^ 3}{1 + x ^ 4} ，求 \int_2 ^ {2\sqrt{2}}{f(x)}dx .
+如：设 f(x + \frac{1}{x}) = \frac{x + x ^ 3}{1 + x ^ 4} ，求 \int_2 ^ {2\sqrt{2}}{f(x)}dx .
 \\
 \because f(x + \frac{1}{x}) = \frac{x + x ^ 3}{1 + x ^ 4} = \frac{x + \frac{1}{x}}{x ^ 2 + \frac{1}{x ^ 2}} = \frac{x + \frac{1}{x}}{(x + \frac{1}{x}) ^ 2 -2} ，
 \\
@@ -95,7 +95,7 @@ $$
 $$
 
 $$
-求 \int_{-1} ^ {1}{x ^ 2 \sqrt{1 - x ^ 2}}dx .
+如：求 \int_{-1} ^ {1}{x ^ 2 \sqrt{1 - x ^ 2}}dx .
 \\
 \because {x ^ 2 \sqrt{1 - x ^ 2}} 是偶函数，则 \int_{-1} ^ {1}{x ^ 2 \sqrt{1 - x ^ 2}}dx = 2\int_0 ^ {1}{x ^ 2 \sqrt{1 - x ^ 2}}dx ，
 \\
@@ -107,7 +107,7 @@ $$
 $$
 
 $$
-求 \int_0 ^ {1}{\arcsin{\sqrt{1 - x ^ 2}}}dx .
+如：求 \int_0 ^ {1}{\arcsin{\sqrt{1 - x ^ 2}}}dx .
 \\
 令 x = \cos{t} ，则 \arcsin{\sqrt{1 - x ^ 2}} = \arcsin{\sqrt{1 - \cos ^ {2} {t}}} = \arcsin({\sin{t}}) ， d(x) = -\sin{t}dt ，
 \\
@@ -119,7 +119,7 @@ $$
 $$
 
 $$
-求 \int_{0} ^ {1}{x\arcsin{\sqrt{4x - 4x ^ 2}}}dx .
+如：求 \int_{0} ^ {1}{x\arcsin{\sqrt{4x - 4x ^ 2}}}dx .
 \\
 \because 4x - 4x ^ 2 = 1 - (1 - 2x) ^ 2 ，
 \\
@@ -135,7 +135,7 @@ $$
 $$
 
 $$
-设 f(x) 在 [0 , 1] 上连续，证明 \int_{0} ^ {\pi}{xf(\sin{x})}dx = \frac{\pi}{2}\int_{0} ^ {\pi}{f(\sin{x})}dx ，并计算 \int_{0} ^ {\pi}{x\sin ^ {9} {x}}dx .
+如：设 f(x) 在 [0 , 1] 上连续，证明 \int_{0} ^ {\pi}{xf(\sin{x})}dx = \frac{\pi}{2}\int_{0} ^ {\pi}{f(\sin{x})}dx ，并计算 \int_{0} ^ {\pi}{x\sin ^ {9} {x}}dx .
 \\
 令 x = \pi - t ，则 d(x) = -dt ， \int_{0} ^ {\pi}{xf(\sin{x})}dx = \int_{0} ^ {\pi}{(\pi - t)f[\sin{(\pi - t)}]}dt = \int_{0} ^ {\pi}{(\pi - t)f(\sin{t})}dt
 \\

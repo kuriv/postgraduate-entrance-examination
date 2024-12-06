@@ -25,7 +25,7 @@ $$
 ## 经典例题
 
 $$
-设 A_n 是曲线 y = x ^ n 与 y = x ^ {n + 1} (n = 1 , 2 , \cdots) 所围区域的面积，计算 \lim_{n \to \infty} (2\sum_{k = 1} ^ {n} A_k) ^ n .
+如：设 A_n 是曲线 y = x ^ n 与 y = x ^ {n + 1} (n = 1 , 2 , \cdots) 所围区域的面积，计算 \lim_{n \to \infty} (2\sum_{k = 1} ^ {n} A_k) ^ n .
 \\
 \because y = x ^ n 与 y = x ^ {n + 1} 的交点为 (0 , 0) 与 (1 , 1) ，
 \\
@@ -37,13 +37,13 @@ $$
 $$
 
 $$
-求伯努利双纽线 r ^ 2 = a ^ 2\cos{2\theta} 围成的图形面积.
+如：求伯努利双纽线 r ^ 2 = a ^ 2\cos{2\theta} 围成的图形面积.
 \\
 由伯努利双纽线图形对称性可得， S = \frac{1}{2}\int_{\alpha} ^ {\beta}{|r_1 ^ {2} (\theta) - r_2 ^ {2} (\theta)|}d\theta = 4 \cdot \frac{1}{2}\int_{0} ^ {\frac{\pi}{4}}{a ^ 2\cos{2\theta}}d\theta = 2a ^ 2\int_{0} ^ {\frac{\pi}{4}}{\cos{2\theta}}d\theta = a ^ 2 .
 $$
 
 $$
-求由摆线
+如：求由摆线
 \begin{cases}
 x = a(t - \sin{t}) ， \\
 y = a(1 - \cos{t}) 

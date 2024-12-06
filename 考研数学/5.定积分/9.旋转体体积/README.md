@@ -20,7 +20,7 @@ $$
 ## 经典例题
 
 $$
-求曲线 y = e ^ {-\frac{x}{2}}\sqrt{\sin{x}} 在 [0 , 2\pi] 部分与 x 轴围成的平面图形绕 x 轴旋转一周所成的旋转体的体积.
+如：求曲线 y = e ^ {-\frac{x}{2}}\sqrt{\sin{x}} 在 [0 , 2\pi] 部分与 x 轴围成的平面图形绕 x 轴旋转一周所成的旋转体的体积.
 \\
 \because y = e ^ {-\frac{x}{2}}\sqrt{\sin{x}} 在 [0 , \pi] 上存在，在 [\pi , 2\pi] 上不存在，
 \\
@@ -33,11 +33,13 @@ $$
 e ^ {-x}         & \sin{x} \\ 
 \end{array}
 \right|_{0} ^ {\pi}
-= \frac{\pi}{2}(-e ^ {-x} \cdot \sin{x} - \cos{x} \cdot e ^ {-x})|_{0} ^ {\pi} = -\frac{\pi}{2}e ^ {-x}(\sin{x} + \cos{x})|_{0} ^ {\pi} = \frac{\pi}{2}(\ e ^ {-x} + 1) .
+= \frac{\pi}{2}(-e ^ {-x} \cdot \sin{x} - \cos{x} \cdot e ^ {-x})|_{0} ^ {\pi} = -\frac{\pi}{2}e ^ {-x}(\sin{x} + \cos{x})|_{0} ^ {\pi} = \frac{\pi}{2}(\ e ^ {-\pi} + 1) .
 $$
 
 $$
-设函数 f(x) 的定义域为 (0 , +\infty) ，且满足 2f(x) + x ^ 2{f(\frac{1}{x})} = \frac{x ^ 2 + 2x}{\sqrt{1 + x ^ 2}} ，求曲线 y = f(x) ， y = \frac{1}{2} ， y = \frac{\sqrt{3}}{2} 及 y 轴所围图形绕 x 轴所成旋转体的体积.
+\
+\
+如：设函数 f(x) 的定义域为 (0 , +\infty) ，且满足 2f(x) + x ^ 2{f(\frac{1}{x})} = \frac{x ^ 2 + 2x}{\sqrt{1 + x ^ 2}} ，求曲线 y = f(x) ， y = \frac{1}{2} ， y = \frac{\sqrt{3}}{2} 及 y 轴所围图形绕 x 轴所成旋转体的体积.
 \\
 \because 2f(x) + x ^ 2{f(\frac{1}{x})} = \frac{x ^ 2 + 2x}{\sqrt{1 + x ^ 2}} ，则 2f(\frac{1}{x}) + \frac{1}{x ^ 2}f(x) = \frac{\frac{1}{x ^ 2} + \frac{2}{x}}{\sqrt{1 + \frac{1}{x ^ 2}}} ， 2{x ^ 2}f(\frac{1}{x}) + f(x) = \frac{1 + 2x}{\sqrt{1 + \frac{1}{x ^ 2}}} = \frac{x + 2{x ^ 2}}{\sqrt{x ^ 2 + 1}} ，
 \\
@@ -55,7 +57,7 @@ $$
 $$
 
 $$
-过坐标原点作曲线 y = e ^ x 的切线，该切线与曲线 y = e ^ x 以及 x 轴围成的向 x 轴负向无限伸展的平面图形记为 D ，求 D 的面积，
+如：过坐标原点作曲线 y = e ^ x 的切线，该切线与曲线 y = e ^ x 以及 x 轴围成的向 x 轴负向无限伸展的平面图形记为 D ，求 D 的面积，
 \\
 并求 D 绕直线 x = 1 旋转一周所成的旋转体的体积 V .
 \\
@@ -71,7 +73,7 @@ $$
 $$
 
 $$
-求曲线 y = \sqrt{x} 与 y = x 所围平面有界区域绕直线 y = x 旋转一周所得旋转体的体积.
+如：求曲线 y = \sqrt{x} 与 y = x 所围平面有界区域绕直线 y = x 旋转一周所得旋转体的体积.
 \\
 \because 易知 y = \sqrt{x} 与 y = x 的交点为 (1 , 1) ，
 \\
