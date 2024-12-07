@@ -43,7 +43,7 @@ $$
 ## 经典例题
 
 $$
-设曲线 L 的方程为 y = \frac{1}{4}x ^ 2 - \frac{1}{2}\ln{x} ， 1 \le x \le e ， D 是由曲线 L 和直线 x = 1 ， x = e 及 x 轴围成的平面图形，计算 D 的形心的横坐标.
+如：设曲线 L 的方程为 y = \frac{1}{4}x ^ 2 - \frac{1}{2}\ln{x} ， 1 \le x \le e ， D 是由曲线 L 和直线 x = 1 ， x = e 及 x 轴围成的平面图形，计算 D 的形心的横坐标.
 \\
 \because \bar{x} = \frac{\int_{a} ^ {b}{xf(x)}dx}{\int_{a} ^ {b}{f(x)}dx} = \frac{\int_{1} ^ {e}{x(\frac{1}{4}x ^ 2 - \frac{1}{2}\ln{x})}dx}{\int_{1} ^ {e}{(\frac{1}{4}x ^ 2 - \frac{1}{2}\ln{x})}dx} ，
 \\
@@ -55,7 +55,7 @@ $$
 $$
 
 $$
-求曲线 y = \ln{(1 - x ^ 2)} 上相应于 0 \le x \le \frac{1}{2} 的一段弧的长度.
+如：求曲线 y = \ln{(1 - x ^ 2)} 上相应于 0 \le x \le \frac{1}{2} 的一段弧的长度.
 \\
 \because s = \int_{a} ^ {b}{\sqrt{1 + [y ^ {\prime} (x)] ^ 2}}dx ，
 \\
@@ -65,7 +65,7 @@ $$
 $$
 
 $$
-求阿基米德螺线 r = \theta 上相应于 \theta 从 0 到 2\pi 一段的弧长.
+如：求阿基米德螺线 r = \theta 上相应于 \theta 从 0 到 2\pi 一段的弧长.
 \\
 \because s = \int_{\alpha} ^ {\beta}{\sqrt{[r(\theta)] ^ 2 + [r ^ {\prime} (\theta)] ^ 2}}d\theta ，
 \\
@@ -73,7 +73,7 @@ $$
 $$
 
 $$
-设曲线 y = \sqrt{x - 1} (1 \le x \le 2) ，求该曲线绕 x 轴旋转一周所得到的旋转体的表面积.
+如：设曲线 y = \sqrt{x - 1} (1 \le x \le 2) ，求该曲线绕 x 轴旋转一周所得到的旋转体的表面积.
 \\
 \because S = 2\pi\int_{a} ^ {b}{|y|\sqrt{1 + (y_x ^ {\prime}) ^ 2}}dx ，
 \\
@@ -83,7 +83,7 @@ $$
 $$
 
 $$
-设星型线的方程为
+如：设星型线的方程为
 \begin{cases}
 x = 2\cos ^ {3} {t} ， \\
 y = 2\sin ^ {3} {t}
