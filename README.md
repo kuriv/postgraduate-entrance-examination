@@ -35,7 +35,6 @@
 * 须知少年凌云志，曾许人间第一流
 * 肩鸿任钜踏歌行，功不唐捐玉汝成
 * 少年应有鸿鹄志，当骑骏马踏平川
-
 * 无人扶我青云志，我自踏雪至山巅
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen	"build"
