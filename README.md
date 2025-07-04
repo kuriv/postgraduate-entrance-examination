@@ -21,7 +21,7 @@
 * 正式报名：10月中旬XX
 * 现场确认：？？
 * 考研初试：
-* 初试成绩公布：
+* 初试成绩公布、
 * 复试线公布：
 * 考研复试：
 
@@ -37,9 +37,12 @@
 
 ## 写在最后
 
-已见繁花结硕果，更立壮志谱新篇
+* 已见繁花结硕果，更立壮志谱新篇
+* 须知少年凌云志，曾许人间第一流
 
-须知少时凌云志曾许人间第一流
+* 肩鸿任钜踏歌行，功不唐捐玉汝成
+* 少年应有鸿鹄志，当骑骏马踏平川
+* 无人扶我青云志，我自踏雪至山巅
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen	"build"
 [build-url]: https://github.com/kuriv/civil-service-exam	"build"
