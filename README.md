@@ -13,40 +13,34 @@
 * [考研政治](考研政治)
 * [考研专业课](考研专业课)
 
-## 考研日程
+## 日程参考
 
-* 考试大纲公布：7月XX
-* 招生简章发布：8月下旬至9月上旬XX
-* 预报名：9月中旬XX
-* 正式报名：10月中旬XX
-* 现场确认：？？
-* 考研初试：
-* 初试成绩公布、
-* 复试线公布：
-* 考研复试：
+* 考试大纲公布：7月中旬
+* 招生简章发布：8月下旬至9月上旬
+* 预报名：9月中旬
+* 正式报名：10月中旬
+* 考研初试：12月下旬
+* 初试成绩/国家线/院校线公布视具体情况
 
 ## 备考建议
 
-* 定期回顾和复习
-
-行动是解决焦虑的唯一办法。
-
-跟对导师、教材
-
-帽子题要理解而不是死记硬背
+* 选好教材，跟对老师
+* 避雷营销号
+* 行动是解决焦虑的唯一办法
+* 哭完之后，擦干眼泪，继续前行
 
 ## 写在最后
 
 * 已见繁花结硕果，更立壮志谱新篇
 * 须知少年凌云志，曾许人间第一流
-
 * 肩鸿任钜踏歌行，功不唐捐玉汝成
 * 少年应有鸿鹄志，当骑骏马踏平川
+
 * 无人扶我青云志，我自踏雪至山巅
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen	"build"
-[build-url]: https://github.com/kuriv/civil-service-exam	"build"
+[build-url]: https://github.com/kuriv/postgraduate-entrance-examination	"build"
 [version-image]: https://img.shields.io/badge/version-v1.0.1-blue	"version"
-[version-url]: https://github.com/kuriv/civil-service-exam	"version"
+[version-url]: https://github.com/kuriv/postgraduate-entrance-examination	"version"
 [license-image]: https://img.shields.io/badge/license-MIT-green	"license"
-[license-url]: https://github.com/kuriv/civil-service-exam	"license"
+[license-url]: https://github.com/kuriv/postgraduate-entrance-examination	"license"
