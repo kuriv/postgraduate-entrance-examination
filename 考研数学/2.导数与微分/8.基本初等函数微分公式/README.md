@@ -61,7 +61,7 @@ d(\arccos{x}) = {-\frac{1}{\sqrt{1 - x ^ 2}}}dx
 \\
 d(\arctan{x}) = {\frac{1}{1 + x ^ 2}}dx
 \\
-d(\arccotx) = {-\frac{1}{1 + x ^ 2}}dx
+d(arccotx) = {-\frac{1}{1 + x ^ 2}}dx
 \\
 d[\sin(\arccos{x})] = d[\cos(\arcsin{x})] = {\sqrt{1 - x ^ 2}}dx
 \\
